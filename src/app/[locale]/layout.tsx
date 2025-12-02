@@ -1,6 +1,6 @@
 // Next.js
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Be_Vietnam_Pro } from "next/font/google";
 import { notFound } from "next/navigation";
 
 // Next-Intl
@@ -10,14 +10,11 @@ import { routing } from "@/i18n/routing";
 // CSS
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const beVietnamProp = Be_Vietnam_Pro({
+  variable: "--font-be-vietnam-pro",
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  display: "swap",
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -38,9 +35,7 @@ export default async function RootLayout({ children, params }: Props) {
   }
   return (
     <html lang={locale}>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${beVietnamProp.className} antialiased`}>
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
     </html>

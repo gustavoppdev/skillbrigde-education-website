@@ -3,11 +3,40 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+  /* Primary Colors - Orange Shades */
+  --color-app-primary-50: #ff9500; /* Primary */
+  --color-app-primary-70: #ffbf66;
+  --color-app-primary-75: #ffca80;
+  --color-app-primary-80: #ffd499;
+  --color-app-primary-90: #ffeacc;
+  --color-app-primary-95: #fff4e5;
+  --color-app-primary-97: #fff9f0;
+  --color-app-primary-99: #fffdfa;
+
+  /* Light Colors - White Shades */
+  --color-app-white-90: #e4e4e7;
+  --color-app-white-95: #f1f1f3;
+  --color-app-white-97: #f7f7f8; /* Background*/
+  --color-app-white-99: #fcfcfd;
+
+  /* Dark Colors - Grey Shades */
+  --color-app-grey-10: #191919;
+  --color-app-grey-15: #262626; /* Foreground */
+  --color-app-grey-20: #333333;
+  --color-app-grey-30: #4c4c4d;
+  --color-app-grey-35: #59595a;
+  --color-app-grey-40: #656567;
+  --color-app-grey-60: #98989a;
+  --color-app-grey-70: #b3b3b3;
+}
+
+/* Shadcn */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: var(--color-app-white-97); /* Alterado */
+  --color-foreground: var(--color-app-grey-15); /* Alterado */
+  --font-sans: var(--font-be-vietnam-pro); /* Alterado */
+  /* --font-mono: var(--font-geist-mono);  */
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -45,8 +74,8 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
+  /* --background: oklch(1 0 0); */
+  /* --foreground: oklch(0.145 0 0); */
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
