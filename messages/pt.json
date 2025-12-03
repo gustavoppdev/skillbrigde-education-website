@@ -1,5 +1,21 @@
 {
-  "HomePage": {
-    "title": "Olá, mundo!"
+  "Layout": {
+    "Topbar": {
+      "paragraph": "Cursos gratuitos 🌟 A promoção termina em breve, aproveite agora!"
+    },
+    "Navbar": {
+      "home": "Início",
+      "courses": "Cursos",
+      "about": "Sobre Nós",
+      "pricing": "Preços",
+      "contact": "Contato",
+      "signUpBtn": "Inscrever-se",
+      "loginBtn": "Entrar",
+      "Alt": {
+        "openMenuBtn": "Abrir Menu",
+        "menuTitle": "Menu de Navegação",
+        "menuDescription": "Explore nosso site usando os links abaixo."
+      }
+    }
   }
 }

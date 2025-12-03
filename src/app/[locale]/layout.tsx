@@ -9,6 +9,7 @@ import { routing } from "@/i18n/routing";
 
 // CSS
 import "./globals.css";
+import { Navbar } from "@/components/layout/Navbar";
 
 const beVietnamProp = Be_Vietnam_Pro({
   variable: "--font-be-vietnam-pro",
@@ -36,7 +37,10 @@ export default async function RootLayout({ children, params }: Props) {
   return (
     <html lang={locale}>
       <body className={`${beVietnamProp.className} antialiased`}>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <Navbar />
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );

@@ -1,5 +1,21 @@
 {
-  "HomePage": {
-    "title": "Hello world!"
+  "Layout": {
+    "Topbar": {
+      "paragraph": "Free Courses 🌟 Sale Ends Soon, Get It Now"
+    },
+    "Navbar": {
+      "home": "Home",
+      "courses": "Courses",
+      "about": "About Us",
+      "pricing": "Pricing",
+      "contact": "Contact",
+      "signUpBtn": "Sign Up",
+      "loginBtn": "Login",
+      "Alt": {
+        "openMenuBtn": "Open Menu",
+        "menuTitle": "Navigation Menu",
+        "menuDescription": "Browse our website using the links below."
+      }
+    }
   }
 }

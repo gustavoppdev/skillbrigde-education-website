@@ -3,6 +3,12 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@layer utilities {
+  .section-container {
+    @apply container mx-auto px-4 md:px-10 xl:px-20 2xl:px-40.5;
+  }
+}
+
 @theme {
   /* Primary Colors - Orange Shades */
   --color-app-primary-50: #ff9500; /* Primary */
@@ -61,7 +67,7 @@
   --color-secondary-foreground: var(--secondary-foreground);
   --color-secondary: var(--secondary);
   --color-primary-foreground: var(--primary-foreground);
-  --color-primary: var(--primary);
+  --color-primary: var(--color-app-primary-50); /* Alterado */
   --color-popover-foreground: var(--popover-foreground);
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
