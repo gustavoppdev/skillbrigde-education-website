@@ -17,5 +17,19 @@
         "menuDescription": "Browse our website using the links below."
       }
     }
+  },
+  "Pages": {
+    "Home": {
+      "Hero": {
+        "headline": "<emphasis>Unlock</emphasis> Your Creative Potential",
+        "subHeadline": "with Online Design and Development Courses.",
+        "description": "Learn from Industry Experts and Enhance Your Skills.",
+        "exploreCoursesBtn": "Explore Courses",
+        "viewPricingBtn": "View Pricing",
+        "Alt":{
+          "abstractLine":""
+        }
+      }
+    }
   }
 }

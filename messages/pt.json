@@ -17,5 +17,19 @@
         "menuDescription": "Explore nosso site usando os links abaixo."
       }
     }
+  },
+  "Pages": {
+    "Home": {
+      "Hero": {
+        "headline": "<emphasis>Desbloqueie</emphasis> Sua Potencialidade Criativa",
+        "subHeadline": "com Cursos Online de Design e Desenvolvimento.",
+        "description": "Aprenda com Expertos da Indústria e Aumente Suas Habilidades.",
+        "exploreCoursesBtn": "Explorar Cursos",
+        "viewPricingBtn": "Ver Preços",
+        "Alt": {
+          "abstractLine": "Linha Abstrata"
+        }
+      }
+    }
   }
 }
