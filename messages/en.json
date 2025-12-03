@@ -26,8 +26,14 @@
         "description": "Learn from Industry Experts and Enhance Your Skills.",
         "exploreCoursesBtn": "Explore Courses",
         "viewPricingBtn": "View Pricing",
-        "Alt":{
-          "abstractLine":""
+        "Alt": {
+          "abstractLine": "Abstract Line"
+        }
+      },
+      "VideoSection": {
+        "Alt": {
+          "playBtn": "Play Button",
+          "video": "Two designers or architects, a man and a woman, reviewing something on a smartphone in a yellow-themed office."
         }
       }
     }

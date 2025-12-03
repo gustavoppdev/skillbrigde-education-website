@@ -29,6 +29,12 @@
         "Alt": {
           "abstractLine": "Linha Abstrata"
         }
+      },
+      "VideoSection": {
+        "Alt": {
+          "playBtn": "Botão de Reprodução",
+          "video": "Dois designers ou arquitetos, um homem e uma mulher, examinando algo em um telefone celular em uma sala de escritório com tema amarelo."
+        }
       }
     }
   }

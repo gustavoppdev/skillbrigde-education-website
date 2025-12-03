@@ -9,6 +9,7 @@ import amazonLogo from "./images/amazonLogo.svg";
 import adobeLogo from "./images/adobeLogo.svg";
 import notionLogo from "./images/notionLogo.svg";
 import netflixLogo from "./images/netflixLogo.svg";
+import videoSectionImage from "./images/videoSectionImage.webp";
 
 // Exports
 export {
@@ -22,4 +23,5 @@ export {
   netflixLogo,
   adobeLogo,
   amazonLogo,
+  videoSectionImage,
 };
