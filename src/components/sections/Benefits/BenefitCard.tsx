@@ -15,14 +15,14 @@ const BenefitCard = ({ benefit }: Props) => {
   const t = useTranslations("Pages.Home.Benefits.benefits");
   return (
     <div
-      className={`rounded-[10px] bg-white p-7.5 lg:p-10  flex flex-col gap-7.5 lg:gap-10 2xl:gap-15 items-end hover:shadow-lg transition-shadow cursor-pointer duration-300 ${
+      className={`rounded-2xl bg-white  p-7.5 lg:p-10 flex flex-col gap-8 lg:gap-10 items-end hover:shadow-xl transition-all cursor-pointer duration-300 ${
         benefit.index === "05" || benefit.index === "06" ? "hidden lg:flex" : ""
       }`}
     >
       <span className="font-bold text-5xl lg:text-6xl 2xl:text-7xl">
         {benefit.index}
       </span>
-      <div className="space-y-2.5">
+      <div className="space-y-2.5 grow">
         <h3 className="font-semibold text-xl lg:text-2xl">
           {t(benefit.title)}
         </h3>
