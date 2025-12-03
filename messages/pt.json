@@ -35,6 +35,37 @@
           "playBtn": "Botão de Reprodução",
           "video": "Dois designers ou arquitetos, um homem e uma mulher, examinando algo em um telefone celular em uma sala de escritório com tema amarelo."
         }
+      },
+      "Benefits": {
+        "headline": "Benefícios",
+        "description": "Descubra as vantagens de aprender conosco. Nossos cursos foram pensados para o seu sucesso, oferecendo flexibilidade, conteúdo de ponta e instrução de qualidade para impulsionar sua carreira em design e desenvolvimento.",
+        "viewAllBtn": "Ver Todos",
+        "benefits": {
+          "01": {
+            "title": "Horário de Estudo Flexível",
+            "description": "Ajuste seus estudos e tarefas aos seus compromissos e obrigações existentes."
+          },
+          "02": {
+            "title": "Instrução por Especialistas",
+            "description": "Aprenda com especialistas da indústria que possuem experiência prática em design e desenvolvimento."
+          },
+          "03": {
+            "title": "Diversidade de Cursos Oferecidos",
+            "description": "Explore uma ampla variedade de cursos de design e desenvolvimento, cobrindo diversos tópicos."
+          },
+          "04": {
+            "title": "Currículo Atualizado",
+            "description": "Acesse cursos com conteúdo de ponta que refletem as últimas tendências e práticas da indústria."
+          },
+          "05": {
+            "title": "Projetos e Atividades Práticas",
+            "description": "Desenvolva um portfólio para demonstrar suas habilidades e competências a potenciais empregadores."
+          },
+          "06": {
+            "title": "Ambiente de Aprendizagem Interativo",
+            "description": "Colabore com outros alunos, trocando ideias e feedback para aprimorar sua compreensão."
+          }
+        }
       }
     }
   }

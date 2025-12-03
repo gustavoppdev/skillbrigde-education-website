@@ -13,3 +13,10 @@ export type HeroLogo = {
   image: StaticImageData;
   alt: TranslationKey;
 };
+
+// Benefits Types
+export type Benefit = {
+  index: string;
+  title: TranslationKey;
+  description: TranslationKey;
+};

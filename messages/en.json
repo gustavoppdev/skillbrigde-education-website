@@ -35,6 +35,37 @@
           "playBtn": "Play Button",
           "video": "Two designers or architects, a man and a woman, reviewing something on a smartphone in a yellow-themed office."
         }
+      },
+      "Benefits": {
+        "headline": "Benefits",
+        "description": "Discover the advantages of learning with us. Our courses are designed for your success, offering flexibility, cutting-edge content, and quality instruction to advance your career in design and development.",
+        "viewAllBtn": "View All",
+        "benefits": {
+          "01": {
+            "title": "Flexible Learning Schedule",
+            "description": "Fit your coursework around your existing commitments and obligations."
+          },
+          "02": {
+            "title": "Expert Instruction",
+            "description": "Learn from industry experts who have hands-on experience in design and development."
+          },
+          "03": {
+            "title": "Diverse Course Offerings",
+            "description": "Explore a wide range of design and development courses covering various topics."
+          },
+          "04": {
+            "title": "Updated Curriculum",
+            "description": "Access courses with up-to-date content reflecting the latest trends and industry practices."
+          },
+          "05": {
+            "title": "Practical Projects and Assignments",
+            "description": "Develop a portfolio showcasing your skills and abilities to potential employers."
+          },
+          "06": {
+            "title": "Interactive Learning Environment",
+            "description": "Collaborate with fellow learners, exchanging ideas and feedback to enhance your understanding."
+          }
+        }
       }
     }
   }

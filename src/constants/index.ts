@@ -7,7 +7,7 @@ import {
   zapierLogo,
   zoomLogo,
 } from "@/assets";
-import { NavbarLink } from "@/types";
+import { Benefit, NavbarLink } from "@/types";
 
 // Navbar Links
 export const navigationLinks: NavbarLink[] = [
@@ -32,8 +32,6 @@ export const navigationLinks: NavbarLink[] = [
     label: "contact",
   },
 ];
-
-
 
 // Hero Logos
 export const heroLogos = [
@@ -64,5 +62,39 @@ export const heroLogos = [
   {
     image: netflixLogo,
     alt: "Netflix",
+  },
+];
+
+// Benefits
+export const benefits: Benefit[] = [
+  {
+    index: "01",
+    title: "01.title",
+    description: "01.description",
+  },
+  {
+    index: "02",
+    title: "02.title",
+    description: "02.description",
+  },
+  {
+    index: "03",
+    title: "03.title",
+    description: "03.description",
+  },
+  {
+    index: "04",
+    title: "04.title",
+    description: "04.description",
+  },
+  {
+    index: "05",
+    title: "05.title",
+    description: "05.description",
+  },
+  {
+    index: "06",
+    title: "06.title",
+    description: "06.description",
   },
 ];
