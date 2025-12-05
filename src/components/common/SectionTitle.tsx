@@ -9,12 +9,14 @@ type Props = {
   translationNamespace: string;
   viewMore?: boolean;
   viewMoreUrl?: string;
+  children?: React.ReactNode;
 };
 
 const SectionTitle = ({
   translationNamespace,
   viewMoreUrl,
   viewMore,
+  children,
 }: Props) => {
   const t = useTranslations(translationNamespace);
   return (
@@ -29,6 +31,7 @@ const SectionTitle = ({
             <Button variant={"outline"}>{t("viewAllBtn")}</Button>
           </Link>
         )}
+        {children}
       </div>
     </div>
   );

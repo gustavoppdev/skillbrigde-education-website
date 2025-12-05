@@ -49,3 +49,17 @@ export type Testimonial = {
   quote: TranslationKey;
   author: TranslationKey;
 };
+
+export type BillingFrequency = "monthly" | "yearly";
+
+export type Plan = {
+  title: TranslationKey;
+  price: {
+    monthly: TranslationKey;
+    yearly: TranslationKey;
+  };
+  features: {
+    title: TranslationKey;
+    available: boolean;
+  }[];
+};

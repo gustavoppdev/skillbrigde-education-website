@@ -788,6 +788,41 @@
             "author": "Michael K"
           }
         }
+      },
+      "Pricing": {
+        "headline": "Our Pricing",
+        "description": "Choose the plan that best suits your learning goals. We have flexible options, from free access to limited resources to the full Pro plan.",
+        "billingFrequency": {
+          "monthly": "Monthly",
+          "yearly": "Yearly"
+        },
+        "availableFeatures": "Available Features",
+        "getStartedBtn": "Get Started",
+        "plans": {
+          "free": {
+            "title": "Free Plan",
+            "price": {
+              "monthly": "$0",
+              "yearly": "$0"
+            }
+          },
+          "pro": {
+            "title": "Pro Plan",
+            "price": {
+              "monthly": "$79",
+              "yearly": "$149"
+            }
+          },
+          "features": {
+            "01": "Access to selected free courses.",
+            "02": "Limited course materials and resources.",
+            "03": "Basic community support.",
+            "04": "No certification upon completion.",
+            "05": "Ad-supported platform.",
+            "06": "Access to exclusive Pro Plan community forums",
+            "07": "Early access to new courses and updates."
+          }
+        }
       }
     }
   }

@@ -788,6 +788,41 @@
             "author": "Marcelo K."
           }
         }
+      },
+      "Pricing": {
+        "headline": "Nossos Preços",
+        "description": "Escolha o plano que melhor se adapta aos seus objetivos de aprendizado. Temos opções flexíveis, desde o acesso gratuito a recursos limitados até o plano Pro completo.",
+        "billingFrequency": {
+          "monthly": "Mensal",
+          "yearly": "Anual"
+        },
+        "availableFeatures": "Recursos Disponíveis",
+        "getStartedBtn": "Começar Agora",
+        "plans": {
+          "free": {
+            "title": "Plano Gratuito",
+            "price": {
+              "monthly": "$0",
+              "yearly": "$0"
+            }
+          },
+          "pro": {
+            "title": "Plano Pro",
+            "price": {
+              "monthly": "$79",
+              "yearly": "$149"
+            }
+          },
+          "features": {
+            "01": "Acesso a cursos gratuitos selecionados.",
+            "02": "Materiais e recursos limitados do curso.",
+            "03": "Suporte básico da comunidade.",
+            "04": "Sem certificação após a conclusão.",
+            "05": "Plataforma com suporte de anúncios.",
+            "06": "Acesso a fóruns exclusivos da comunidade do Plano Pro.",
+            "07": "Acesso antecipado a novos cursos e atualizações."
+          }
+        }
       }
     }
   }

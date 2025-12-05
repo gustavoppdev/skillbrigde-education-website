@@ -109,6 +109,7 @@ export const benefits: Benefit[] = [
   },
 ];
 
+// Courses
 export const Courses: Course[] = [
   // 1. Web Design Fundamentals
   {
@@ -836,7 +837,6 @@ export const Courses: Course[] = [
 ];
 
 // Testimonials
-
 export const TestimonialsArray: Testimonial[] = [
   {
     avatar: sarahAvatar,
@@ -858,5 +858,83 @@ export const TestimonialsArray: Testimonial[] = [
     avatar: michaelAvatar,
     quote: "testimonials.04.testimony",
     author: "testimonials.04.author",
+  },
+];
+
+// Pricing
+export const PricingPlans = [
+  {
+    title: "plans.free.title",
+    price: {
+      monthly: "plans.free.price.monthly",
+      yearly: "plans.free.price.yearly",
+    },
+    features: [
+      {
+        title: "plans.features.01",
+        available: true,
+      },
+      {
+        title: "plans.features.02",
+        available: true,
+      },
+      {
+        title: "plans.features.03",
+        available: true,
+      },
+      {
+        title: "plans.features.04",
+        available: true,
+      },
+      {
+        title: "plans.features.05",
+        available: true,
+      },
+      {
+        title: "plans.features.06",
+        available: false,
+      },
+      {
+        title: "plans.features.07",
+        available: false,
+      },
+    ],
+  },
+  {
+    title: "plans.pro.title",
+    price: {
+      monthly: "plans.pro.price.monthly",
+      yearly: "plans.pro.price.yearly",
+    },
+    features: [
+      {
+        title: "plans.features.01",
+        available: true,
+      },
+      {
+        title: "plans.features.02",
+        available: true,
+      },
+      {
+        title: "plans.features.03",
+        available: true,
+      },
+      {
+        title: "plans.features.04",
+        available: true,
+      },
+      {
+        title: "plans.features.05",
+        available: true,
+      },
+      {
+        title: "plans.features.06",
+        available: true,
+      },
+      {
+        title: "plans.features.07",
+        available: true,
+      },
+    ],
   },
 ];
