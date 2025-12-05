@@ -16,6 +16,10 @@ import graphicDesignCourseImage from "./images/graphicCourse.webp";
 import uiuxCourseImage from "./images/uiuxCourse.webp";
 import mobileDevelopmentCourseImage from "./images/mobileAppCourse.webp";
 import webDesignFundamentalsCourseImage from "./images/webDesignFundamentalsCourse.webp";
+import sarahAvatar from "./images/sarahAvatar.webp";
+import emilyAvatar from "./images/emilyAvatar.webp";
+import jasonAvatar from "./images/jasonAvatar.webp";
+import michaelAvatar from "./images/michaelAvatar.webp";
 
 // Exports
 export {
@@ -36,4 +40,8 @@ export {
   mobileDevelopmentCourseImage,
   uiuxCourseImage,
   webDesignFundamentalsCourseImage,
+  emilyAvatar,
+  jasonAvatar,
+  michaelAvatar,
+  sarahAvatar,
 };

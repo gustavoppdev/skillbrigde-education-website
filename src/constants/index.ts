@@ -1,19 +1,23 @@
 import {
   adobeLogo,
   amazonLogo,
+  emilyAvatar,
   frontendCourseImage,
   graphicDesignCourseImage,
+  jasonAvatar,
   javascriptCourseImage,
+  michaelAvatar,
   mobileDevelopmentCourseImage,
   netflixLogo,
   notionLogo,
+  sarahAvatar,
   spotifyLogo,
   uiuxCourseImage,
   webDesignFundamentalsCourseImage,
   zapierLogo,
   zoomLogo,
 } from "@/assets";
-import { Benefit, Course, NavbarLink } from "@/types";
+import { Benefit, Course, NavbarLink, Testimonial } from "@/types";
 
 // Navbar Links
 export const navigationLinks: NavbarLink[] = [
@@ -828,5 +832,31 @@ export const Courses: Course[] = [
         ],
       },
     ],
+  },
+];
+
+// Testimonials
+
+export const TestimonialsArray: Testimonial[] = [
+  {
+    avatar: sarahAvatar,
+    quote: "testimonials.01.testimony",
+    author: "testimonials.01.author",
+  },
+  {
+    avatar: jasonAvatar,
+
+    quote: "testimonials.02.testimony",
+    author: "testimonials.02.author",
+  },
+  {
+    avatar: emilyAvatar,
+    quote: "testimonials.03.testimony",
+    author: "testimonials.03.author",
+  },
+  {
+    avatar: michaelAvatar,
+    quote: "testimonials.04.testimony",
+    author: "testimonials.04.author",
   },
 ];

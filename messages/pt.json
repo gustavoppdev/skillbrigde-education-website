@@ -764,6 +764,30 @@
             }
           }
         }
+      },
+      "Testimonials": {
+        "headline": "Depoimentos de Nossos Alunos",
+        "description": "Veja o que as pessoas que transformaram suas carreiras e vidas com nossos cursos têm a dizer. Suas histórias de sucesso inspiram a nossa comunidade.",
+        "viewAllBtn": "Ver Todos",
+        "readFullStoryBtn": "Leia a História Completa",
+        "testimonials": {
+          "01": {
+            "testimony": "O curso de web design me proporcionou uma base sólida. Os instrutores eram experientes e prestativos, e o ambiente de aprendizado interativo foi muito envolvente. Eu o recomendo fortemente!",
+            "author": "Sara L."
+          },
+          "02": {
+            "testimony": "O curso de design UI/UX superou minhas expectativas. A experiência do instrutor e as tarefas práticas me ajudaram a melhorar minhas habilidades de design. Sinto-me mais confiante na minha carreira agora. Obrigado!",
+            "author": "Júlio M."
+          },
+          "03": {
+            "testimony": "O curso de desenvolvimento de aplicativos móveis foi fantástico! Os tutoriais passo a passo e os projetos práticos me ajudaram a entender os conceitos facilmente. Agora estou construindo meu próprio aplicativo. Ótimo curso!",
+            "author": "Emília R."
+          },
+          "04": {
+            "testimony": "Eu me matriculei no curso de design gráfico como iniciante, e foi o ponto de partida perfeito. A orientação e o feedback do instrutor melhoraram significativamente minhas habilidades de design. Sou grato por este curso!",
+            "author": "Marcelo K."
+          }
+        }
       }
     }
   }

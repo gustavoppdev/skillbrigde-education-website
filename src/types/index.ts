@@ -43,3 +43,9 @@ export type Course = {
   images: StaticImageData[];
   modules: CourseModule[];
 };
+
+export type Testimonial = {
+  avatar: StaticImageData;
+  quote: TranslationKey;
+  author: TranslationKey;
+};

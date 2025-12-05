@@ -67,7 +67,6 @@
           }
         }
       },
-
       "OurCourses": {
         "headline": "Our Courses",
         "description": "Browse our selection of high-quality courses, carefully designed to transfer your technology skills. Start learning and create your own path to success today.",
@@ -763,6 +762,30 @@
                 }
               }
             }
+          }
+        }
+      },
+      "Testimonials": {
+        "headline": "Our Testimonials",
+        "description": "See what people who are transforming their careers and lives with our courses have to say. Their success stories have inspired our community.",
+        "viewAllBtn": "View All",
+        "readFullStoryBtn": "Read Full Story",
+        "testimonials": {
+          "01": {
+            "testimony": "The web design course provided a solid foundation for me. The instructors were knowledgeable and supportive, and the interactive learning environment was engaging. I highly recommend it!",
+            "author": "Sarah L"
+          },
+          "02": {
+            "testimony": "The UI/UX design course exceeded my expectations. The instructor's expertise and practical assignments helped me improve my design skills. I feel more confident in my career now. Thank you!",
+            "author": "Jason M"
+          },
+          "03": {
+            "testimony": "The mobile app development course was fantastic! The step-by-step tutorials and hands-on projects helped me grasp the concepts easily. I'm now building my own app. Great course!",
+            "author": "Emily R"
+          },
+          "04": {
+            "testimony": "I enrolled in the graphic design course as a beginner, and it was the perfect starting point. The instructor's guidance and feedback improved my design abilities significantly. I'm grateful for this course!",
+            "author": "Michael K"
           }
         }
       }
