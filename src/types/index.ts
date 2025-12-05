@@ -20,3 +20,26 @@ export type Benefit = {
   title: TranslationKey;
   description: TranslationKey;
 };
+
+type Lesson = {
+  title: TranslationKey;
+  lessonNumber: string;
+  duration: TranslationKey;
+};
+
+type CourseModule = {
+  moduleNumber: string;
+  title: TranslationKey;
+  lessons: Lesson[];
+};
+
+export type Course = {
+  title: TranslationKey;
+  slug: TranslationKey;
+  description: TranslationKey;
+  teacher: TranslationKey;
+  duration: TranslationKey;
+  difficulty: TranslationKey;
+  images: StaticImageData[];
+  modules: CourseModule[];
+};

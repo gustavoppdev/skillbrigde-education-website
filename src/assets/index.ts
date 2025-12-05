@@ -10,6 +10,12 @@ import adobeLogo from "./images/adobeLogo.svg";
 import notionLogo from "./images/notionLogo.svg";
 import netflixLogo from "./images/netflixLogo.svg";
 import videoSectionImage from "./images/videoSectionImage.webp";
+import javascriptCourseImage from "./images/javascriptCourse.webp";
+import frontendCourseImage from "./images/frontendCourse.webp";
+import graphicDesignCourseImage from "./images/graphicCourse.webp";
+import uiuxCourseImage from "./images/uiuxCourse.webp";
+import mobileDevelopmentCourseImage from "./images/mobileAppCourse.webp";
+import webDesignFundamentalsCourseImage from "./images/webDesignFundamentalsCourse.webp";
 
 // Exports
 export {
@@ -24,4 +30,10 @@ export {
   adobeLogo,
   amazonLogo,
   videoSectionImage,
+  frontendCourseImage,
+  graphicDesignCourseImage,
+  javascriptCourseImage,
+  mobileDevelopmentCourseImage,
+  uiuxCourseImage,
+  webDesignFundamentalsCourseImage,
 };

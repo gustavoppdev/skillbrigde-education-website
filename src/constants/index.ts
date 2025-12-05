@@ -1,13 +1,19 @@
 import {
   adobeLogo,
   amazonLogo,
+  frontendCourseImage,
+  graphicDesignCourseImage,
+  javascriptCourseImage,
+  mobileDevelopmentCourseImage,
   netflixLogo,
   notionLogo,
   spotifyLogo,
+  uiuxCourseImage,
+  webDesignFundamentalsCourseImage,
   zapierLogo,
   zoomLogo,
 } from "@/assets";
-import { Benefit, NavbarLink } from "@/types";
+import { Benefit, Course, NavbarLink } from "@/types";
 
 // Navbar Links
 export const navigationLinks: NavbarLink[] = [
@@ -96,5 +102,731 @@ export const benefits: Benefit[] = [
     index: "06",
     title: "06.title",
     description: "06.description",
+  },
+];
+
+export const Courses: Course[] = [
+  // 1. Web Design Fundamentals
+  {
+    title: "courses.01.title",
+    slug: "courses.01.slug",
+    description: "courses.01.description",
+    teacher: "courses.01.teacher",
+    duration: "courses.01.duration",
+    difficulty: "courses.01.difficulty",
+    images: [
+      webDesignFundamentalsCourseImage,
+      webDesignFundamentalsCourseImage,
+      webDesignFundamentalsCourseImage,
+    ], // Teste
+    modules: [
+      {
+        moduleNumber: "01",
+        title: "courses.01.module.01.title",
+        lessons: [
+          {
+            title: "courses.01.module.01.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.01.module.01.lesson.01.duration",
+          },
+          {
+            title: "courses.01.module.01.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.01.module.01.lesson.02.duration",
+          },
+          {
+            title: "courses.01.module.01.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.01.module.01.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "02",
+        title: "courses.01.module.02.title",
+        lessons: [
+          {
+            title: "courses.01.module.02.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.01.module.02.lesson.01.duration",
+          },
+          {
+            title: "courses.01.module.02.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.01.module.02.lesson.02.duration",
+          },
+          {
+            title: "courses.01.module.02.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.01.module.02.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "03",
+        title: "courses.01.module.03.title",
+        lessons: [
+          {
+            title: "courses.01.module.03.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.01.module.03.lesson.01.duration",
+          },
+          {
+            title: "courses.01.module.03.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.01.module.03.lesson.02.duration",
+          },
+          {
+            title: "courses.01.module.03.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.01.module.03.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "04",
+        title: "courses.01.module.04.title",
+        lessons: [
+          {
+            title: "courses.01.module.04.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.01.module.04.lesson.01.duration",
+          },
+          {
+            title: "courses.01.module.04.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.01.module.04.lesson.02.duration",
+          },
+          {
+            title: "courses.01.module.04.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.01.module.04.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "05",
+        title: "courses.01.module.05.title",
+        lessons: [
+          {
+            title: "courses.01.module.05.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.01.module.05.lesson.01.duration",
+          },
+          {
+            title: "courses.01.module.05.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.01.module.05.lesson.02.duration",
+          },
+          {
+            title: "courses.01.module.05.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.01.module.05.lesson.03.duration",
+          },
+        ],
+      },
+    ],
+  },
+
+  // 2. UI/UX Design
+  {
+    title: "courses.02.title",
+    slug: "courses.02.slug",
+    description: "courses.02.description",
+    teacher: "courses.02.teacher",
+    duration: "courses.02.duration",
+    difficulty: "courses.02.difficulty",
+    images: [uiuxCourseImage, uiuxCourseImage, uiuxCourseImage], // Teste
+    modules: [
+      {
+        moduleNumber: "01",
+        title: "courses.02.module.01.title",
+        lessons: [
+          {
+            title: "courses.02.module.01.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.02.module.01.lesson.01.duration",
+          },
+          {
+            title: "courses.02.module.01.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.02.module.01.lesson.02.duration",
+          },
+          {
+            title: "courses.02.module.01.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.02.module.01.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "02",
+        title: "courses.02.module.02.title",
+        lessons: [
+          {
+            title: "courses.02.module.02.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.02.module.02.lesson.01.duration",
+          },
+          {
+            title: "courses.02.module.02.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.02.module.02.lesson.02.duration",
+          },
+          {
+            title: "courses.02.module.02.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.02.module.02.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "03",
+        title: "courses.02.module.03.title",
+        lessons: [
+          {
+            title: "courses.02.module.03.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.02.module.03.lesson.01.duration",
+          },
+          {
+            title: "courses.02.module.03.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.02.module.03.lesson.02.duration",
+          },
+          {
+            title: "courses.02.module.03.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.02.module.03.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "04",
+        title: "courses.02.module.04.title",
+        lessons: [
+          {
+            title: "courses.02.module.04.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.02.module.04.lesson.01.duration",
+          },
+          {
+            title: "courses.02.module.04.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.02.module.04.lesson.02.duration",
+          },
+          {
+            title: "courses.02.module.04.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.02.module.04.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "05",
+        title: "courses.02.module.05.title",
+        lessons: [
+          {
+            title: "courses.02.module.05.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.02.module.05.lesson.01.duration",
+          },
+          {
+            title: "courses.02.module.05.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.02.module.05.lesson.02.duration",
+          },
+          {
+            title: "courses.02.module.05.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.02.module.05.lesson.03.duration",
+          },
+        ],
+      },
+    ],
+  },
+
+  // 3. Mobile App Development
+  {
+    title: "courses.03.title",
+    slug: "courses.03.slug",
+    description: "courses.03.description",
+    teacher: "courses.03.teacher",
+    duration: "courses.03.duration",
+    difficulty: "courses.03.difficulty",
+    images: [
+      mobileDevelopmentCourseImage,
+      mobileDevelopmentCourseImage,
+      mobileDevelopmentCourseImage,
+    ], // Teste
+    modules: [
+      {
+        moduleNumber: "01",
+        title: "courses.03.module.01.title",
+        lessons: [
+          {
+            title: "courses.03.module.01.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.03.module.01.lesson.01.duration",
+          },
+          {
+            title: "courses.03.module.01.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.03.module.01.lesson.02.duration",
+          },
+          {
+            title: "courses.03.module.01.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.03.module.01.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "02",
+        title: "courses.03.module.02.title",
+        lessons: [
+          {
+            title: "courses.03.module.02.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.03.module.02.lesson.01.duration",
+          },
+          {
+            title: "courses.03.module.02.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.03.module.02.lesson.02.duration",
+          },
+          {
+            title: "courses.03.module.02.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.03.module.02.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "03",
+        title: "courses.03.module.03.title",
+        lessons: [
+          {
+            title: "courses.03.module.03.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.03.module.03.lesson.01.duration",
+          },
+          {
+            title: "courses.03.module.03.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "course.03.module.03.lesson.02.duration",
+          },
+          {
+            title: "course.03.module.03.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "course.03.module.03.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "04",
+        title: "course.03.module.04.title",
+        lessons: [
+          {
+            title: "course.03.module.04.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "course.03.module.04.lesson.01.duration",
+          },
+          {
+            title: "course.03.module.04.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "course.03.module.04.lesson.02.duration",
+          },
+          {
+            title: "course.03.module.04.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "course.03.module.04.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "05",
+        title: "course.03.module.05.title",
+        lessons: [
+          {
+            title: "course.03.module.05.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "course.03.module.05.lesson.01.duration",
+          },
+          {
+            title: "course.03.module.05.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "course.03.module.05.lesson.02.duration",
+          },
+          {
+            title: "course.03.module.05.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "course.03.module.05.lesson.03.duration",
+          },
+        ],
+      },
+    ],
+  },
+
+  // 4. Graphic Design for Beginners
+  {
+    title: "courses.04.title",
+    slug: "courses.04.slug",
+    description: "courses.04.description",
+    teacher: "courses.04.teacher",
+    duration: "courses.04.duration",
+    difficulty: "courses.04.difficulty",
+    images: [
+      graphicDesignCourseImage,
+      graphicDesignCourseImage,
+      graphicDesignCourseImage,
+    ], // Teste
+    modules: [
+      {
+        moduleNumber: "01",
+        title: "courses.04.module.01.title",
+        lessons: [
+          {
+            title: "courses.04.module.01.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.04.module.01.lesson.01.duration",
+          },
+          {
+            title: "courses.04.module.01.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.04.module.01.lesson.02.duration",
+          },
+          {
+            title: "courses.04.module.01.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.04.module.01.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "02",
+        title: "courses.04.module.02.title",
+        lessons: [
+          {
+            title: "courses.04.module.02.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.04.module.02.lesson.01.duration",
+          },
+          {
+            title: "courses.04.module.02.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.04.module.02.lesson.02.duration",
+          },
+          {
+            title: "courses.04.module.02.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.04.module.02.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "03",
+        title: "courses.04.module.03.title",
+        lessons: [
+          {
+            title: "courses.04.module.03.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.04.module.03.lesson.01.duration",
+          },
+          {
+            title: "courses.04.module.03.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.04.module.03.lesson.02.duration",
+          },
+          {
+            title: "courses.04.module.03.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.04.module.03.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "04",
+        title: "courses.04.module.04.title",
+        lessons: [
+          {
+            title: "courses.04.module.04.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.04.module.04.lesson.01.duration",
+          },
+          {
+            title: "courses.04.module.04.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.04.module.04.lesson.02.duration",
+          },
+          {
+            title: "courses.04.module.04.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.04.module.04.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "05",
+        title: "courses.04.module.05.title",
+        lessons: [
+          {
+            title: "courses.04.module.05.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.04.module.05.lesson.01.duration",
+          },
+          {
+            title: "courses.04.module.05.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.04.module.05.lesson.02.duration",
+          },
+          {
+            title: "courses.04.module.05.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.04.module.05.lesson.03.duration",
+          },
+        ],
+      },
+    ],
+  },
+
+  // 5. Front-End Web Development
+  {
+    title: "courses.05.title",
+    slug: "courses.05.slug",
+    description: "courses.05.description",
+    teacher: "courses.05.teacher",
+    duration: "courses.05.duration",
+    difficulty: "courses.05.difficulty",
+    images: [frontendCourseImage, frontendCourseImage, frontendCourseImage], //Teste
+    modules: [
+      {
+        moduleNumber: "01",
+        title: "courses.05.module.01.title",
+        lessons: [
+          {
+            title: "courses.05.module.01.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.05.module.01.lesson.01.duration",
+          },
+          {
+            title: "courses.05.module.01.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.05.module.01.lesson.02.duration",
+          },
+          {
+            title: "courses.05.module.01.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.05.module.01.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "02",
+        title: "courses.05.module.02.title",
+        lessons: [
+          {
+            title: "courses.05.module.02.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.05.module.02.lesson.01.duration",
+          },
+          {
+            title: "courses.05.module.02.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.05.module.02.lesson.02.duration",
+          },
+          {
+            title: "courses.05.module.02.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.05.module.02.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "03",
+        title: "courses.05.module.03.title",
+        lessons: [
+          {
+            title: "courses.05.module.03.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.05.module.03.lesson.01.duration",
+          },
+          {
+            title: "courses.05.module.03.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.05.module.03.lesson.02.duration",
+          },
+          {
+            title: "courses.05.module.03.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.05.module.03.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "04",
+        title: "courses.05.module.04.title",
+        lessons: [
+          {
+            title: "courses.05.module.04.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.05.module.04.lesson.01.duration",
+          },
+          {
+            title: "courses.05.module.04.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.05.module.04.lesson.02.duration",
+          },
+          {
+            title: "courses.05.module.04.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.05.module.04.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "05",
+        title: "courses.05.module.05.title",
+        lessons: [
+          {
+            title: "courses.05.module.05.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.05.module.05.lesson.01.duration",
+          },
+          {
+            title: "courses.05.module.05.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.05.module.05.lesson.02.duration",
+          },
+          {
+            title: "courses.05.module.05.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.05.module.05.lesson.03.duration",
+          },
+        ],
+      },
+    ],
+  },
+
+  // 6. Advanced JavaScript
+  {
+    title: "courses.06.title",
+    slug: "courses.06.slug",
+    description: "courses.06.description",
+    teacher: "courses.06.teacher",
+    duration: "courses.06.duration",
+    difficulty: "courses.06.difficulty",
+    images: [
+      javascriptCourseImage,
+      javascriptCourseImage,
+      javascriptCourseImage,
+    ], //Teste
+    modules: [
+      {
+        moduleNumber: "01",
+        title: "courses.06.module.01.title",
+        lessons: [
+          {
+            title: "courses.06.module.01.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.06.module.01.lesson.01.duration",
+          },
+          {
+            title: "courses.06.module.01.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.06.module.01.lesson.02.duration",
+          },
+          {
+            title: "courses.06.module.01.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.06.module.01.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "02",
+        title: "courses.06.module.02.title",
+        lessons: [
+          {
+            title: "courses.06.module.02.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.06.module.02.lesson.01.duration",
+          },
+          {
+            title: "courses.06.module.02.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.06.module.02.lesson.02.duration",
+          },
+          {
+            title: "courses.06.module.02.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.06.module.02.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "03",
+        title: "courses.06.module.03.title",
+        lessons: [
+          {
+            title: "courses.06.module.03.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.06.module.03.lesson.01.duration",
+          },
+          {
+            title: "courses.06.module.03.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.06.module.03.lesson.02.duration",
+          },
+          {
+            title: "courses.06.module.03.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.06.module.03.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "04",
+        title: "courses.06.module.04.title",
+        lessons: [
+          {
+            title: "courses.06.module.04.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.06.module.04.lesson.01.duration",
+          },
+          {
+            title: "courses.06.module.04.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.06.module.04.lesson.02.duration",
+          },
+          {
+            title: "courses.06.module.04.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.06.module.04.lesson.03.duration",
+          },
+        ],
+      },
+      {
+        moduleNumber: "05",
+        title: "courses.06.module.05.title",
+        lessons: [
+          {
+            title: "courses.06.module.05.lesson.01.title",
+            lessonNumber: "Lesson 01",
+            duration: "courses.06.module.05.lesson.01.duration",
+          },
+          {
+            title: "courses.06.module.05.lesson.02.title",
+            lessonNumber: "Lesson 02",
+            duration: "courses.06.module.05.lesson.02.duration",
+          },
+          {
+            title: "courses.06.module.05.lesson.03.title",
+            lessonNumber: "Lesson 03",
+            duration: "courses.06.module.05.lesson.03.duration",
+          },
+        ],
+      },
+    ],
   },
 ];
