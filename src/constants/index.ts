@@ -17,7 +17,7 @@ import {
   zapierLogo,
   zoomLogo,
 } from "@/assets";
-import { Benefit, Course, NavbarLink, Testimonial } from "@/types";
+import { Benefit, Course, FAQ, NavbarLink, Testimonial } from "@/types";
 
 // Navbar Links
 export const navigationLinks: NavbarLink[] = [
@@ -936,5 +936,32 @@ export const PricingPlans = [
         available: true,
       },
     ],
+  },
+];
+
+// FAQ
+
+export const FAQArray: FAQ[] = [
+  {
+    question: "faq.01.question",
+    answer: "faq.01.answer",
+    ctaAnswer: "faq.01.ctaAnswer",
+  },
+  {
+    question: "faq.02.question",
+    answer: "faq.02.answer",
+  },
+  {
+    question: "faq.03.question",
+    answer: "faq.03.answer",
+    ctaAnswer: "faq.03.ctaAnswer",
+  },
+  {
+    question: "faq.04.question",
+    answer: "faq.04.answer",
+  },
+  {
+    question: "faq.05.question",
+    answer: "faq.05.answer",
   },
 ];

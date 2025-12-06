@@ -823,6 +823,35 @@
             "07": "Early access to new courses and updates."
           }
         }
+      },
+      "FAQ": {
+        "headline": "Frequently Asked Questions",
+        "description": "Still you have any questions? Contact our Team via support@skillbridge.com",
+        "viewAllBtn": "View All FAQ's",
+        "faq": {
+          "01": {
+            "question": "Can i enroll in multiple courses at once?",
+            "answer": "Absolutely! You can enroll in multiple courses simultaneously and access them at your convenience.",
+            "ctaAnswer": "Enrollment Process for Different Courses"
+          },
+          "02": {
+            "question": "What kind of support can i expect from instructors?",
+            "answer": "We offer a range of support options, including email support, live chat, and community forums. Our instructors are available to answer your questions and provide guidance."
+          },
+          "03": {
+            "question": "Are the courses self-paced or do they have specific start and end dates?",
+            "answer": "Many of our courses are self-paced, allowing you to learn at your own speed. However, some courses may have specific start and end dates.",
+            "ctaAnswer": "Check Course Schedule"
+          },
+          "04": {
+            "question": "Are there any prerequisites for the courses?",
+            "answer": "Most of our introductory courses require no prior experience. Specific prerequisites for advanced courses are clearly listed in the course description."
+          },
+          "05": {
+            "question": "Can i download the course materials for offline access?",
+            "answer": "Yes, for most courses, materials like lecture slides and supplementary readings are downloadable. Video content is typically streamed but can sometimes be accessed offline through our mobile app."
+          }
+        }
       }
     }
   }

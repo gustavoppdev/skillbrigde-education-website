@@ -1,4 +1,5 @@
 import { Benefits } from "@/components/sections/Benefits";
+import { FAQ } from "@/components/sections/FAQ";
 import { Hero } from "@/components/sections/Hero";
 import { OurCourses } from "@/components/sections/OurCourses";
 import { Pricing } from "@/components/sections/Pricing";
@@ -14,6 +15,7 @@ const Home = () => {
       <OurCourses />
       <Testimonials />
       <Pricing />
+      <FAQ />
     </main>
   );
 };

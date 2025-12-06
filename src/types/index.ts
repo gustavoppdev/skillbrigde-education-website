@@ -63,3 +63,9 @@ export type Plan = {
     available: boolean;
   }[];
 };
+
+export type FAQ = {
+  question: TranslationKey;
+  answer: TranslationKey;
+  ctaAnswer?: TranslationKey;
+};

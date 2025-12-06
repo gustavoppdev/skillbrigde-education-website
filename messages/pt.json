@@ -823,6 +823,35 @@
             "07": "Acesso antecipado a novos cursos e atualizações."
           }
         }
+      },
+      "FAQ": {
+        "headline": "Perguntas Frequentes",
+        "description": "Ainda tem alguma dúvida? Entre em contato com nossa equipe através de support@skillbridge.com",
+        "viewAllBtn": "Ver Todas as Perguntas Frequentes",
+        "faq": {
+          "01": {
+            "question": "Posso me inscrever em vários cursos ao mesmo tempo?",
+            "answer": "Com certeza! Você pode se inscrever em vários cursos simultaneamente e acessá-los conforme sua conveniência.",
+            "ctaAnswer": "Processo de Inscrição para Diferentes Cursos"
+          },
+          "02": {
+            "question": "Que tipo de suporte posso esperar dos instrutores?",
+            "answer": "Oferecemos uma variedade de opções de suporte, incluindo e-mail, chat ao vivo e fóruns da comunidade. Nossos instrutores estão disponíveis para responder às suas perguntas e fornecer orientação."
+          },
+          "03": {
+            "question": "Os cursos são no meu próprio ritmo ou têm datas específicas de início e fim?",
+            "answer": "Muitos de nossos cursos são no seu próprio ritmo, permitindo que você aprenda na sua velocidade. No entanto, alguns cursos podem ter datas específicas de início e fim.",
+            "ctaAnswer": "Verificar o Calendário de Cursos"
+          },
+          "04": {
+            "question": "Existe algum pré-requisito para os cursos?",
+            "answer": "A maioria dos nossos cursos introdutórios não exige experiência prévia. Pré-requisitos específicos para cursos avançados são listados claramente na descrição do curso."
+          },
+          "05": {
+            "question": "Posso baixar os materiais do curso para acesso offline?",
+            "answer": "Sim, para a maioria dos cursos, materiais como slides de aula e leituras complementares podem ser baixados. O conteúdo de vídeo é geralmente transmitido, mas às vezes pode ser acessado offline por meio do nosso aplicativo móvel."
+          }
+        }
       }
     }
   }
