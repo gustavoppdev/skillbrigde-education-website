@@ -10,6 +10,7 @@ import { routing } from "@/i18n/routing";
 // CSS
 import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 
 const beVietnamProp = Be_Vietnam_Pro({
   variable: "--font-be-vietnam-pro",
@@ -40,6 +41,7 @@ export default async function RootLayout({ children, params }: Props) {
         <NextIntlClientProvider>
           <Navbar />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

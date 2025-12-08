@@ -16,6 +16,28 @@
         "menuTitle": "Navigation Menu",
         "menuDescription": "Browse our website using the links below."
       }
+    },
+    "Footer": {
+      "contactEmail": "hello@skillbrigde.com",
+      "contactPhone": "+91 91813 23 2309",
+      "contactLocation": "Somewhere in the world",
+      "socialProfiles": "Social Profiles",
+      "copyright": "© {date} Skillbrigde. All rights reserved.",
+      "navigationLinks": {
+        "home": {
+          "title": "Home",
+          "benefits": "Benefits",
+          "courses": "Our Courses",
+          "testimonials": "Our Testimonials",
+          "faq": "Our FAQ"
+        },
+        "aboutUs": {
+          "title": "About Us",
+          "company": "Company",
+          "achievements": "Achievements",
+          "goals": "Our Goals"
+        }
+      }
     }
   },
   "Pages": {

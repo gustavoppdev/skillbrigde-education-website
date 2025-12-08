@@ -21,6 +21,14 @@ import emilyAvatar from "./images/emilyAvatar.webp";
 import jasonAvatar from "./images/jasonAvatar.webp";
 import michaelAvatar from "./images/michaelAvatar.webp";
 
+import mailIcon from "./images/mailIcon.svg";
+import phoneIcon from "./images/phoneIcon.svg";
+import mapPinIcon from "./images/mapPinIcon.svg";
+
+import linkedinIcon from "./images/linkedinIcon.svg";
+import facebookIcon from "./images/facebookIcon.svg";
+import twitterIcon from "./images/twitterIcon.svg";
+
 // Exports
 export {
   logo,
@@ -44,4 +52,10 @@ export {
   jasonAvatar,
   michaelAvatar,
   sarahAvatar,
+  mailIcon,
+  phoneIcon,
+  mapPinIcon,
+  linkedinIcon,
+  facebookIcon,
+  twitterIcon,
 };

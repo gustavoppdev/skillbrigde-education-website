@@ -2,25 +2,39 @@ import {
   adobeLogo,
   amazonLogo,
   emilyAvatar,
+  facebookIcon,
   frontendCourseImage,
   graphicDesignCourseImage,
   jasonAvatar,
   javascriptCourseImage,
+  linkedinIcon,
+  mailIcon,
+  mapPinIcon,
   michaelAvatar,
   mobileDevelopmentCourseImage,
   netflixLogo,
   notionLogo,
+  phoneIcon,
   sarahAvatar,
   spotifyLogo,
+  twitterIcon,
   uiuxCourseImage,
   webDesignFundamentalsCourseImage,
   zapierLogo,
   zoomLogo,
 } from "@/assets";
-import { Benefit, Course, FAQ, NavbarLink, Testimonial } from "@/types";
+import {
+  Benefit,
+  Course,
+  FAQ,
+  FooterContact,
+  FooterNavigationLink,
+  NavigationLink,
+  Testimonial,
+} from "@/types";
 
 // Navbar Links
-export const navigationLinks: NavbarLink[] = [
+export const navigationLinks: NavigationLink[] = [
   {
     href: "/",
     label: "home",
@@ -940,7 +954,6 @@ export const PricingPlans = [
 ];
 
 // FAQ
-
 export const FAQArray: FAQ[] = [
   {
     question: "faq.01.question",
@@ -963,5 +976,79 @@ export const FAQArray: FAQ[] = [
   {
     question: "faq.05.question",
     answer: "faq.05.answer",
+  },
+];
+
+// Footer
+export const footerNavigationLinks: FooterNavigationLink[] = [
+  {
+    title: "navigationLinks.home.title",
+    titleHref: "/",
+    links: [
+      {
+        label: "navigationLinks.home.benefits",
+        href: "#benefits",
+      },
+      {
+        label: "navigationLinks.home.courses",
+        href: "#courses",
+      },
+      {
+        label: "navigationLinks.home.testimonials",
+        href: "#testimonials",
+      },
+      {
+        label: "navigationLinks.home.faq",
+        href: "#faq",
+      },
+    ],
+  },
+  {
+    title: "navigationLinks.aboutUs.title",
+    titleHref: "/about",
+    links: [
+      {
+        label: "navigationLinks.aboutUs.company",
+        href: "/about",
+      },
+      {
+        label: "navigationLinks.aboutUs.achievements",
+        href: "/about",
+      },
+      {
+        label: "navigationLinks.aboutUs.goals",
+        href: "/about",
+      },
+    ],
+  },
+];
+
+export const footerSocialProfiles = [
+  {
+    alt: "Facebook",
+    icon: facebookIcon,
+  },
+  {
+    alt: "Twitter",
+    icon: twitterIcon,
+  },
+  {
+    alt: "LinkedIn",
+    icon: linkedinIcon,
+  },
+];
+
+export const FooterContactList: FooterContact[] = [
+  {
+    icon: mailIcon,
+    label: "contactEmail",
+  },
+  {
+    icon: phoneIcon,
+    label: "contactPhone",
+  },
+  {
+    icon: mapPinIcon,
+    label: "contactLocation",
   },
 ];

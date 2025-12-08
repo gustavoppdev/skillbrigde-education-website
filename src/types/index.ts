@@ -1,9 +1,11 @@
+import { LucideProps } from "lucide-react";
 import { StaticImageData } from "next/image";
+import { ForwardRefExoticComponent, RefAttributes } from "react";
 
 export type TranslationKey = string;
 
 // Navbar Types
-export type NavbarLink = {
+export type NavigationLink = {
   href: string;
   label: TranslationKey;
 };
@@ -68,4 +70,15 @@ export type FAQ = {
   question: TranslationKey;
   answer: TranslationKey;
   ctaAnswer?: TranslationKey;
+};
+
+export type FooterNavigationLink = {
+  title: TranslationKey;
+  titleHref: string;
+  links: NavigationLink[];
+};
+
+export type FooterContact = {
+  icon: StaticImageData;
+  label: TranslationKey;
 };
