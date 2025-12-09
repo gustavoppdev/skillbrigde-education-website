@@ -853,6 +853,10 @@
           }
         }
       }
+    },
+    "Courses": {
+      "headline": "Cursos Online de Design e Desenvolvimento",
+      "description": "Bem-vindo à nossa página de cursos online, onde você pode aprimorar suas habilidades em design e desenvolvimento. Escolha entre nossa seleção cuidadosamente curada de 10 cursos projetados para fornecer-lhe conhecimento e experiência prática. Explore os cursos abaixo e encontre a perfeita correspondência para sua jornada de aprendizado."
     }
   }
 }
