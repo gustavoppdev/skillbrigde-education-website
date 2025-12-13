@@ -11,7 +11,7 @@ type Props = {
   testimony: Testimonial;
 };
 const TestimonialCard = ({ testimony }: Props) => {
-  const t = useTranslations("Pages.Home.Testimonials");
+  const t = useTranslations("Sections.Testimonials");
   return (
     <div className="rounded-[10px] border border-app-white-95 transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
       <p className="p-7.5 text-app-grey-30 text-sm lg:text-base bg-white">

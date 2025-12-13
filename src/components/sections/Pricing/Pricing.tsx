@@ -16,7 +16,7 @@ import { PricingPlans } from "@/constants";
 import { BillingFrequency } from "@/types";
 
 export const Pricing = () => {
-  const t = useTranslations("Pages.Home.Pricing");
+  const t = useTranslations("Sections.Pricing");
   const [billingFrequency, setBillingFrequency] =
     useState<BillingFrequency>("monthly");
 
@@ -26,7 +26,7 @@ export const Pricing = () => {
 
   return (
     <section className="section-container mt-15 lg:mt-25 2xl:mt-37.5">
-      <SectionTitle translationNamespace="Pages.Home.Pricing">
+      <SectionTitle translationNamespace="Sections.Pricing">
         <div className="flex items-center rounded-lg gap-2 p-3 bg-white w-fit mx-auto sm:mx-0">
           <Button
             className={

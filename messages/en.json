@@ -40,839 +40,837 @@
       }
     }
   },
-  "Pages": {
-    "Home": {
-      "Hero": {
-        "headline": "<emphasis>Unlock</emphasis> Your Creative Potential",
-        "subHeadline": "with Online Design and Development Courses.",
-        "description": "Learn from Industry Experts and Enhance Your Skills.",
-        "exploreCoursesBtn": "Explore Courses",
-        "viewPricingBtn": "View Pricing",
-        "Alt": {
-          "abstractLine": "Abstract Line"
-        }
-      },
-      "VideoSection": {
-        "Alt": {
-          "playBtn": "Play Button",
-          "video": "Two designers or architects, a man and a woman, reviewing something on a smartphone in a yellow-themed office."
-        }
-      },
-      "Benefits": {
-        "headline": "Benefits",
-        "description": "Discover the advantages of learning with us. Our courses are designed for your success, offering flexibility, cutting-edge content, and quality instruction to advance your career in design and development.",
-        "viewAllBtn": "View All",
-        "benefits": {
-          "01": {
-            "title": "Flexible Learning Schedule",
-            "description": "Fit your coursework around your existing commitments and obligations."
-          },
-          "02": {
-            "title": "Expert Instruction",
-            "description": "Learn from industry experts who have hands-on experience in design and development."
-          },
-          "03": {
-            "title": "Diverse Course Offerings",
-            "description": "Explore a wide range of design and development courses covering various topics."
-          },
-          "04": {
-            "title": "Updated Curriculum",
-            "description": "Access courses with up-to-date content reflecting the latest trends and industry practices."
-          },
-          "05": {
-            "title": "Practical Projects and Assignments",
-            "description": "Develop a portfolio showcasing your skills and abilities to potential employers."
-          },
-          "06": {
-            "title": "Interactive Learning Environment",
-            "description": "Collaborate with fellow learners, exchanging ideas and feedback to enhance your understanding."
-          }
-        }
-      },
-      "OurCourses": {
-        "headline": "Our Courses",
-        "description": "Browse our selection of high-quality courses, carefully designed to transfer your technology skills. Start learning and create your own path to success today.",
-        "viewAllBtn": "View All",
-        "getNowBtn": "Get it Now",
-        "courses": {
-          "01": {
-            "title": "Web Design Fundamentals",
-            "slug": "web-design-fundamentals",
-            "description": "Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.",
-            "teacher": "John Smith",
-            "duration": "4 Weeks",
-            "difficulty": "Beginner",
-            "modules": {
-              "01": {
-                "title": "Introduction to HTML",
-                "number": "01",
-                "lessons": {
-                  "01": {
-                    "title": "Structure of an HTML Document",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "45 Minutes"
-                  },
-                  "02": {
-                    "title": "Working with Text and Links",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "30 Minutes"
-                  },
-                  "03": {
-                    "title": "Adding Images and Media",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "45 Minutes"
-                  }
-                }
-              },
-              "02": {
-                "title": "Styling with CSS",
-                "number": "02",
-                "lessons": {
-                  "01": {
-                    "title": "CSS Selectors and Properties",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "1 Hour"
-                  },
-                  "02": {
-                    "title": "The CSS Box Model",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "45 Minutes"
-                  },
-                  "03": {
-                    "title": "Flexbox and Basic Layouts",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "1 Hour"
-                  }
-                }
-              },
-              "03": {
-                "title": "Introduction to Responsive Design",
-                "number": "03",
-                "lessons": {
-                  "01": {
-                    "title": "Understanding Viewports and Media Queries",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "1 Hour"
-                  },
-                  "02": {
-                    "title": "Mobile-First Design Strategy",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "45 Minutes"
-                  },
-                  "03": {
-                    "title": "Implementing Flexible Grids and Images",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "1 Hour"
-                  }
-                }
-              },
-              "04": {
-                "title": "Design Principles for Web",
-                "number": "04",
-                "lessons": {
-                  "01": {
-                    "title": "Color Theory and Contrast",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "45 Minutes"
-                  },
-                  "02": {
-                    "title": "Typography and Readability",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "45 Minutes"
-                  },
-                  "03": {
-                    "title": "Visual Hierarchy and Layout",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "1 Hour"
-                  }
-                }
-              },
-              "05": {
-                "title": "Building a Basic Website",
-                "number": "05",
-                "lessons": {
-                  "01": {
-                    "title": "Planning and Structuring Your Project",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "30 Minutes"
-                  },
-                  "02": {
-                    "title": "Creating a Multi-Page Layout",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "1 Hour"
-                  },
-                  "03": {
-                    "title": "Deployment and Hosting Basics",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "45 Minutes"
-                  }
-                }
-              }
-            }
-          },
-          "02": {
-            "title": "UI/UX Design",
-            "slug": "ui-ux-design",
-            "description": "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques.",
-            "teacher": "Emily Johnson",
-            "duration": "6 Weeks",
-            "difficulty": "Intermediate",
-            "modules": {
-              "01": {
-                "title": "Introduction to UI/UX Design",
-                "number": "01",
-                "lessons": {
-                  "01": {
-                    "title": "Understanding UI/UX Design Principles",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "45 Minutes"
-                  },
-                  "02": {
-                    "title": "Importance of User-Centered Design",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "1 Hour"
-                  },
-                  "03": {
-                    "title": "The Role of UI/UX Design in Product Development",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "45 Minutes"
-                  }
-                }
-              },
-              "02": {
-                "title": "User Research and Personas",
-                "number": "02",
-                "lessons": {
-                  "01": {
-                    "title": "Conducting User Research and Interviews",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "1 Hour"
-                  },
-                  "02": {
-                    "title": "Analyzing User Needs and Behavior",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "1 Hour"
-                  },
-                  "03": {
-                    "title": "Creating User Personas and Scenarios",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "45 Minutes"
-                  }
-                }
-              },
-              "03": {
-                "title": "Wireframing and Prototyping",
-                "number": "03",
-                "lessons": {
-                  "01": {
-                    "title": "Introduction to Wireframing Tools and Techniques",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "1 Hour"
-                  },
-                  "02": {
-                    "title": "Creating Low-Fidelity Wireframes",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "1 Hour"
-                  },
-                  "03": {
-                    "title": "Prototyping and Interactive Mockups",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "1 Hour"
-                  }
-                }
-              },
-              "04": {
-                "title": "Visual Design and Branding",
-                "number": "04",
-                "lessons": {
-                  "01": {
-                    "title": "Color Theory and Typography in UI Design",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "1 Hour"
-                  },
-                  "02": {
-                    "title": "Visual Hierarchy and Layout Design",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "1 Hour"
-                  },
-                  "03": {
-                    "title": "Creating a Strong Brand Identity",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "45 Minutes"
-                  }
-                }
-              },
-              "05": {
-                "title": "Usability Testing and Iteration",
-                "number": "05",
-                "lessons": {
-                  "01": {
-                    "title": "Usability Testing Methods and Techniques",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "1 Hour"
-                  },
-                  "02": {
-                    "title": "Analyzing Usability Test Results",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "45 Minutes"
-                  },
-                  "03": {
-                    "title": "Iterating and Improving UX Designs",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "45 Minutes"
-                  }
-                }
-              }
-            }
-          },
-          "03": {
-            "title": "Mobile App Development",
-            "slug": "mobile-app-development",
-            "description": "Dive into the world of mobile app development. Learn to build native iOS and Android applications using industry-leading frameworks like Swift and Kotlin.",
-            "teacher": "David Brown",
-            "duration": "8 Weeks",
-            "difficulty": "Intermediate",
-            "modules": {
-              "01": {
-                "title": "Mobile Development Ecosystem",
-                "number": "01",
-                "lessons": {
-                  "01": {
-                    "title": "Overview of iOS and Android Platforms",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "45 Minutes"
-                  },
-                  "02": {
-                    "title": "Setting up the Development Environment (Xcode/Android Studio)",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "1 Hour"
-                  },
-                  "03": {
-                    "title": "Introduction to Swift and Kotlin",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "1 Hour"
-                  }
-                }
-              },
-              "02": {
-                "title": "Building User Interfaces (UI)",
-                "number": "02",
-                "lessons": {
-                  "01": {
-                    "title": "Designing with Storyboards/Layout XML",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "1 Hour"
-                  },
-                  "02": {
-                    "title": "Working with Views and View Controllers/Activities",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "45 Minutes"
-                  },
-                  "03": {
-                    "title": "Handling User Input and Gestures",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "1 Hour"
-                  }
-                }
-              },
-              "03": {
-                "title": "Data Management and Persistence",
-                "number": "03",
-                "lessons": {
-                  "01": {
-                    "title": "Working with Local Data Storage (e.g., Core Data, Room)",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "1 Hour"
-                  },
-                  "02": {
-                    "title": "Fetching Data from APIs (Networking)",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "1 Hour"
-                  },
-                  "03": {
-                    "title": "Introduction to Databases and Cloud Storage",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "45 Minutes"
-                  }
-                }
-              },
-              "04": {
-                "title": "Advanced Mobile Features",
-                "number": "04",
-                "lessons": {
-                  "01": {
-                    "title": "Location Services and Maps Integration",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "1 Hour"
-                  },
-                  "02": {
-                    "title": "Working with Notifications and Background Tasks",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "45 Minutes"
-                  },
-                  "03": {
-                    "title": "Handling Permissions and Security",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "1 Hour"
-                  }
-                }
-              },
-              "05": {
-                "title": "Testing and Deployment",
-                "number": "05",
-                "lessons": {
-                  "01": {
-                    "title": "Unit Testing and UI Testing for Mobile Apps",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "1 Hour"
-                  },
-                  "02": {
-                    "title": "Beta Testing and Feedback Collection",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "45 Minutes"
-                  },
-                  "03": {
-                    "title": "Submitting to App Store and Google Play",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "1 Hour"
-                  }
-                }
-              }
-            }
-          },
-          "04": {
-            "title": "Graphic Design for Beginners",
-            "slug": "graphic-design-for-beginners",
-            "description": "Discover the fundamentals of graphic design, including typography, color theory, layout design, and image manipulation techniques. Create visually stunning designs for print and digital media.",
-            "teacher": "Sarah Thompson",
-            "duration": "10 Weeks",
-            "difficulty": "Beginner",
-            "modules": {
-              "01": {
-                "title": "Foundations of Graphic Design",
-                "number": "01",
-                "lessons": {
-                  "01": {
-                    "title": "What is Graphic Design? Roles and Responsibilities",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "45 Minutes"
-                  },
-                  "02": {
-                    "title": "Design Elements: Line, Shape, Space, Texture",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "1 Hour"
-                  },
-                  "03": {
-                    "title": "Design Principles: Balance, Contrast, Hierarchy",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "45 Minutes"
-                  }
-                }
-              },
-              "02": {
-                "title": "Color Theory and Application",
-                "number": "02",
-                "lessons": {
-                  "01": {
-                    "title": "The Color Wheel and Color Harmonies",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "1 Hour"
-                  },
-                  "02": {
-                    "title": "Understanding Color Psychology",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "45 Minutes"
-                  },
-                  "03": {
-                    "title": "Color Modes (RGB, CMYK) for Print and Digital",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "30 Minutes"
-                  }
-                }
-              },
-              "03": {
-                "title": "Typography Essentials",
-                "number": "03",
-                "lessons": {
-                  "01": {
-                    "title": "Anatomy of Type and Type Classifications",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "1 Hour"
-                  },
-                  "02": {
-                    "title": "Pairing Fonts and Creating Visual Impact",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "1 Hour"
-                  },
-                  "03": {
-                    "title": "Readability and Accessibility in Typography",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "45 Minutes"
-                  }
-                }
-              },
-              "04": {
-                "title": "Image Editing and Manipulation",
-                "number": "04",
-                "lessons": {
-                  "01": {
-                    "title": "Introduction to Raster vs. Vector Graphics",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "45 Minutes"
-                  },
-                  "02": {
-                    "title": "Basic Image Editing in Software (e.g., Photoshop basics)",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "1 Hour"
-                  },
-                  "03": {
-                    "title": "Cropping, Resizing, and Color Correction",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "1 Hour"
-                  }
-                }
-              },
-              "05": {
-                "title": "Creating Design Projects",
-                "number": "05",
-                "lessons": {
-                  "01": {
-                    "title": "Designing a Logo and Brand Identity",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "1 Hour"
-                  },
-                  "02": {
-                    "title": "Designing a Social Media Graphic",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "45 Minutes"
-                  },
-                  "03": {
-                    "title": "Preparing Files for Print and Digital Output",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "1 Hour"
-                  }
-                }
-              }
-            }
-          },
-          "05": {
-            "title": "Front-End Web Development",
-            "slug": "front-end-web-development",
-            "description": "Become proficient in front-end web development. Learn HTML, CSS, JavaScript, and popular frameworks like Bootstrap and React. Build interactive and responsive websites.",
-            "teacher": "Michael Adams",
-            "duration": "10 Weeks",
-            "difficulty": "Intermediate",
-            "modules": {
-              "01": {
-                "title": "Deep Dive into HTML5 and CSS3",
-                "number": "01",
-                "lessons": {
-                  "01": {
-                    "title": "Semantic HTML5 and Accessibility",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "1 Hour"
-                  },
-                  "02": {
-                    "title": "Advanced CSS Selectors and Pseudo-classes",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "45 Minutes"
-                  },
-                  "03": {
-                    "title": "CSS Grid Layout and Complex Layouts",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "1 Hour"
-                  }
-                }
-              },
-              "02": {
-                "title": "JavaScript Fundamentals",
-                "number": "02",
-                "lessons": {
-                  "01": {
-                    "title": "Variables, Data Types, and Operators",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "1 Hour"
-                  },
-                  "02": {
-                    "title": "Control Flow and Functions",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "45 Minutes"
-                  },
-                  "03": {
-                    "title": "Working with Arrays and Objects",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "1 Hour"
-                  }
-                }
-              },
-              "03": {
-                "title": "DOM Manipulation and Events",
-                "number": "03",
-                "lessons": {
-                  "01": {
-                    "title": "Accessing and Modifying the DOM",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "1 Hour"
-                  },
-                  "02": {
-                    "title": "Handling User Events and Interactivity",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "45 Minutes"
-                  },
-                  "03": {
-                    "title": "Form Validation and Submission",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "1 Hour"
-                  }
-                }
-              },
-              "04": {
-                "title": "Introduction to React",
-                "number": "04",
-                "lessons": {
-                  "01": {
-                    "title": "Setting up a React Project and JSX",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "1 Hour"
-                  },
-                  "02": {
-                    "title": "Functional Components and Props",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "1 Hour"
-                  },
-                  "03": {
-                    "title": "State Management with useState Hook",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "1 Hour"
-                  }
-                }
-              },
-              "05": {
-                "title": "Tooling and Deployment",
-                "number": "05",
-                "lessons": {
-                  "01": {
-                    "title": "Using Package Managers (npm/yarn)",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "45 Minutes"
-                  },
-                  "02": {
-                    "title": "Introduction to Build Tools (Webpack/Vite)",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "1 Hour"
-                  },
-                  "03": {
-                    "title": "Deployment to Services like Vercel or Netlify",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "45 Minutes"
-                  }
-                }
-              }
-            }
-          },
-          "06": {
-            "title": "Advanced JavaScript",
-            "slug": "advanced-javascript",
-            "description": "Take your JavaScript skills to the next level. Explore advanced concepts like closures, prototypes, asynchronous programming, and ES6 features. Build complex applications with confidence.",
-            "teacher": "Jennifer Wilson",
-            "duration": "6 Weeks",
-            "difficulty": "Advanced",
-            "modules": {
-              "01": {
-                "title": "ES6+ Features and Syntax",
-                "number": "01",
-                "lessons": {
-                  "01": {
-                    "title": "Let, Const, Arrow Functions, and Template Literals",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "45 Minutes"
-                  },
-                  "02": {
-                    "title": "Destructuring and Spread/Rest Operators",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "1 Hour"
-                  },
-                  "03": {
-                    "title": "Modules (Import/Export) and Classes",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "1 Hour"
-                  }
-                }
-              },
-              "02": {
-                "title": "Asynchronous JavaScript",
-                "number": "02",
-                "lessons": {
-                  "01": {
-                    "title": "Understanding the Event Loop",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "1 Hour"
-                  },
-                  "02": {
-                    "title": "Promises and the Async/Await Syntax",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "1 Hour"
-                  },
-                  "03": {
-                    "title": "Making API Calls with Fetch and Axios",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "45 Minutes"
-                  }
-                }
-              },
-              "03": {
-                "title": "Object-Oriented Programming (OOP) in JS",
-                "number": "03",
-                "lessons": {
-                  "01": {
-                    "title": "Prototypal Inheritance vs. Class Syntax",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "1 Hour"
-                  },
-                  "02": {
-                    "title": "Constructors and Instance Methods",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "45 Minutes"
-                  },
-                  "03": {
-                    "title": "Encapsulation and Polymorphism Concepts",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "45 Minutes"
-                  }
-                }
-              },
-              "04": {
-                "title": "Functional Programming Concepts",
-                "number": "04",
-                "lessons": {
-                  "01": {
-                    "title": "Higher-Order Functions (Map, Filter, Reduce)",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "1 Hour"
-                  },
-                  "02": {
-                    "title": "Immutability and Pure Functions",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "45 Minutes"
-                  },
-                  "03": {
-                    "title": "Closures and Scope in Depth",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "1 Hour"
-                  }
-                }
-              },
-              "05": {
-                "title": "Advanced Development Practices",
-                "number": "05",
-                "lessons": {
-                  "01": {
-                    "title": "Introduction to Unit Testing with Jest",
-                    "lessonNumber": "Lesson 01",
-                    "duration": "1 Hour"
-                  },
-                  "02": {
-                    "title": "Design Patterns in JavaScript (e.g., Module Pattern)",
-                    "lessonNumber": "Lesson 02",
-                    "duration": "1 Hour"
-                  },
-                  "03": {
-                    "title": "Performance Optimization Techniques",
-                    "lessonNumber": "Lesson 03",
-                    "duration": "45 Minutes"
-                  }
-                }
-              }
-            }
-          }
-        }
-      },
-      "Testimonials": {
-        "headline": "Our Testimonials",
-        "description": "See what people who are transforming their careers and lives with our courses have to say. Their success stories have inspired our community.",
-        "viewAllBtn": "View All",
-        "readFullStoryBtn": "Read Full Story",
-        "testimonials": {
-          "01": {
-            "testimony": "The web design course provided a solid foundation for me. The instructors were knowledgeable and supportive, and the interactive learning environment was engaging. I highly recommend it!",
-            "author": "Sarah L"
-          },
-          "02": {
-            "testimony": "The UI/UX design course exceeded my expectations. The instructor's expertise and practical assignments helped me improve my design skills. I feel more confident in my career now. Thank you!",
-            "author": "Jason M"
-          },
-          "03": {
-            "testimony": "The mobile app development course was fantastic! The step-by-step tutorials and hands-on projects helped me grasp the concepts easily. I'm now building my own app. Great course!",
-            "author": "Emily R"
-          },
-          "04": {
-            "testimony": "I enrolled in the graphic design course as a beginner, and it was the perfect starting point. The instructor's guidance and feedback improved my design abilities significantly. I'm grateful for this course!",
-            "author": "Michael K"
-          }
-        }
-      },
-      "Pricing": {
-        "headline": "Our Pricing",
-        "description": "Choose the plan that best suits your learning goals. We have flexible options, from free access to limited resources to the full Pro plan.",
-        "billingFrequency": {
-          "monthly": "Monthly",
-          "yearly": "Yearly"
+  "Sections": {
+    "Hero": {
+      "headline": "<emphasis>Unlock</emphasis> Your Creative Potential",
+      "subHeadline": "with Online Design and Development Courses.",
+      "description": "Learn from Industry Experts and Enhance Your Skills.",
+      "exploreCoursesBtn": "Explore Courses",
+      "viewPricingBtn": "View Pricing",
+      "Alt": {
+        "abstractLine": "Abstract Line"
+      }
+    },
+    "VideoSection": {
+      "Alt": {
+        "playBtn": "Play Button",
+        "video": "Two designers or architects, a man and a woman, reviewing something on a smartphone in a yellow-themed office."
+      }
+    },
+    "Benefits": {
+      "headline": "Benefits",
+      "description": "Discover the advantages of learning with us. Our courses are designed for your success, offering flexibility, cutting-edge content, and quality instruction to advance your career in design and development.",
+      "viewAllBtn": "View All",
+      "benefits": {
+        "01": {
+          "title": "Flexible Learning Schedule",
+          "description": "Fit your coursework around your existing commitments and obligations."
         },
-        "availableFeatures": "Available Features",
-        "getStartedBtn": "Get Started",
-        "plans": {
-          "free": {
-            "title": "Free Plan",
-            "price": {
-              "monthly": "$0",
-              "yearly": "$0"
+        "02": {
+          "title": "Expert Instruction",
+          "description": "Learn from industry experts who have hands-on experience in design and development."
+        },
+        "03": {
+          "title": "Diverse Course Offerings",
+          "description": "Explore a wide range of design and development courses covering various topics."
+        },
+        "04": {
+          "title": "Updated Curriculum",
+          "description": "Access courses with up-to-date content reflecting the latest trends and industry practices."
+        },
+        "05": {
+          "title": "Practical Projects and Assignments",
+          "description": "Develop a portfolio showcasing your skills and abilities to potential employers."
+        },
+        "06": {
+          "title": "Interactive Learning Environment",
+          "description": "Collaborate with fellow learners, exchanging ideas and feedback to enhance your understanding."
+        }
+      }
+    },
+    "OurCourses": {
+      "headline": "Our Courses",
+      "description": "Browse our selection of high-quality courses, carefully designed to transfer your technology skills. Start learning and create your own path to success today.",
+      "viewAllBtn": "View All",
+      "getNowBtn": "Get it Now",
+      "courses": {
+        "01": {
+          "title": "Web Design Fundamentals",
+          "slug": "web-design-fundamentals",
+          "description": "Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.",
+          "teacher": "John Smith",
+          "duration": "4 Weeks",
+          "difficulty": "Beginner",
+          "modules": {
+            "01": {
+              "title": "Introduction to HTML",
+              "number": "01",
+              "lessons": {
+                "01": {
+                  "title": "Structure of an HTML Document",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "45 Minutes"
+                },
+                "02": {
+                  "title": "Working with Text and Links",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "30 Minutes"
+                },
+                "03": {
+                  "title": "Adding Images and Media",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "45 Minutes"
+                }
+              }
+            },
+            "02": {
+              "title": "Styling with CSS",
+              "number": "02",
+              "lessons": {
+                "01": {
+                  "title": "CSS Selectors and Properties",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "1 Hour"
+                },
+                "02": {
+                  "title": "The CSS Box Model",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "45 Minutes"
+                },
+                "03": {
+                  "title": "Flexbox and Basic Layouts",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "1 Hour"
+                }
+              }
+            },
+            "03": {
+              "title": "Introduction to Responsive Design",
+              "number": "03",
+              "lessons": {
+                "01": {
+                  "title": "Understanding Viewports and Media Queries",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "1 Hour"
+                },
+                "02": {
+                  "title": "Mobile-First Design Strategy",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "45 Minutes"
+                },
+                "03": {
+                  "title": "Implementing Flexible Grids and Images",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "1 Hour"
+                }
+              }
+            },
+            "04": {
+              "title": "Design Principles for Web",
+              "number": "04",
+              "lessons": {
+                "01": {
+                  "title": "Color Theory and Contrast",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "45 Minutes"
+                },
+                "02": {
+                  "title": "Typography and Readability",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "45 Minutes"
+                },
+                "03": {
+                  "title": "Visual Hierarchy and Layout",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "1 Hour"
+                }
+              }
+            },
+            "05": {
+              "title": "Building a Basic Website",
+              "number": "05",
+              "lessons": {
+                "01": {
+                  "title": "Planning and Structuring Your Project",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "30 Minutes"
+                },
+                "02": {
+                  "title": "Creating a Multi-Page Layout",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "1 Hour"
+                },
+                "03": {
+                  "title": "Deployment and Hosting Basics",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "45 Minutes"
+                }
+              }
             }
-          },
-          "pro": {
-            "title": "Pro Plan",
-            "price": {
-              "monthly": "$79",
-              "yearly": "$149"
+          }
+        },
+        "02": {
+          "title": "UI/UX Design",
+          "slug": "ui-ux-design",
+          "description": "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques.",
+          "teacher": "Emily Johnson",
+          "duration": "6 Weeks",
+          "difficulty": "Intermediate",
+          "modules": {
+            "01": {
+              "title": "Introduction to UI/UX Design",
+              "number": "01",
+              "lessons": {
+                "01": {
+                  "title": "Understanding UI/UX Design Principles",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "45 Minutes"
+                },
+                "02": {
+                  "title": "Importance of User-Centered Design",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "1 Hour"
+                },
+                "03": {
+                  "title": "The Role of UI/UX Design in Product Development",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "45 Minutes"
+                }
+              }
+            },
+            "02": {
+              "title": "User Research and Personas",
+              "number": "02",
+              "lessons": {
+                "01": {
+                  "title": "Conducting User Research and Interviews",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "1 Hour"
+                },
+                "02": {
+                  "title": "Analyzing User Needs and Behavior",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "1 Hour"
+                },
+                "03": {
+                  "title": "Creating User Personas and Scenarios",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "45 Minutes"
+                }
+              }
+            },
+            "03": {
+              "title": "Wireframing and Prototyping",
+              "number": "03",
+              "lessons": {
+                "01": {
+                  "title": "Introduction to Wireframing Tools and Techniques",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "1 Hour"
+                },
+                "02": {
+                  "title": "Creating Low-Fidelity Wireframes",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "1 Hour"
+                },
+                "03": {
+                  "title": "Prototyping and Interactive Mockups",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "1 Hour"
+                }
+              }
+            },
+            "04": {
+              "title": "Visual Design and Branding",
+              "number": "04",
+              "lessons": {
+                "01": {
+                  "title": "Color Theory and Typography in UI Design",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "1 Hour"
+                },
+                "02": {
+                  "title": "Visual Hierarchy and Layout Design",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "1 Hour"
+                },
+                "03": {
+                  "title": "Creating a Strong Brand Identity",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "45 Minutes"
+                }
+              }
+            },
+            "05": {
+              "title": "Usability Testing and Iteration",
+              "number": "05",
+              "lessons": {
+                "01": {
+                  "title": "Usability Testing Methods and Techniques",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "1 Hour"
+                },
+                "02": {
+                  "title": "Analyzing Usability Test Results",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "45 Minutes"
+                },
+                "03": {
+                  "title": "Iterating and Improving UX Designs",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "45 Minutes"
+                }
+              }
             }
-          },
-          "features": {
-            "01": "Access to selected free courses.",
-            "02": "Limited course materials and resources.",
-            "03": "Basic community support.",
-            "04": "No certification upon completion.",
-            "05": "Ad-supported platform.",
-            "06": "Access to exclusive Pro Plan community forums",
-            "07": "Early access to new courses and updates."
+          }
+        },
+        "03": {
+          "title": "Mobile App Development",
+          "slug": "mobile-app-development",
+          "description": "Dive into the world of mobile app development. Learn to build native iOS and Android applications using industry-leading frameworks like Swift and Kotlin.",
+          "teacher": "David Brown",
+          "duration": "8 Weeks",
+          "difficulty": "Intermediate",
+          "modules": {
+            "01": {
+              "title": "Mobile Development Ecosystem",
+              "number": "01",
+              "lessons": {
+                "01": {
+                  "title": "Overview of iOS and Android Platforms",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "45 Minutes"
+                },
+                "02": {
+                  "title": "Setting up the Development Environment (Xcode/Android Studio)",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "1 Hour"
+                },
+                "03": {
+                  "title": "Introduction to Swift and Kotlin",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "1 Hour"
+                }
+              }
+            },
+            "02": {
+              "title": "Building User Interfaces (UI)",
+              "number": "02",
+              "lessons": {
+                "01": {
+                  "title": "Designing with Storyboards/Layout XML",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "1 Hour"
+                },
+                "02": {
+                  "title": "Working with Views and View Controllers/Activities",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "45 Minutes"
+                },
+                "03": {
+                  "title": "Handling User Input and Gestures",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "1 Hour"
+                }
+              }
+            },
+            "03": {
+              "title": "Data Management and Persistence",
+              "number": "03",
+              "lessons": {
+                "01": {
+                  "title": "Working with Local Data Storage (e.g., Core Data, Room)",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "1 Hour"
+                },
+                "02": {
+                  "title": "Fetching Data from APIs (Networking)",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "1 Hour"
+                },
+                "03": {
+                  "title": "Introduction to Databases and Cloud Storage",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "45 Minutes"
+                }
+              }
+            },
+            "04": {
+              "title": "Advanced Mobile Features",
+              "number": "04",
+              "lessons": {
+                "01": {
+                  "title": "Location Services and Maps Integration",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "1 Hour"
+                },
+                "02": {
+                  "title": "Working with Notifications and Background Tasks",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "45 Minutes"
+                },
+                "03": {
+                  "title": "Handling Permissions and Security",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "1 Hour"
+                }
+              }
+            },
+            "05": {
+              "title": "Testing and Deployment",
+              "number": "05",
+              "lessons": {
+                "01": {
+                  "title": "Unit Testing and UI Testing for Mobile Apps",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "1 Hour"
+                },
+                "02": {
+                  "title": "Beta Testing and Feedback Collection",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "45 Minutes"
+                },
+                "03": {
+                  "title": "Submitting to App Store and Google Play",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "1 Hour"
+                }
+              }
+            }
+          }
+        },
+        "04": {
+          "title": "Graphic Design for Beginners",
+          "slug": "graphic-design-for-beginners",
+          "description": "Discover the fundamentals of graphic design, including typography, color theory, layout design, and image manipulation techniques. Create visually stunning designs for print and digital media.",
+          "teacher": "Sarah Thompson",
+          "duration": "10 Weeks",
+          "difficulty": "Beginner",
+          "modules": {
+            "01": {
+              "title": "Foundations of Graphic Design",
+              "number": "01",
+              "lessons": {
+                "01": {
+                  "title": "What is Graphic Design? Roles and Responsibilities",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "45 Minutes"
+                },
+                "02": {
+                  "title": "Design Elements: Line, Shape, Space, Texture",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "1 Hour"
+                },
+                "03": {
+                  "title": "Design Principles: Balance, Contrast, Hierarchy",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "45 Minutes"
+                }
+              }
+            },
+            "02": {
+              "title": "Color Theory and Application",
+              "number": "02",
+              "lessons": {
+                "01": {
+                  "title": "The Color Wheel and Color Harmonies",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "1 Hour"
+                },
+                "02": {
+                  "title": "Understanding Color Psychology",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "45 Minutes"
+                },
+                "03": {
+                  "title": "Color Modes (RGB, CMYK) for Print and Digital",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "30 Minutes"
+                }
+              }
+            },
+            "03": {
+              "title": "Typography Essentials",
+              "number": "03",
+              "lessons": {
+                "01": {
+                  "title": "Anatomy of Type and Type Classifications",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "1 Hour"
+                },
+                "02": {
+                  "title": "Pairing Fonts and Creating Visual Impact",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "1 Hour"
+                },
+                "03": {
+                  "title": "Readability and Accessibility in Typography",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "45 Minutes"
+                }
+              }
+            },
+            "04": {
+              "title": "Image Editing and Manipulation",
+              "number": "04",
+              "lessons": {
+                "01": {
+                  "title": "Introduction to Raster vs. Vector Graphics",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "45 Minutes"
+                },
+                "02": {
+                  "title": "Basic Image Editing in Software (e.g., Photoshop basics)",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "1 Hour"
+                },
+                "03": {
+                  "title": "Cropping, Resizing, and Color Correction",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "1 Hour"
+                }
+              }
+            },
+            "05": {
+              "title": "Creating Design Projects",
+              "number": "05",
+              "lessons": {
+                "01": {
+                  "title": "Designing a Logo and Brand Identity",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "1 Hour"
+                },
+                "02": {
+                  "title": "Designing a Social Media Graphic",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "45 Minutes"
+                },
+                "03": {
+                  "title": "Preparing Files for Print and Digital Output",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "1 Hour"
+                }
+              }
+            }
+          }
+        },
+        "05": {
+          "title": "Front-End Web Development",
+          "slug": "front-end-web-development",
+          "description": "Become proficient in front-end web development. Learn HTML, CSS, JavaScript, and popular frameworks like Bootstrap and React. Build interactive and responsive websites.",
+          "teacher": "Michael Adams",
+          "duration": "10 Weeks",
+          "difficulty": "Intermediate",
+          "modules": {
+            "01": {
+              "title": "Deep Dive into HTML5 and CSS3",
+              "number": "01",
+              "lessons": {
+                "01": {
+                  "title": "Semantic HTML5 and Accessibility",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "1 Hour"
+                },
+                "02": {
+                  "title": "Advanced CSS Selectors and Pseudo-classes",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "45 Minutes"
+                },
+                "03": {
+                  "title": "CSS Grid Layout and Complex Layouts",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "1 Hour"
+                }
+              }
+            },
+            "02": {
+              "title": "JavaScript Fundamentals",
+              "number": "02",
+              "lessons": {
+                "01": {
+                  "title": "Variables, Data Types, and Operators",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "1 Hour"
+                },
+                "02": {
+                  "title": "Control Flow and Functions",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "45 Minutes"
+                },
+                "03": {
+                  "title": "Working with Arrays and Objects",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "1 Hour"
+                }
+              }
+            },
+            "03": {
+              "title": "DOM Manipulation and Events",
+              "number": "03",
+              "lessons": {
+                "01": {
+                  "title": "Accessing and Modifying the DOM",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "1 Hour"
+                },
+                "02": {
+                  "title": "Handling User Events and Interactivity",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "45 Minutes"
+                },
+                "03": {
+                  "title": "Form Validation and Submission",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "1 Hour"
+                }
+              }
+            },
+            "04": {
+              "title": "Introduction to React",
+              "number": "04",
+              "lessons": {
+                "01": {
+                  "title": "Setting up a React Project and JSX",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "1 Hour"
+                },
+                "02": {
+                  "title": "Functional Components and Props",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "1 Hour"
+                },
+                "03": {
+                  "title": "State Management with useState Hook",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "1 Hour"
+                }
+              }
+            },
+            "05": {
+              "title": "Tooling and Deployment",
+              "number": "05",
+              "lessons": {
+                "01": {
+                  "title": "Using Package Managers (npm/yarn)",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "45 Minutes"
+                },
+                "02": {
+                  "title": "Introduction to Build Tools (Webpack/Vite)",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "1 Hour"
+                },
+                "03": {
+                  "title": "Deployment to Services like Vercel or Netlify",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "45 Minutes"
+                }
+              }
+            }
+          }
+        },
+        "06": {
+          "title": "Advanced JavaScript",
+          "slug": "advanced-javascript",
+          "description": "Take your JavaScript skills to the next level. Explore advanced concepts like closures, prototypes, asynchronous programming, and ES6 features. Build complex applications with confidence.",
+          "teacher": "Jennifer Wilson",
+          "duration": "6 Weeks",
+          "difficulty": "Advanced",
+          "modules": {
+            "01": {
+              "title": "ES6+ Features and Syntax",
+              "number": "01",
+              "lessons": {
+                "01": {
+                  "title": "Let, Const, Arrow Functions, and Template Literals",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "45 Minutes"
+                },
+                "02": {
+                  "title": "Destructuring and Spread/Rest Operators",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "1 Hour"
+                },
+                "03": {
+                  "title": "Modules (Import/Export) and Classes",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "1 Hour"
+                }
+              }
+            },
+            "02": {
+              "title": "Asynchronous JavaScript",
+              "number": "02",
+              "lessons": {
+                "01": {
+                  "title": "Understanding the Event Loop",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "1 Hour"
+                },
+                "02": {
+                  "title": "Promises and the Async/Await Syntax",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "1 Hour"
+                },
+                "03": {
+                  "title": "Making API Calls with Fetch and Axios",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "45 Minutes"
+                }
+              }
+            },
+            "03": {
+              "title": "Object-Oriented Programming (OOP) in JS",
+              "number": "03",
+              "lessons": {
+                "01": {
+                  "title": "Prototypal Inheritance vs. Class Syntax",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "1 Hour"
+                },
+                "02": {
+                  "title": "Constructors and Instance Methods",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "45 Minutes"
+                },
+                "03": {
+                  "title": "Encapsulation and Polymorphism Concepts",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "45 Minutes"
+                }
+              }
+            },
+            "04": {
+              "title": "Functional Programming Concepts",
+              "number": "04",
+              "lessons": {
+                "01": {
+                  "title": "Higher-Order Functions (Map, Filter, Reduce)",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "1 Hour"
+                },
+                "02": {
+                  "title": "Immutability and Pure Functions",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "45 Minutes"
+                },
+                "03": {
+                  "title": "Closures and Scope in Depth",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "1 Hour"
+                }
+              }
+            },
+            "05": {
+              "title": "Advanced Development Practices",
+              "number": "05",
+              "lessons": {
+                "01": {
+                  "title": "Introduction to Unit Testing with Jest",
+                  "lessonNumber": "Lesson 01",
+                  "duration": "1 Hour"
+                },
+                "02": {
+                  "title": "Design Patterns in JavaScript (e.g., Module Pattern)",
+                  "lessonNumber": "Lesson 02",
+                  "duration": "1 Hour"
+                },
+                "03": {
+                  "title": "Performance Optimization Techniques",
+                  "lessonNumber": "Lesson 03",
+                  "duration": "45 Minutes"
+                }
+              }
+            }
           }
         }
+      }
+    },
+    "Testimonials": {
+      "headline": "Our Testimonials",
+      "description": "See what people who are transforming their careers and lives with our courses have to say. Their success stories have inspired our community.",
+      "viewAllBtn": "View All",
+      "readFullStoryBtn": "Read Full Story",
+      "testimonials": {
+        "01": {
+          "testimony": "The web design course provided a solid foundation for me. The instructors were knowledgeable and supportive, and the interactive learning environment was engaging. I highly recommend it!",
+          "author": "Sarah L"
+        },
+        "02": {
+          "testimony": "The UI/UX design course exceeded my expectations. The instructor's expertise and practical assignments helped me improve my design skills. I feel more confident in my career now. Thank you!",
+          "author": "Jason M"
+        },
+        "03": {
+          "testimony": "The mobile app development course was fantastic! The step-by-step tutorials and hands-on projects helped me grasp the concepts easily. I'm now building my own app. Great course!",
+          "author": "Emily R"
+        },
+        "04": {
+          "testimony": "I enrolled in the graphic design course as a beginner, and it was the perfect starting point. The instructor's guidance and feedback improved my design abilities significantly. I'm grateful for this course!",
+          "author": "Michael K"
+        }
+      }
+    },
+    "Pricing": {
+      "headline": "Our Pricing",
+      "description": "Choose the plan that best suits your learning goals. We have flexible options, from free access to limited resources to the full Pro plan.",
+      "billingFrequency": {
+        "monthly": "Monthly",
+        "yearly": "Yearly"
       },
-      "FAQ": {
-        "headline": "Frequently Asked Questions",
-        "description": "Still you have any questions? Contact our Team via support@skillbridge.com",
-        "viewAllBtn": "View All FAQ's",
-        "faq": {
-          "01": {
-            "question": "Can i enroll in multiple courses at once?",
-            "answer": "Absolutely! You can enroll in multiple courses simultaneously and access them at your convenience.",
-            "ctaAnswer": "Enrollment Process for Different Courses"
-          },
-          "02": {
-            "question": "What kind of support can i expect from instructors?",
-            "answer": "We offer a range of support options, including email support, live chat, and community forums. Our instructors are available to answer your questions and provide guidance."
-          },
-          "03": {
-            "question": "Are the courses self-paced or do they have specific start and end dates?",
-            "answer": "Many of our courses are self-paced, allowing you to learn at your own speed. However, some courses may have specific start and end dates.",
-            "ctaAnswer": "Check Course Schedule"
-          },
-          "04": {
-            "question": "Are there any prerequisites for the courses?",
-            "answer": "Most of our introductory courses require no prior experience. Specific prerequisites for advanced courses are clearly listed in the course description."
-          },
-          "05": {
-            "question": "Can i download the course materials for offline access?",
-            "answer": "Yes, for most courses, materials like lecture slides and supplementary readings are downloadable. Video content is typically streamed but can sometimes be accessed offline through our mobile app."
+      "availableFeatures": "Available Features",
+      "getStartedBtn": "Get Started",
+      "plans": {
+        "free": {
+          "title": "Free Plan",
+          "price": {
+            "monthly": "$0",
+            "yearly": "$0"
           }
+        },
+        "pro": {
+          "title": "Pro Plan",
+          "price": {
+            "monthly": "$79",
+            "yearly": "$149"
+          }
+        },
+        "features": {
+          "01": "Access to selected free courses.",
+          "02": "Limited course materials and resources.",
+          "03": "Basic community support.",
+          "04": "No certification upon completion.",
+          "05": "Ad-supported platform.",
+          "06": "Access to exclusive Pro Plan community forums",
+          "07": "Early access to new courses and updates."
+        }
+      }
+    },
+    "FAQ": {
+      "headline": "Frequently Asked Questions",
+      "description": "Still you have any questions? Contact our Team via support@skillbridge.com",
+      "viewAllBtn": "View All FAQ's",
+      "faq": {
+        "01": {
+          "question": "Can i enroll in multiple courses at once?",
+          "answer": "Absolutely! You can enroll in multiple courses simultaneously and access them at your convenience.",
+          "ctaAnswer": "Enrollment Process for Different Courses"
+        },
+        "02": {
+          "question": "What kind of support can i expect from instructors?",
+          "answer": "We offer a range of support options, including email support, live chat, and community forums. Our instructors are available to answer your questions and provide guidance."
+        },
+        "03": {
+          "question": "Are the courses self-paced or do they have specific start and end dates?",
+          "answer": "Many of our courses are self-paced, allowing you to learn at your own speed. However, some courses may have specific start and end dates.",
+          "ctaAnswer": "Check Course Schedule"
+        },
+        "04": {
+          "question": "Are there any prerequisites for the courses?",
+          "answer": "Most of our introductory courses require no prior experience. Specific prerequisites for advanced courses are clearly listed in the course description."
+        },
+        "05": {
+          "question": "Can i download the course materials for offline access?",
+          "answer": "Yes, for most courses, materials like lecture slides and supplementary readings are downloadable. Video content is typically streamed but can sometimes be accessed offline through our mobile app."
         }
       }
     }

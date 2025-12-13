@@ -9,7 +9,7 @@ export const Testimonials = () => {
   return (
     <section className="section-container mt-15 lg:mt-25 2xl:mt-37.5">
       <SectionTitle
-        translationNamespace="Pages.Home.Testimonials"
+        translationNamespace="Sections.Testimonials"
         viewMore={true}
       />
 

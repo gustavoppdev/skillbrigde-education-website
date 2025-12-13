@@ -16,7 +16,7 @@ type Props = {
 };
 
 const PricingCard = ({ plan, selectedPaymentFrequency }: Props) => {
-  const t = useTranslations("Pages.Home.Pricing");
+  const t = useTranslations("Sections.Pricing");
 
   const billingFrequency: BillingFrequency =
     selectedPaymentFrequency === "monthly" ? "monthly" : "yearly";

@@ -9,7 +9,7 @@ type Props = {
 };
 
 const CourseCard = ({ course }: Props) => {
-  const t = useTranslations("Pages.Home.OurCourses");
+  const t = useTranslations("Sections.OurCourses");
 
   return (
     <div className="group p-6 lg:p-10 bg-white rounded-[10px] flex flex-col gap-y-6 border border-app-white-95 transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">

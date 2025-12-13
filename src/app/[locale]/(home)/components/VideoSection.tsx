@@ -7,7 +7,7 @@ import { videoSectionImage } from "@/assets";
 import { Play } from "lucide-react";
 
 const VideoSection = () => {
-  const t = useTranslations("Pages.Home.VideoSection.Alt");
+  const t = useTranslations("Sections.VideoSection.Alt");
   return (
     <section className="section-container">
       <div className="relative w-full mx-auto aspect-6384/3169 group cursor-pointer">

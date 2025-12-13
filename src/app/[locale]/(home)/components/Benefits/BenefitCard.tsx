@@ -12,7 +12,7 @@ type Props = {
   benefit: Benefit;
 };
 const BenefitCard = ({ benefit }: Props) => {
-  const t = useTranslations("Pages.Home.Benefits.benefits");
+  const t = useTranslations("Sections.Benefits.benefits");
   return (
     <div
       className={`rounded-2xl bg-white  p-7.5 lg:p-10 flex flex-col gap-8 lg:gap-10 items-end hover:shadow-xl transition-all cursor-pointer duration-300 ${

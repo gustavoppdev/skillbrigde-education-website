@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import FAQAccordion from "./FAQAccordion";
 
 export const FAQ = () => {
-  const t = useTranslations("Pages.Home.FAQ");
+  const t = useTranslations("Sections.FAQ");
   return (
     <section className="section-container bg-white rounded-[12px] py-6 lg:py-20 mt-15 lg:mt-25 2xl:mt-37.5 grid grid-cols-1 lg:grid-cols-2 gap-20">
       <div className="space-y-4">

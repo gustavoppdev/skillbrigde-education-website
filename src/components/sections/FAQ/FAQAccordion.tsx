@@ -16,7 +16,7 @@ import { FAQArray } from "@/constants";
 import { ArrowRight } from "lucide-react";
 
 const FAQAccordion = () => {
-  const t = useTranslations("Pages.Home.FAQ");
+  const t = useTranslations("Sections.FAQ");
   return (
     <Accordion
       type="single"

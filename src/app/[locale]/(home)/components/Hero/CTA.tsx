@@ -11,7 +11,7 @@ import { abstractLineHero } from "@/assets";
 import { Zap } from "lucide-react";
 
 const CTA = () => {
-  const t = useTranslations("Pages.Home.Hero");
+  const t = useTranslations("Sections.Hero");
 
   return (
     <div className="flex flex-col items-center text-center">
