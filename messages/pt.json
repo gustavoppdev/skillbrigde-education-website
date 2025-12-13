@@ -1,5 +1,18 @@
 {
   "Layout": {
+    "metadata": {
+      "title": "Skillbridge",
+      "description": "Plataforma de cursos online gratuitos e profissionais em design e desenvolvimento. Aprenda com especialistas e evolua sua carreira.",
+      "keywords": [
+        "cursos online",
+        "design",
+        "desenvolvimento",
+        "ui ux",
+        "web design",
+        "programação",
+        "aprendizado online"
+      ]
+    },
     "Topbar": {
       "paragraph": "Cursos gratuitos 🌟 A promoção termina em breve, aproveite agora!"
     },
@@ -872,6 +885,63 @@
           "question": "Posso baixar os materiais do curso para acesso offline?",
           "answer": "Sim, para a maioria dos cursos, materiais como slides de aula e leituras complementares podem ser baixados. O conteúdo de vídeo é geralmente transmitido, mas às vezes pode ser acessado offline por meio do nosso aplicativo móvel."
         }
+      }
+    }
+  },
+  "Pages": {
+    "Home": {
+      "metadata": {
+        "title": "Cursos Online de Design e Desenvolvimento",
+        "description": "Desbloqueie seu potencial criativo com cursos online de design e desenvolvimento, do nível iniciante ao avançado.",
+        "keywords": [
+          "cursos de design",
+          "cursos de desenvolvimento",
+          "ui ux",
+          "web design",
+          "programação online"
+        ]
+      }
+    },
+    "Courses": {
+      "metadata": {
+        "title": "Cursos",
+        "description": "Explore nossos cursos de design e desenvolvimento, organizados por níveis e módulos para acelerar seu aprendizado.",
+        "keywords": [
+          "cursos",
+          "cursos online",
+          "ui ux",
+          "web design",
+          "javascript",
+          "iniciante",
+          "intermediário",
+          "avançado"
+        ]
+      }
+    },
+    "Course": {
+      "metadata": {
+        "titleTemplate": "{course} | Curso",
+        "descriptionTemplate": "Aprenda {course} com um curso completo, estruturado em módulos do nível {level}.",
+        "keywords": [
+          "curso online",
+          "aprendizado",
+          "módulos",
+          "educação digital"
+        ]
+      }
+    },
+    "Pricing": {
+      "metadata": {
+        "title": "Preços",
+        "description": "Conheça nossos planos e escolha a melhor opção para alcançar seus objetivos de aprendizado.",
+        "keywords": ["planos", "preços", "assinatura", "cursos online"]
+      }
+    },
+    "About": {
+      "metadata": {
+        "title": "Sobre Nós",
+        "description": "Conheça a Skillbridge, nossa missão, valores e como ajudamos pessoas a aprender design e desenvolvimento.",
+        "keywords": ["sobre", "educação online", "plataforma de cursos"]
       }
     }
   }

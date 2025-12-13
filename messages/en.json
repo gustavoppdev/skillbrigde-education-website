@@ -1,5 +1,18 @@
 {
   "Layout": {
+    "metadata": {
+      "title": "Skillbridge",
+      "description": "Online learning platform offering free and professional courses in design and development. Learn from industry experts and grow your career.",
+      "keywords": [
+        "online courses",
+        "design",
+        "development",
+        "ui ux",
+        "web design",
+        "programming",
+        "online learning"
+      ]
+    },
     "Topbar": {
       "paragraph": "Free Courses 🌟 Sale Ends Soon, Get It Now"
     },
@@ -872,6 +885,63 @@
           "question": "Can i download the course materials for offline access?",
           "answer": "Yes, for most courses, materials like lecture slides and supplementary readings are downloadable. Video content is typically streamed but can sometimes be accessed offline through our mobile app."
         }
+      }
+    }
+  },
+  "Pages": {
+    "Home": {
+      "metadata": {
+        "title": "Online Design and Development Courses",
+        "description": "Unlock your creative potential with online design and development courses, from beginner to advanced levels.",
+        "keywords": [
+          "design courses",
+          "development courses",
+          "ui ux",
+          "web design",
+          "online programming"
+        ]
+      }
+    },
+    "Courses": {
+      "metadata": {
+        "title": "Courses",
+        "description": "Explore our design and development courses, organized by levels and modules to accelerate your learning.",
+        "keywords": [
+          "courses",
+          "online courses",
+          "ui ux",
+          "web design",
+          "javascript",
+          "beginner",
+          "intermediate",
+          "advanced"
+        ]
+      }
+    },
+    "Course": {
+      "metadata": {
+        "titleTemplate": "{course} | Course",
+        "descriptionTemplate": "Learn {course} through a complete course, structured in modules at the {level} level.",
+        "keywords": [
+          "online course",
+          "learning",
+          "modules",
+          "digital education"
+        ]
+      }
+    },
+    "Pricing": {
+      "metadata": {
+        "title": "Pricing",
+        "description": "Discover our plans and choose the best option to achieve your learning goals.",
+        "keywords": ["pricing", "plans", "subscription", "online courses"]
+      }
+    },
+    "About": {
+      "metadata": {
+        "title": "About Us",
+        "description": "Learn more about Skillbridge, our mission, values, and how we help people learn design and development.",
+        "keywords": ["about", "online education", "learning platform"]
       }
     }
   }
