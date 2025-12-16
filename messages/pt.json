@@ -105,7 +105,134 @@
       "headline": "Nossos Cursos",
       "description": "Navegue por nossa seleção de cursos de alta qualidade, cuidadosamente elaborados para impulsionar suas habilidades em tecnologia. Comece a aprender e crie sua própria trajetória de sucesso hoje mesmo.",
       "viewAllBtn": "Ver Todos",
-      "getNowBtn": "Matricule-se Agora",
+      "getNowBtn": "Matricule-se Agora"
+    },
+    "Testimonials": {
+      "headline": "Depoimentos de Nossos Alunos",
+      "description": "Veja o que as pessoas que transformaram suas carreiras e vidas com nossos cursos têm a dizer. Suas histórias de sucesso inspiram a nossa comunidade.",
+      "viewAllBtn": "Ver Todos",
+      "readFullStoryBtn": "Leia a História Completa",
+      "testimonials": {
+        "01": {
+          "testimony": "O curso de web design me proporcionou uma base sólida. Os instrutores eram experientes e prestativos, e o ambiente de aprendizado interativo foi muito envolvente. Eu o recomendo fortemente!",
+          "author": "Sara L."
+        },
+        "02": {
+          "testimony": "O curso de design UI/UX superou minhas expectativas. A experiência do instrutor e as tarefas práticas me ajudaram a melhorar minhas habilidades de design. Sinto-me mais confiante na minha carreira agora. Obrigado!",
+          "author": "Júlio M."
+        },
+        "03": {
+          "testimony": "O curso de desenvolvimento de aplicativos móveis foi fantástico! Os tutoriais passo a passo e os projetos práticos me ajudaram a entender os conceitos facilmente. Agora estou construindo meu próprio aplicativo. Ótimo curso!",
+          "author": "Emília R."
+        },
+        "04": {
+          "testimony": "Eu me matriculei no curso de design gráfico como iniciante, e foi o ponto de partida perfeito. A orientação e o feedback do instrutor melhoraram significativamente minhas habilidades de design. Sou grato por este curso!",
+          "author": "Marcelo K."
+        }
+      }
+    },
+    "Pricing": {
+      "headline": "Nossos Preços",
+      "description": "Escolha o plano que melhor se adapta aos seus objetivos de aprendizado. Temos opções flexíveis, desde o acesso gratuito a recursos limitados até o plano Pro completo.",
+      "billingFrequency": {
+        "monthly": "Mensal",
+        "yearly": "Anual"
+      },
+      "availableFeatures": "Recursos Disponíveis",
+      "getStartedBtn": "Começar Agora",
+      "plans": {
+        "free": {
+          "title": "Plano Gratuito",
+          "price": {
+            "monthly": "$0",
+            "yearly": "$0"
+          }
+        },
+        "pro": {
+          "title": "Plano Pro",
+          "price": {
+            "monthly": "$79",
+            "yearly": "$149"
+          }
+        },
+        "features": {
+          "01": "Acesso a cursos gratuitos selecionados.",
+          "02": "Materiais e recursos limitados do curso.",
+          "03": "Suporte básico da comunidade.",
+          "04": "Sem certificação após a conclusão.",
+          "05": "Plataforma com suporte de anúncios.",
+          "06": "Acesso a fóruns exclusivos da comunidade do Plano Pro.",
+          "07": "Acesso antecipado a novos cursos e atualizações."
+        }
+      }
+    },
+    "FAQ": {
+      "headline": "Perguntas Frequentes",
+      "description": "Ainda tem alguma dúvida? Entre em contato com nossa equipe através de support@skillbridge.com",
+      "viewAllBtn": "Ver Todas as Perguntas Frequentes",
+      "faq": {
+        "01": {
+          "question": "Posso me inscrever em vários cursos ao mesmo tempo?",
+          "answer": "Com certeza! Você pode se inscrever em vários cursos simultaneamente e acessá-los conforme sua conveniência.",
+          "ctaAnswer": "Processo de Inscrição para Diferentes Cursos"
+        },
+        "02": {
+          "question": "Que tipo de suporte posso esperar dos instrutores?",
+          "answer": "Oferecemos uma variedade de opções de suporte, incluindo e-mail, chat ao vivo e fóruns da comunidade. Nossos instrutores estão disponíveis para responder às suas perguntas e fornecer orientação."
+        },
+        "03": {
+          "question": "Os cursos são no meu próprio ritmo ou têm datas específicas de início e fim?",
+          "answer": "Muitos de nossos cursos são no seu próprio ritmo, permitindo que você aprenda na sua velocidade. No entanto, alguns cursos podem ter datas específicas de início e fim.",
+          "ctaAnswer": "Verificar o Calendário de Cursos"
+        },
+        "04": {
+          "question": "Existe algum pré-requisito para os cursos?",
+          "answer": "A maioria dos nossos cursos introdutórios não exige experiência prévia. Pré-requisitos específicos para cursos avançados são listados claramente na descrição do curso."
+        },
+        "05": {
+          "question": "Posso baixar os materiais do curso para acesso offline?",
+          "answer": "Sim, para a maioria dos cursos, materiais como slides de aula e leituras complementares podem ser baixados. O conteúdo de vídeo é geralmente transmitido, mas às vezes pode ser acessado offline por meio do nosso aplicativo móvel."
+        }
+      }
+    },
+     "CoursePreview": {
+      "curriculum": "Curriculo",
+      "viewCourseBtn": "Ver curso",
+      "by": "Por"
+    }
+  },
+  "Pages": {
+    "Home": {
+      "metadata": {
+        "title": "Cursos Online de Design e Desenvolvimento",
+        "description": "Desbloqueie seu potencial criativo com cursos online de design e desenvolvimento, do nível iniciante ao avançado.",
+        "keywords": [
+          "cursos de design",
+          "cursos de desenvolvimento",
+          "ui ux",
+          "web design",
+          "programação online"
+        ]
+      }
+    },
+    "Courses": {
+      "headline": "Cursos Online de Design e Desenvolvimento",
+      "description": "Bem-vindo à nossa página de cursos online, onde você pode aprimorar suas habilidades em design e desenvolvimento. Escolha entre nossa seleção cuidadosamente curada de 10 cursos projetados para fornecer-lhe conhecimento e experiência prática. Explore os cursos abaixo e encontre a perfeita correspondência para sua jornada de aprendizado.",
+      "viewCourseBtn": "Ver curso",
+      "metadata": {
+        "title": "Cursos",
+        "description": "Explore nossos cursos de design e desenvolvimento, organizados por níveis e módulos para acelerar seu aprendizado.",
+        "keywords": [
+          "cursos",
+          "cursos online",
+          "ui ux",
+          "web design",
+          "javascript",
+          "iniciante",
+          "intermediário",
+          "avançado"
+        ]
+      },
       "courses": {
         "01": {
           "title": "Fundamentos de Web Design",
@@ -797,125 +924,6 @@
             }
           }
         }
-      }
-    },
-    "Testimonials": {
-      "headline": "Depoimentos de Nossos Alunos",
-      "description": "Veja o que as pessoas que transformaram suas carreiras e vidas com nossos cursos têm a dizer. Suas histórias de sucesso inspiram a nossa comunidade.",
-      "viewAllBtn": "Ver Todos",
-      "readFullStoryBtn": "Leia a História Completa",
-      "testimonials": {
-        "01": {
-          "testimony": "O curso de web design me proporcionou uma base sólida. Os instrutores eram experientes e prestativos, e o ambiente de aprendizado interativo foi muito envolvente. Eu o recomendo fortemente!",
-          "author": "Sara L."
-        },
-        "02": {
-          "testimony": "O curso de design UI/UX superou minhas expectativas. A experiência do instrutor e as tarefas práticas me ajudaram a melhorar minhas habilidades de design. Sinto-me mais confiante na minha carreira agora. Obrigado!",
-          "author": "Júlio M."
-        },
-        "03": {
-          "testimony": "O curso de desenvolvimento de aplicativos móveis foi fantástico! Os tutoriais passo a passo e os projetos práticos me ajudaram a entender os conceitos facilmente. Agora estou construindo meu próprio aplicativo. Ótimo curso!",
-          "author": "Emília R."
-        },
-        "04": {
-          "testimony": "Eu me matriculei no curso de design gráfico como iniciante, e foi o ponto de partida perfeito. A orientação e o feedback do instrutor melhoraram significativamente minhas habilidades de design. Sou grato por este curso!",
-          "author": "Marcelo K."
-        }
-      }
-    },
-    "Pricing": {
-      "headline": "Nossos Preços",
-      "description": "Escolha o plano que melhor se adapta aos seus objetivos de aprendizado. Temos opções flexíveis, desde o acesso gratuito a recursos limitados até o plano Pro completo.",
-      "billingFrequency": {
-        "monthly": "Mensal",
-        "yearly": "Anual"
-      },
-      "availableFeatures": "Recursos Disponíveis",
-      "getStartedBtn": "Começar Agora",
-      "plans": {
-        "free": {
-          "title": "Plano Gratuito",
-          "price": {
-            "monthly": "$0",
-            "yearly": "$0"
-          }
-        },
-        "pro": {
-          "title": "Plano Pro",
-          "price": {
-            "monthly": "$79",
-            "yearly": "$149"
-          }
-        },
-        "features": {
-          "01": "Acesso a cursos gratuitos selecionados.",
-          "02": "Materiais e recursos limitados do curso.",
-          "03": "Suporte básico da comunidade.",
-          "04": "Sem certificação após a conclusão.",
-          "05": "Plataforma com suporte de anúncios.",
-          "06": "Acesso a fóruns exclusivos da comunidade do Plano Pro.",
-          "07": "Acesso antecipado a novos cursos e atualizações."
-        }
-      }
-    },
-    "FAQ": {
-      "headline": "Perguntas Frequentes",
-      "description": "Ainda tem alguma dúvida? Entre em contato com nossa equipe através de support@skillbridge.com",
-      "viewAllBtn": "Ver Todas as Perguntas Frequentes",
-      "faq": {
-        "01": {
-          "question": "Posso me inscrever em vários cursos ao mesmo tempo?",
-          "answer": "Com certeza! Você pode se inscrever em vários cursos simultaneamente e acessá-los conforme sua conveniência.",
-          "ctaAnswer": "Processo de Inscrição para Diferentes Cursos"
-        },
-        "02": {
-          "question": "Que tipo de suporte posso esperar dos instrutores?",
-          "answer": "Oferecemos uma variedade de opções de suporte, incluindo e-mail, chat ao vivo e fóruns da comunidade. Nossos instrutores estão disponíveis para responder às suas perguntas e fornecer orientação."
-        },
-        "03": {
-          "question": "Os cursos são no meu próprio ritmo ou têm datas específicas de início e fim?",
-          "answer": "Muitos de nossos cursos são no seu próprio ritmo, permitindo que você aprenda na sua velocidade. No entanto, alguns cursos podem ter datas específicas de início e fim.",
-          "ctaAnswer": "Verificar o Calendário de Cursos"
-        },
-        "04": {
-          "question": "Existe algum pré-requisito para os cursos?",
-          "answer": "A maioria dos nossos cursos introdutórios não exige experiência prévia. Pré-requisitos específicos para cursos avançados são listados claramente na descrição do curso."
-        },
-        "05": {
-          "question": "Posso baixar os materiais do curso para acesso offline?",
-          "answer": "Sim, para a maioria dos cursos, materiais como slides de aula e leituras complementares podem ser baixados. O conteúdo de vídeo é geralmente transmitido, mas às vezes pode ser acessado offline por meio do nosso aplicativo móvel."
-        }
-      }
-    }
-  },
-  "Pages": {
-    "Home": {
-      "metadata": {
-        "title": "Cursos Online de Design e Desenvolvimento",
-        "description": "Desbloqueie seu potencial criativo com cursos online de design e desenvolvimento, do nível iniciante ao avançado.",
-        "keywords": [
-          "cursos de design",
-          "cursos de desenvolvimento",
-          "ui ux",
-          "web design",
-          "programação online"
-        ]
-      }
-    },
-    "Courses": {
-      "metadata": {
-        "title": "Cursos",
-        "description": "Explore nossos cursos de design e desenvolvimento, organizados por níveis e módulos para acelerar seu aprendizado.",
-        "keywords": [
-          "cursos",
-          "cursos online",
-          "ui ux",
-          "web design",
-          "javascript",
-          "iniciante",
-          "intermediário",
-          "avançado"
-        ]
       }
     },
     "Course": {

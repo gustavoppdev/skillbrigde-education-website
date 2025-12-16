@@ -105,7 +105,133 @@
       "headline": "Our Courses",
       "description": "Browse our selection of high-quality courses, carefully designed to transfer your technology skills. Start learning and create your own path to success today.",
       "viewAllBtn": "View All",
-      "getNowBtn": "Get it Now",
+      "getNowBtn": "Get it Now"
+    },
+    "Testimonials": {
+      "headline": "Our Testimonials",
+      "description": "See what people who are transforming their careers and lives with our courses have to say. Their success stories have inspired our community.",
+      "viewAllBtn": "View All",
+      "readFullStoryBtn": "Read Full Story",
+      "testimonials": {
+        "01": {
+          "testimony": "The web design course provided a solid foundation for me. The instructors were knowledgeable and supportive, and the interactive learning environment was engaging. I highly recommend it!",
+          "author": "Sarah L"
+        },
+        "02": {
+          "testimony": "The UI/UX design course exceeded my expectations. The instructor's expertise and practical assignments helped me improve my design skills. I feel more confident in my career now. Thank you!",
+          "author": "Jason M"
+        },
+        "03": {
+          "testimony": "The mobile app development course was fantastic! The step-by-step tutorials and hands-on projects helped me grasp the concepts easily. I'm now building my own app. Great course!",
+          "author": "Emily R"
+        },
+        "04": {
+          "testimony": "I enrolled in the graphic design course as a beginner, and it was the perfect starting point. The instructor's guidance and feedback improved my design abilities significantly. I'm grateful for this course!",
+          "author": "Michael K"
+        }
+      }
+    },
+    "Pricing": {
+      "headline": "Our Pricing",
+      "description": "Choose the plan that best suits your learning goals. We have flexible options, from free access to limited resources to the full Pro plan.",
+      "billingFrequency": {
+        "monthly": "Monthly",
+        "yearly": "Yearly"
+      },
+      "availableFeatures": "Available Features",
+      "getStartedBtn": "Get Started",
+      "plans": {
+        "free": {
+          "title": "Free Plan",
+          "price": {
+            "monthly": "$0",
+            "yearly": "$0"
+          }
+        },
+        "pro": {
+          "title": "Pro Plan",
+          "price": {
+            "monthly": "$79",
+            "yearly": "$149"
+          }
+        },
+        "features": {
+          "01": "Access to selected free courses.",
+          "02": "Limited course materials and resources.",
+          "03": "Basic community support.",
+          "04": "No certification upon completion.",
+          "05": "Ad-supported platform.",
+          "06": "Access to exclusive Pro Plan community forums",
+          "07": "Early access to new courses and updates."
+        }
+      }
+    },
+    "FAQ": {
+      "headline": "Frequently Asked Questions",
+      "description": "Still you have any questions? Contact our Team via support@skillbridge.com",
+      "viewAllBtn": "View All FAQ's",
+      "faq": {
+        "01": {
+          "question": "Can i enroll in multiple courses at once?",
+          "answer": "Absolutely! You can enroll in multiple courses simultaneously and access them at your convenience.",
+          "ctaAnswer": "Enrollment Process for Different Courses"
+        },
+        "02": {
+          "question": "What kind of support can i expect from instructors?",
+          "answer": "We offer a range of support options, including email support, live chat, and community forums. Our instructors are available to answer your questions and provide guidance."
+        },
+        "03": {
+          "question": "Are the courses self-paced or do they have specific start and end dates?",
+          "answer": "Many of our courses are self-paced, allowing you to learn at your own speed. However, some courses may have specific start and end dates.",
+          "ctaAnswer": "Check Course Schedule"
+        },
+        "04": {
+          "question": "Are there any prerequisites for the courses?",
+          "answer": "Most of our introductory courses require no prior experience. Specific prerequisites for advanced courses are clearly listed in the course description."
+        },
+        "05": {
+          "question": "Can i download the course materials for offline access?",
+          "answer": "Yes, for most courses, materials like lecture slides and supplementary readings are downloadable. Video content is typically streamed but can sometimes be accessed offline through our mobile app."
+        }
+      }
+    },
+    "CoursePreview": {
+      "curriculum": "Curriculum",
+      "viewCourseBtn": "View Course",
+      "by": "By"
+    }
+  },
+  "Pages": {
+    "Home": {
+      "metadata": {
+        "title": "Online Design and Development Courses",
+        "description": "Unlock your creative potential with online design and development courses, from beginner to advanced levels.",
+        "keywords": [
+          "design courses",
+          "development courses",
+          "ui ux",
+          "web design",
+          "online programming"
+        ]
+      }
+    },
+    "Courses": {
+      "headline": "Online Courses on Design and Development",
+      "description": "Welcome to our online course page, where you can enhance your skills in design and development. Choose from our carefully curated selection of 10 courses designed to provide you with comprehensive knowledge and practical experience. Explore the courses below and find the perfect fit for your learning journey.",
+      "metadata": {
+        "title": "Courses",
+        "description": "Explore our design and development courses, organized by levels and modules to accelerate your learning.",
+        "keywords": [
+          "courses",
+          "online courses",
+          "ui ux",
+          "web design",
+          "javascript",
+          "beginner",
+          "intermediate",
+          "advanced"
+        ]
+      },
       "courses": {
         "01": {
           "title": "Web Design Fundamentals",
@@ -797,125 +923,6 @@
             }
           }
         }
-      }
-    },
-    "Testimonials": {
-      "headline": "Our Testimonials",
-      "description": "See what people who are transforming their careers and lives with our courses have to say. Their success stories have inspired our community.",
-      "viewAllBtn": "View All",
-      "readFullStoryBtn": "Read Full Story",
-      "testimonials": {
-        "01": {
-          "testimony": "The web design course provided a solid foundation for me. The instructors were knowledgeable and supportive, and the interactive learning environment was engaging. I highly recommend it!",
-          "author": "Sarah L"
-        },
-        "02": {
-          "testimony": "The UI/UX design course exceeded my expectations. The instructor's expertise and practical assignments helped me improve my design skills. I feel more confident in my career now. Thank you!",
-          "author": "Jason M"
-        },
-        "03": {
-          "testimony": "The mobile app development course was fantastic! The step-by-step tutorials and hands-on projects helped me grasp the concepts easily. I'm now building my own app. Great course!",
-          "author": "Emily R"
-        },
-        "04": {
-          "testimony": "I enrolled in the graphic design course as a beginner, and it was the perfect starting point. The instructor's guidance and feedback improved my design abilities significantly. I'm grateful for this course!",
-          "author": "Michael K"
-        }
-      }
-    },
-    "Pricing": {
-      "headline": "Our Pricing",
-      "description": "Choose the plan that best suits your learning goals. We have flexible options, from free access to limited resources to the full Pro plan.",
-      "billingFrequency": {
-        "monthly": "Monthly",
-        "yearly": "Yearly"
-      },
-      "availableFeatures": "Available Features",
-      "getStartedBtn": "Get Started",
-      "plans": {
-        "free": {
-          "title": "Free Plan",
-          "price": {
-            "monthly": "$0",
-            "yearly": "$0"
-          }
-        },
-        "pro": {
-          "title": "Pro Plan",
-          "price": {
-            "monthly": "$79",
-            "yearly": "$149"
-          }
-        },
-        "features": {
-          "01": "Access to selected free courses.",
-          "02": "Limited course materials and resources.",
-          "03": "Basic community support.",
-          "04": "No certification upon completion.",
-          "05": "Ad-supported platform.",
-          "06": "Access to exclusive Pro Plan community forums",
-          "07": "Early access to new courses and updates."
-        }
-      }
-    },
-    "FAQ": {
-      "headline": "Frequently Asked Questions",
-      "description": "Still you have any questions? Contact our Team via support@skillbridge.com",
-      "viewAllBtn": "View All FAQ's",
-      "faq": {
-        "01": {
-          "question": "Can i enroll in multiple courses at once?",
-          "answer": "Absolutely! You can enroll in multiple courses simultaneously and access them at your convenience.",
-          "ctaAnswer": "Enrollment Process for Different Courses"
-        },
-        "02": {
-          "question": "What kind of support can i expect from instructors?",
-          "answer": "We offer a range of support options, including email support, live chat, and community forums. Our instructors are available to answer your questions and provide guidance."
-        },
-        "03": {
-          "question": "Are the courses self-paced or do they have specific start and end dates?",
-          "answer": "Many of our courses are self-paced, allowing you to learn at your own speed. However, some courses may have specific start and end dates.",
-          "ctaAnswer": "Check Course Schedule"
-        },
-        "04": {
-          "question": "Are there any prerequisites for the courses?",
-          "answer": "Most of our introductory courses require no prior experience. Specific prerequisites for advanced courses are clearly listed in the course description."
-        },
-        "05": {
-          "question": "Can i download the course materials for offline access?",
-          "answer": "Yes, for most courses, materials like lecture slides and supplementary readings are downloadable. Video content is typically streamed but can sometimes be accessed offline through our mobile app."
-        }
-      }
-    }
-  },
-  "Pages": {
-    "Home": {
-      "metadata": {
-        "title": "Online Design and Development Courses",
-        "description": "Unlock your creative potential with online design and development courses, from beginner to advanced levels.",
-        "keywords": [
-          "design courses",
-          "development courses",
-          "ui ux",
-          "web design",
-          "online programming"
-        ]
-      }
-    },
-    "Courses": {
-      "metadata": {
-        "title": "Courses",
-        "description": "Explore our design and development courses, organized by levels and modules to accelerate your learning.",
-        "keywords": [
-          "courses",
-          "online courses",
-          "ui ux",
-          "web design",
-          "javascript",
-          "beginner",
-          "intermediate",
-          "advanced"
-        ]
       }
     },
     "Course": {

@@ -10,12 +10,6 @@ import adobeLogo from "./images/adobeLogo.svg";
 import notionLogo from "./images/notionLogo.svg";
 import netflixLogo from "./images/netflixLogo.svg";
 import videoSectionImage from "./images/videoSectionImage.webp";
-import javascriptCourseImage from "./images/javascriptCourse.webp";
-import frontendCourseImage from "./images/frontendCourse.webp";
-import graphicDesignCourseImage from "./images/graphicCourse.webp";
-import uiuxCourseImage from "./images/uiuxCourse.webp";
-import mobileDevelopmentCourseImage from "./images/mobileAppCourse.webp";
-import webDesignFundamentalsCourseImage from "./images/webDesignFundamentalsCourse.webp";
 import sarahAvatar from "./images/sarahAvatar.webp";
 import emilyAvatar from "./images/emilyAvatar.webp";
 import jasonAvatar from "./images/jasonAvatar.webp";
@@ -28,6 +22,26 @@ import mapPinIcon from "./images/mapPinIcon.svg";
 import linkedinIcon from "./images/linkedinIcon.svg";
 import facebookIcon from "./images/facebookIcon.svg";
 import twitterIcon from "./images/twitterIcon.svg";
+
+// Courses
+import webDesignImage1 from "./images/courses/webDesign1.webp";
+import webDesignImage2 from "./images/courses/webDesign2.webp";
+import webDesignImage3 from "./images/courses/webDesign3.webp";
+import uiuxImage1 from "./images/courses/uiux1.webp";
+import uiuxImage2 from "./images/courses/uiux2.webp";
+import uiuxImage3 from "./images/courses/uiux3.webp";
+import mobileAppImage1 from "./images/courses/mobileApp1.webp";
+import mobileAppImage2 from "./images/courses/mobileApp2.webp";
+import mobileAppImage3 from "./images/courses/mobileApp3.webp";
+import graphicDesignImage1 from "./images/courses/graphicDesign1.webp";
+import graphicDesignImage2 from "./images/courses/graphicDesign2.webp";
+import graphicDesignImage3 from "./images/courses/graphicDesign3.webp";
+import frontendImage1 from "./images/courses/frontend1.webp";
+import frontendImage2 from "./images/courses/frontend2.webp";
+import frontendImage3 from "./images/courses/frontend3.webp";
+import javascriptImage1 from "./images/courses/javascript1.webp";
+import javascriptImage2 from "./images/courses/javascript2.webp";
+import javascriptImage3 from "./images/courses/javascript3.webp";
 
 // Exports
 export {
@@ -42,12 +56,24 @@ export {
   adobeLogo,
   amazonLogo,
   videoSectionImage,
-  frontendCourseImage,
-  graphicDesignCourseImage,
-  javascriptCourseImage,
-  mobileDevelopmentCourseImage,
-  uiuxCourseImage,
-  webDesignFundamentalsCourseImage,
+  webDesignImage1,
+  webDesignImage2,
+  webDesignImage3,
+  uiuxImage1,
+  uiuxImage2,
+  uiuxImage3,
+  mobileAppImage1,
+  mobileAppImage2,
+  mobileAppImage3,
+  graphicDesignImage1,
+  graphicDesignImage2,
+  graphicDesignImage3,
+  frontendImage1,
+  frontendImage2,
+  frontendImage3,
+  javascriptImage1,
+  javascriptImage2,
+  javascriptImage3,
   emilyAvatar,
   jasonAvatar,
   michaelAvatar,

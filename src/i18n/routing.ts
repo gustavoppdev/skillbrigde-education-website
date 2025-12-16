@@ -12,5 +12,9 @@ export const routing = defineRouting({
       pt: "/cursos",
       en: "/courses",
     },
+    "/courses/[slug]": {
+      pt: "/cursos/[slug]",
+      en: "/courses/[slug]",
+    },
   },
 });
