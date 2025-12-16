@@ -9,14 +9,18 @@ type Props = {
 };
 
 const CourseCard = ({ course }: Props) => {
-  const t = useTranslations("Sections.OurCourses");
+  const t = useTranslations("Pages.Courses");
+  const tt = useTranslations("Sections.OurCourses");
 
   return (
-    <div className="group p-6 lg:p-10 bg-white rounded-[10px] flex flex-col gap-y-6 border border-app-white-95 transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
-      <Link
-        href={`/courses/${t(course.slug)}`}
-        className="relative aspect-9/5 overflow-hidden rounded-md"
-      >
+    <Link
+      href={{
+        pathname: "/courses/[slug]",
+        params: { slug: t(course.slug) },
+      }}
+      className="group p-6 lg:p-10 bg-white rounded-[10px] flex flex-col gap-y-6 border border-app-white-95 transition-all duration-300 hover:-translate-y-2 hover:shadow-lg"
+    >
+      <div className="relative aspect-9/5 overflow-hidden rounded-md">
         <Image
           src={course.images[0]}
           alt={t(course.title)}
@@ -24,9 +28,9 @@ const CourseCard = ({ course }: Props) => {
           placeholder="blur"
           blurDataURL={course.images[0].src}
           sizes="(max-width: 768px) 100vw, 50vw"
-          className="object-contain transition-transform duration-300 group-hover:scale-105"
+          className="object-cover transition-transform duration-300 group-hover:scale-105"
         />
-      </Link>
+      </div>
 
       {/* Textos */}
       <div className="flex flex-col gap-6">
@@ -55,12 +59,10 @@ const CourseCard = ({ course }: Props) => {
         </div>
       </div>
 
-      <Link href={`/courses/${t(course.slug)}`} passHref>
-        <Button className="w-full bg-app-white-97 hover:bg-app-white-95 border border-app-white-97 text-foreground transition-transform active:scale-95">
-          {t("getNowBtn")}
-        </Button>
-      </Link>
-    </div>
+      <Button className="w-full bg-app-white-97 hover:bg-app-white-95 border border-app-white-97 text-foreground transition-transform active:scale-95">
+        {tt("getNowBtn")}
+      </Button>
+    </Link>
   );
 };
 
