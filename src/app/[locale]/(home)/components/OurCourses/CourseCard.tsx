@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "@/i18n/navigation";
 import { Course } from "@/types";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 
 type Props = {
@@ -11,12 +11,13 @@ type Props = {
 const CourseCard = ({ course }: Props) => {
   const t = useTranslations("Pages.Courses");
   const tt = useTranslations("Sections.OurCourses");
+  const locale = useLocale() as "en" | "pt";
 
   return (
     <Link
       href={{
         pathname: "/courses/[slug]",
-        params: { slug: t(course.slug) },
+        params: { slug: course.slugs[locale] },
       }}
       className="group p-6 lg:p-10 bg-white rounded-[10px] flex flex-col gap-y-6 border border-app-white-95 transition-all duration-300 hover:-translate-y-2 hover:shadow-lg"
     >
@@ -47,7 +48,9 @@ const CourseCard = ({ course }: Props) => {
             ))}
           </div>
 
-          <p className="font-medium">By {t(course.teacher)}</p>
+          <p className="font-medium">
+            {tt("by")} {t(course.teacher)}
+          </p>
         </div>
 
         {/* Descrição */}

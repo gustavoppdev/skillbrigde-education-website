@@ -35,7 +35,10 @@ type CourseModule = {
 
 export type Course = {
   title: TranslationKey;
-  slug: TranslationKey;
+  slugs: {
+    en: string;
+    pt: string;
+  };
   description: TranslationKey;
   teacher: TranslationKey;
   duration: TranslationKey;

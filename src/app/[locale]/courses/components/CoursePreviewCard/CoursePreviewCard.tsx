@@ -1,5 +1,5 @@
 // Next.js & Next-Intl
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
 // Components
@@ -17,12 +17,13 @@ type Props = {
 export const CoursePreviewCard = ({ course }: Props) => {
   const t = useTranslations("Pages.Courses");
   const tt = useTranslations("Sections.CoursePreview");
+  const locale = useLocale() as "en" | "pt";
 
   return (
     <Link
       href={{
         pathname: "/courses/[slug]",
-        params: { slug: t(course.slug) },
+        params: { slug: course.slugs[locale] },
       }}
       className="bg-white rounded-[8px] p-6 lg:p-10 flex flex-col gap-5 transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg border border-transparent hover:border-app-white-95/50"
     >

@@ -140,7 +140,10 @@ export const Courses: Course[] = [
   // 1. Web Design Fundamentals
   {
     title: "courses.01.title",
-    slug: "courses.01.slug",
+    slugs: {
+      en: "web-design-fundamentals",
+      pt: "fundamentos-do-web-design",
+    },
     description: "courses.01.description",
     teacher: "courses.01.teacher",
     duration: "courses.01.duration",
@@ -258,7 +261,10 @@ export const Courses: Course[] = [
   // 2. UI/UX Design
   {
     title: "courses.02.title",
-    slug: "courses.02.slug",
+    slugs: {
+      en: "ui-ux-design",
+      pt: "design-ui-ux",
+    },
     description: "courses.02.description",
     teacher: "courses.02.teacher",
     duration: "courses.02.duration",
@@ -376,7 +382,10 @@ export const Courses: Course[] = [
   // 3. Mobile App Development
   {
     title: "courses.03.title",
-    slug: "courses.03.slug",
+    slugs: {
+      en: "mobile-app-development",
+      pt: "desenvolvimento-de-aplicativos-moveis",
+    },
     description: "courses.03.description",
     teacher: "courses.03.teacher",
     duration: "courses.03.duration",
@@ -494,7 +503,10 @@ export const Courses: Course[] = [
   // 4. Graphic Design for Beginners
   {
     title: "courses.04.title",
-    slug: "courses.04.slug",
+    slugs: {
+      en: "graphic-design-for-beginners",
+      pt: "design-grafico-para-iniciantes",
+    },
     description: "courses.04.description",
     teacher: "courses.04.teacher",
     duration: "courses.04.duration",
@@ -612,7 +624,10 @@ export const Courses: Course[] = [
   // 5. Front-End Web Development
   {
     title: "courses.05.title",
-    slug: "courses.05.slug",
+    slugs: {
+      en: "front-end-web-development",
+      pt: "desenvolvimento-web-front-end",
+    },
     description: "courses.05.description",
     teacher: "courses.05.teacher",
     duration: "courses.05.duration",
@@ -730,7 +745,10 @@ export const Courses: Course[] = [
   // 6. Advanced JavaScript
   {
     title: "courses.06.title",
-    slug: "courses.06.slug",
+    slugs: {
+      en: "advanced-javascript",
+      pt: "javascript-avancado",
+    },
     description: "courses.06.description",
     teacher: "courses.06.teacher",
     duration: "courses.06.duration",

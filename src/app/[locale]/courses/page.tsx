@@ -12,7 +12,7 @@ const CoursesPage = () => {
 
       <section className="flex flex-col gap-5 lg:gap-10">
         {Courses.map((course) => (
-          <CoursePreviewCard key={course.slug} course={course} />
+          <CoursePreviewCard key={course.slugs.en} course={course} />
         ))}
       </section>
     </main>

@@ -15,6 +15,7 @@ export async function createPageMetadata({
 }: CreatePageMetadataParams): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace });
 
+  // Pegamos as chaves fixas sem variáveis para evitar erros
   const title = t("metadata.title");
   const description = t("metadata.description");
   const keywords = t.raw("metadata.keywords") as string[];

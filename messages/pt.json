@@ -105,7 +105,8 @@
       "headline": "Nossos Cursos",
       "description": "Navegue por nossa seleção de cursos de alta qualidade, cuidadosamente elaborados para impulsionar suas habilidades em tecnologia. Comece a aprender e crie sua própria trajetória de sucesso hoje mesmo.",
       "viewAllBtn": "Ver Todos",
-      "getNowBtn": "Matricule-se Agora"
+      "getNowBtn": "Matricule-se Agora",
+      "by": "Por"
     },
     "Testimonials": {
       "headline": "Depoimentos de Nossos Alunos",
@@ -195,7 +196,7 @@
         }
       }
     },
-     "CoursePreview": {
+    "CoursePreview": {
       "curriculum": "Curriculo",
       "viewCourseBtn": "Ver curso",
       "by": "Por"
@@ -236,7 +237,6 @@
       "courses": {
         "01": {
           "title": "Fundamentos de Web Design",
-          "slug": "fundamentos-de-web-design",
           "description": "Aprenda os fundamentos do web design, incluindo HTML, CSS e princípios de design responsivo. Desenvolva as habilidades para criar sites visualmente atraentes e amigáveis ao usuário.",
           "teacher": "João Silva",
           "duration": "4 Semanas",
@@ -351,7 +351,6 @@
         },
         "02": {
           "title": "Design de UI/UX",
-          "slug": "design-de-ui-ux",
           "description": "Domine a arte de criar interfaces de usuário (UI) intuitivas e aprimorar as experiências do usuário (UX). Aprenda princípios de design, wireframing, prototipagem e técnicas de teste de usabilidade.",
           "teacher": "Emília Ferreira",
           "duration": "6 Semanas",
@@ -466,7 +465,6 @@
         },
         "03": {
           "title": "Desenvolvimento de Aplicativos Móveis",
-          "slug": "desenvolvimento-de-aplicativos-movel",
           "description": "Mergulhe no mundo do desenvolvimento de aplicativos móveis. Aprenda a construir aplicativos nativos para iOS e Android usando frameworks líderes de mercado como Swift e Kotlin.",
           "teacher": "Davi Castro",
           "duration": "8 Semanas",
@@ -581,7 +579,6 @@
         },
         "04": {
           "title": "Design Gráfico para Iniciantes",
-          "slug": "design-grafico-para-iniciantes",
           "description": "Descubra os fundamentos do design gráfico, incluindo tipografia, teoria das cores, design de layout e técnicas de manipulação de imagem. Crie designs visualmente impressionantes para mídias impressas e digitais.",
           "teacher": "Sara Almeida",
           "duration": "10 Semanas",
@@ -696,7 +693,6 @@
         },
         "05": {
           "title": "Desenvolvimento Web Front-End",
-          "slug": "desenvolvimento-web-front-end",
           "description": "Torne-se proficiente em desenvolvimento web front-end. Aprenda HTML, CSS, JavaScript e frameworks populares como Bootstrap e React. Construa websites interativos e responsivos.",
           "teacher": "Miguel Oliveira",
           "duration": "10 Semanas",
@@ -811,7 +807,6 @@
         },
         "06": {
           "title": "JavaScript Avançado",
-          "slug": "javascript-avancado",
           "description": "Leve suas habilidades em JavaScript para o próximo nível. Explore conceitos avançados como closures, protótipos, programação assíncrona e recursos do ES6. Construa aplicações complexas com confiança.",
           "teacher": "Juliana Werner",
           "duration": "6 Semanas",
@@ -926,16 +921,66 @@
         }
       }
     },
-    "Course": {
-      "metadata": {
-        "titleTemplate": "{course} | Curso",
-        "descriptionTemplate": "Aprenda {course} com um curso completo, estruturado em módulos do nível {level}.",
-        "keywords": [
-          "curso online",
-          "aprendizado",
-          "módulos",
-          "educação digital"
-        ]
+    "OpenCourse": {
+      "fundamentos-do-web-design": {
+        "headline": "Curso de Fundamentos do Web Design",
+        "description": "Bem-vindo ao nosso curso de Fundamentos do Web Design! Este programa essencial guiará você pelos pilares fundamentais da web: HTML5 e CSS3. Você aprenderá a construir sites responsivos, visualmente impactantes e intuitivos do zero. Mergulhe em layouts, flexbox e princípios de design moderno para impulsionar sua carreira na tecnologia. Abaixo está uma visão geral do currículo.",
+        "metadata": {
+          "title": "Fundamentos do Web Design | Curso",
+          "description": "Aprenda Fundamentos de Web Design através de um curso completo, estruturado em módulos para o nível Iniciante.",
+          "keywords": ["web design", "html", "css", "design responsivo"]
+        }
+      },
+      "design-ui-ux": {
+        "headline": "Curso de Design UI/UX",
+        "description": "Bem-vindo ao nosso curso de Design UI/UX! Este programa abrangente equipará você com o conhecimento e as habilidades necessárias para criar interfaces de usuário (UI) excepcionais e aprimorar experiências de usuário (UX). Mergulhe no mundo do design thinking, wireframing, prototipagem e testes de usabilidade para criar produtos que as pessoas amam. Abaixo está uma visão geral do currículo.",
+        "metadata": {
+          "title": "Design UI/UX | Curso",
+          "description": "Domine a arte de criar interfaces de usuário (UI) intuitivas e aprimorar experiências de usuário (UX) em um nível Intermediário.",
+          "keywords": ["design ui", "design ux", "wireframing", "prototipagem"]
+        }
+      },
+      "desenvolvimento-de-aplicativos-moveis": {
+        "headline": "Curso de Desenvolvimento de Aplicativos Móveis",
+        "description": "Bem-vindo ao nosso curso de Desenvolvimento de Aplicativos Móveis! Este programa intensivo foi projetado para levar você de um novato em dispositivos móveis a um desenvolvedor proficiente. Explore os ecossistemas do iOS e Android, dominando Swift e Kotlin para construir aplicativos nativos de alto desempenho. Domine persistência de dados, integração de APIs e publicação. Abaixo está uma visão geral do currículo.",
+        "metadata": {
+          "title": "Desenvolvimento de Aplicativos Móveis | Curso",
+          "description": "Mergulhe no mundo do desenvolvimento de aplicativos móveis. Aprenda a construir aplicativos nativos para iOS e Android em nível Intermediário.",
+          "keywords": [
+            "aplicativos móveis",
+            "swift",
+            "kotlin",
+            "desenvolvimento ios",
+            "desenvolvimento android"
+          ]
+        }
+      },
+      "design-grafico-para-iniciantes": {
+        "headline": "Curso de Design Gráfico para Iniciantes",
+        "description": "Bem-vindo ao nosso curso de Design Gráfico para Iniciantes! Desperte sua criatividade e domine as ferramentas usadas por profissionais da indústria. Este curso cobre tudo, desde teoria das cores e tipografia até manipulação de imagem e identidade de marca. Transforme suas ideias em histórias visuais impressionantes para mídias impressas e digitais. Abaixo está uma visão geral do currículo.",
+        "metadata": {
+          "title": "Design Gráfico para Iniciantes | Curso",
+          "description": "Descubra os fundamentos do design gráfico em um nível Iniciante.",
+          "keywords": ["design gráfico", "tipografia", "photoshop", "branding"]
+        }
+      },
+      "desenvolvimento-web-front-end": {
+        "headline": "Curso de Desenvolvimento Web Front-End",
+        "description": "Bem-vindo ao nosso curso de Desenvolvimento Web Front-End! Entre no mundo das experiências web interativas. Este programa foca em JavaScript moderno, React e técnicas avançadas de CSS. Você aprenderá a unir design e funcionalidade, construindo aplicações rápidas, responsivas e dinâmicas para a web moderna. Abaixo está uma visão geral do currículo.",
+        "metadata": {
+          "title": "Desenvolvimento Web Front-End | Curso",
+          "description": "Torne-se proficiente em desenvolvimento web front-end com React e JavaScript em nível Intermediário.",
+          "keywords": ["frontend", "react", "javascript", "web development"]
+        }
+      },
+      "javascript-avancado": {
+        "headline": "Curso de JavaScript Avançado",
+        "description": "Bem-vindo ao nosso curso de JavaScript Avançado! Aqui é onde você domina o motor por trás da web. Explore conceitos complexos como closures, herança prototípica e padrões assíncronos. Este mergulho profundo refinará sua lógica de programação e o preparará para construir arquiteturas de software escaláveis e aplicações web complexas. Abaixo está uma visão geral do currículo.",
+        "metadata": {
+          "title": "JavaScript Avançado | Curso",
+          "description": "Leve suas habilidades de JavaScript para o próximo nível com conceitos avançados e recursos do ES6.",
+          "keywords": ["javascript", "js avançado", "async await", "closures"]
+        }
       }
     },
     "Pricing": {

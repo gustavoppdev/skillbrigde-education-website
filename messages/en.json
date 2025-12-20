@@ -105,7 +105,8 @@
       "headline": "Our Courses",
       "description": "Browse our selection of high-quality courses, carefully designed to transfer your technology skills. Start learning and create your own path to success today.",
       "viewAllBtn": "View All",
-      "getNowBtn": "Get it Now"
+      "getNowBtn": "Get it Now",
+      "by": "By"
     },
     "Testimonials": {
       "headline": "Our Testimonials",
@@ -235,7 +236,6 @@
       "courses": {
         "01": {
           "title": "Web Design Fundamentals",
-          "slug": "web-design-fundamentals",
           "description": "Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.",
           "teacher": "John Smith",
           "duration": "4 Weeks",
@@ -350,7 +350,6 @@
         },
         "02": {
           "title": "UI/UX Design",
-          "slug": "ui-ux-design",
           "description": "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques.",
           "teacher": "Emily Johnson",
           "duration": "6 Weeks",
@@ -465,7 +464,6 @@
         },
         "03": {
           "title": "Mobile App Development",
-          "slug": "mobile-app-development",
           "description": "Dive into the world of mobile app development. Learn to build native iOS and Android applications using industry-leading frameworks like Swift and Kotlin.",
           "teacher": "David Brown",
           "duration": "8 Weeks",
@@ -580,7 +578,6 @@
         },
         "04": {
           "title": "Graphic Design for Beginners",
-          "slug": "graphic-design-for-beginners",
           "description": "Discover the fundamentals of graphic design, including typography, color theory, layout design, and image manipulation techniques. Create visually stunning designs for print and digital media.",
           "teacher": "Sarah Thompson",
           "duration": "10 Weeks",
@@ -695,7 +692,6 @@
         },
         "05": {
           "title": "Front-End Web Development",
-          "slug": "front-end-web-development",
           "description": "Become proficient in front-end web development. Learn HTML, CSS, JavaScript, and popular frameworks like Bootstrap and React. Build interactive and responsive websites.",
           "teacher": "Michael Adams",
           "duration": "10 Weeks",
@@ -810,7 +806,6 @@
         },
         "06": {
           "title": "Advanced JavaScript",
-          "slug": "advanced-javascript",
           "description": "Take your JavaScript skills to the next level. Explore advanced concepts like closures, prototypes, asynchronous programming, and ES6 features. Build complex applications with confidence.",
           "teacher": "Jennifer Wilson",
           "duration": "6 Weeks",
@@ -925,30 +920,66 @@
         }
       }
     },
-    "Course": {
-      "metadata": {
-        "titleTemplate": "{course} | Course",
-        "descriptionTemplate": "Learn {course} through a complete course, structured in modules at the {level} level.",
-        "keywords": [
-          "online course",
-          "learning",
-          "modules",
-          "digital education"
-        ]
-      }
-    },
-    "Pricing": {
-      "metadata": {
-        "title": "Pricing",
-        "description": "Discover our plans and choose the best option to achieve your learning goals.",
-        "keywords": ["pricing", "plans", "subscription", "online courses"]
-      }
-    },
-    "About": {
-      "metadata": {
-        "title": "About Us",
-        "description": "Learn more about Skillbridge, our mission, values, and how we help people learn design and development.",
-        "keywords": ["about", "online education", "learning platform"]
+    "OpenCourse": {
+      "web-design-fundamentals": {
+        "headline": "Web Design Fundamentals Course",
+        "description": "Welcome to our Web Design Fundamentals course! This essential program will guide you through the core pillars of the web: HTML5 and CSS3. You will learn to build responsive, visually striking, and user-friendly websites from scratch. Dive into layouts, flexbox, and modern design principles to kickstart your career in tech. Below is an overview of the curriculum.",
+        "metadata": {
+          "title": "Web Design Fundamentals | Course",
+          "description": "Learn Web Design Fundamentals through a complete course, structured in modules at the Beginner level.",
+          "keywords": ["web design", "html", "css", "responsive design"]
+        }
+      },
+      "ui-ux-design": {
+        "headline": "UI/UX Design Course",
+        "description": "Welcome to our UI/UX Design course! This comprehensive program will equip you with the knowledge and skills to create exceptional user interfaces (UI) and enhance user experiences (UX). Dive into the world of design thinking, wireframing, prototyping, and usability testing to create products people love. Below is an overview of the curriculum.",
+        "metadata": {
+          "title": "UI/UX Design | Course",
+          "description": "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX) at an Intermediate level.",
+          "keywords": ["ui design", "ux design", "wireframing", "prototyping"]
+        }
+      },
+      "mobile-app-development": {
+        "headline": "Mobile App Development Course",
+        "description": "Welcome to our Mobile App Development course! This intensive program is designed to take you from a mobile novice to a proficient developer. Explore the ecosystems of iOS and Android, mastering Swift and Kotlin to build high-performance native applications. Master data persistence, API integration, and deployment. Below is an overview of the curriculum.",
+        "metadata": {
+          "title": "Mobile App Development | Course",
+          "description": "Dive into the world of mobile app development. Learn to build native iOS and Android applications at an Intermediate level.",
+          "keywords": [
+            "mobile apps",
+            "swift",
+            "kotlin",
+            "ios development",
+            "android development"
+          ]
+        }
+      },
+      "graphic-design-for-beginners": {
+        "headline": "Graphic Design for Beginners Course",
+        "description": "Welcome to our Graphic Design for Beginners course! Unleash your creativity and master the tools used by industry professionals. This course covers everything from color theory and typography to image manipulation and branding identity. Transform your ideas into stunning visual stories for both print and digital media. Below is an overview of the curriculum.",
+        "metadata": {
+          "title": "Graphic Design for Beginners | Course",
+          "description": "Discover the fundamentals of graphic design at a Beginner level.",
+          "keywords": ["graphic design", "typography", "photoshop", "branding"]
+        }
+      },
+      "front-end-web-development": {
+        "headline": "Front-End Web Development Course",
+        "description": "Welcome to our Front-End Web Development course! Step into the world of interactive web experiences. This program focuses on modern JavaScript, React, and advanced CSS techniques. You will learn to bridge the gap between design and functionality, building fast, responsive, and dynamic applications for the modern web. Below is an overview of the curriculum.",
+        "metadata": {
+          "title": "Front-End Web Development | Course",
+          "description": "Become proficient in front-end web development with React and JavaScript at an Intermediate level.",
+          "keywords": ["frontend", "react", "javascript", "web development"]
+        }
+      },
+      "advanced-javascript": {
+        "headline": "Advanced JavaScript Course",
+        "description": "Welcome to our Advanced JavaScript course! This is where you master the engine behind the web. Explore complex concepts like closures, prototypal inheritance, and asynchronous patterns. This deep dive will refine your coding logic and prepare you to build scalable, high-level software architectures and complex web applications. Below is an overview of the curriculum.",
+        "metadata": {
+          "title": "Advanced JavaScript | Course",
+          "description": "Take your JavaScript skills to the next level with advanced concepts and ES6 features.",
+          "keywords": ["javascript", "advanced js", "async await", "closures"]
+        }
       }
     }
   }
