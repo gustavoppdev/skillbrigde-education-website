@@ -27,7 +27,7 @@ type Lesson = {
   duration: TranslationKey;
 };
 
-type CourseModule = {
+export type CourseModule = {
   moduleNumber: string;
   title: TranslationKey;
   lessons: Lesson[];
