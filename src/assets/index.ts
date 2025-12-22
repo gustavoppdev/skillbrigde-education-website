@@ -22,6 +22,7 @@ import mapPinIcon from "./images/mapPinIcon.svg";
 import linkedinIcon from "./images/linkedinIcon.svg";
 import facebookIcon from "./images/facebookIcon.svg";
 import twitterIcon from "./images/twitterIcon.svg";
+import shapeAboutCTA from "./images/shapeAboutCTA.svg";
 
 // Courses
 import webDesignImage1 from "./images/courses/webDesign1.webp";
@@ -42,6 +43,16 @@ import frontendImage3 from "./images/courses/frontend3.webp";
 import javascriptImage1 from "./images/courses/javascript1.webp";
 import javascriptImage2 from "./images/courses/javascript2.webp";
 import javascriptImage3 from "./images/courses/javascript3.webp";
+
+// Icons
+import boltShieldIcon from "./images/icons/boltShieldIcon.svg";
+import bookClosedIcon from "./images/icons/bookClosedIcon.svg";
+import lightBeaconIcon from "./images/icons/lightBeaconIcon.svg";
+import puzzlePieceIcon from "./images/icons/puzzlePieceIcon.svg";
+import theaterMasksIcons from "./images/icons/theaterMasksIcons.svg";
+import medalIcon from "./images/icons/medalIcon.svg";
+import backpackIcon from "./images/icons/backpackIcon.svg";
+import crownIcon from "./images/icons/crownIcon.svg";
 
 // Exports
 export {
@@ -84,4 +95,13 @@ export {
   linkedinIcon,
   facebookIcon,
   twitterIcon,
+  boltShieldIcon,
+  bookClosedIcon,
+  lightBeaconIcon,
+  puzzlePieceIcon,
+  theaterMasksIcons,
+  backpackIcon,
+  crownIcon,
+  medalIcon,
+  shapeAboutCTA,
 };

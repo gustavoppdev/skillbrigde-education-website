@@ -1,6 +1,10 @@
 import {
   adobeLogo,
   amazonLogo,
+  backpackIcon,
+  boltShieldIcon,
+  bookClosedIcon,
+  crownIcon,
   emilyAvatar,
   facebookIcon,
   frontendImage1,
@@ -13,9 +17,11 @@ import {
   javascriptImage1,
   javascriptImage2,
   javascriptImage3,
+  lightBeaconIcon,
   linkedinIcon,
   mailIcon,
   mapPinIcon,
+  medalIcon,
   michaelAvatar,
   mobileAppImage1,
   mobileAppImage2,
@@ -23,8 +29,10 @@ import {
   netflixLogo,
   notionLogo,
   phoneIcon,
+  puzzlePieceIcon,
   sarahAvatar,
   spotifyLogo,
+  theaterMasksIcons,
   twitterIcon,
   uiuxImage1,
   uiuxImage2,
@@ -36,6 +44,7 @@ import {
   zoomLogo,
 } from "@/assets";
 import {
+  AboutPageSection,
   Benefit,
   Course,
   FAQ,
@@ -1064,5 +1073,69 @@ export const FooterContactList: FooterContact[] = [
   {
     icon: mapPinIcon,
     label: "contactLocation",
+  },
+];
+
+// About Page
+export const aboutPageContent: AboutPageSection[] = [
+  {
+    title: "01.headline",
+    description: "01.description",
+    cards: [
+      {
+        icon: crownIcon,
+        altIcon: "01.cards.01.altIcon",
+        title: "01.cards.01.title",
+        description: "01.cards.01.description",
+      },
+      {
+        icon: medalIcon,
+        altIcon: "01.cards.02.altIcon",
+        title: "01.cards.02.title",
+        description: "01.cards.02.description",
+      },
+      {
+        icon: theaterMasksIcons,
+        altIcon: "01.cards.03.altIcon",
+        title: "01.cards.03.title",
+        description: "01.cards.03.description",
+      },
+      {
+        icon: boltShieldIcon,
+        altIcon: "01.cards.04.altIcon",
+        title: "01.cards.04.title",
+        description: "01.cards.04.description",
+      },
+    ],
+  },
+  {
+    title: "02.headline",
+    description: "02.description",
+    cards: [
+      {
+        icon: backpackIcon,
+        altIcon: "02.cards.01.altIcon",
+        title: "02.cards.01.title",
+        description: "02.cards.01.description",
+      },
+      {
+        icon: bookClosedIcon,
+        altIcon: "02.cards.02.altIcon",
+        title: "02.cards.02.title",
+        description: "02.cards.02.description",
+      },
+      {
+        icon: puzzlePieceIcon,
+        altIcon: "02.cards.03.altIcon",
+        title: "02.cards.03.title",
+        description: "02.cards.03.description",
+      },
+      {
+        icon: lightBeaconIcon,
+        altIcon: "02.cards.04.altIcon",
+        title: "02.cards.04.title",
+        description: "02.cards.04.description",
+      },
+    ],
   },
 ];

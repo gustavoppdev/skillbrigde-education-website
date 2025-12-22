@@ -200,6 +200,65 @@
       "curriculum": "Curriculo",
       "viewCourseBtn": "Ver curso",
       "by": "Por"
+    },
+    "AboutSections": {
+      "01": {
+        "headline": "Conquistas",
+        "description": "Nosso compromisso com a excelência nos levou a alcançar marcos significativos ao longo da nossa jornada. Aqui estão algumas das nossas conquistas notáveis:",
+        "cards": {
+          "01": {
+            "altIcon": "Ícone de Coroa",
+            "title": "Aprovado por Milhares",
+            "description": "Atendemos com sucesso milhares de alunos, ajudando-os a desbloquear seu potencial e alcançar seus objetivos de carreira."
+          },
+          "02": {
+            "altIcon": "Ícone de Medalha",
+            "title": "Cursos Premiados",
+            "description": "Nossos cursos receberam reconhecimento e prêmios na indústria por sua qualidade, profundidade de conteúdo e metodologias de ensino eficazes."
+          },
+          "03": {
+            "altIcon": "Ícone de Máscaras de Teatro",
+            "title": "Feedback Positivo dos Alunos",
+            "description": "Temos orgulho do feedback positivo que recebemos de nossos alunos, que valorizam a praticidade e a relevância dos materiais dos nossos cursos."
+          },
+          "04": {
+            "altIcon": "Ícone de Escudo com Raio",
+            "title": "Parcerias com a Indústria",
+            "description": "Estabelecemos parcerias sólidas com líderes do setor, permitindo-nos oferecer aos nossos alunos acesso às ferramentas e tecnologias mais recentes."
+          }
+        }
+      },
+      "02": {
+        "headline": "Nossos Objetivos",
+        "description": "Na SkillBridge, nosso objetivo é capacitar indivíduos de todas as origens para prosperarem no mundo do design e desenvolvimento. Acreditamos que a educação deve ser acessível e transformadora, permitindo que os alunos sigam suas paixões e causem um impacto significativo. Através de nossos cursos cuidadosamente elaborados, visamos fornecer o conhecimento e as habilidades necessárias para o sucesso em sua área escolhida.",
+        "cards": {
+          "01": {
+            "altIcon": "Ícone de Mochila",
+            "title": "Fornecer Habilidades Práticas",
+            "description": "Focamos em entregar habilidades práticas que sejam relevantes para as demandas atuais da indústria. Nossos cursos são projetados para equipar os alunos com o conhecimento e as ferramentas necessárias para se destacarem."
+          },
+          "02": {
+            "altIcon": "Ícone de Livro Fechado",
+            "title": "Incentivar a Resolução Criativa de Problemas",
+            "description": "Estimulamos o pensamento criativo e as habilidades de resolução de problemas, permitindo que nossos alunos enfrentem desafios do mundo real com confiança e inovação."
+          },
+          "03": {
+            "altIcon": "Ícone de Peça de Quebra-cabeça",
+            "title": "Promover Colaboração e Comunidade",
+            "description": "Acreditamos no poder da colaboração e do aprendizado entre pares. Nossa plataforma fomenta uma comunidade inclusiva onde os alunos podem se conectar, compartilhar insights e crescer juntos."
+          },
+          "04": {
+            "altIcon": "Ícone de Farol de Luz",
+            "title": "Estar à Frente do Mercado",
+            "description": "O cenário digital está em constante evolução e nos esforçamos para estar na vanguarda das tendências. Atualizamos regularmente nossos cursos para garantir que nossos alunos recebam o conhecimento mais atualizado."
+          }
+        }
+      }
+    },
+    "AboutCTA": {
+      "headline": "<emphasis>Juntos</emphasis>, vamos formar o futuro da inovação digital",
+      "description": "Junte-se a nós nesta jornada de aprendizado emocionante e desbloqueie seu potencial em design e desenvolvimento.",
+      "joinNowBtn": "Junte-se agora"
     }
   },
   "Pages": {
@@ -991,10 +1050,12 @@
       }
     },
     "About": {
+      "headline": "Sobre Skillbridge",
+      "description": "Bem-vindo(a) à nossa plataforma, onde temos paixão por capacitar indivíduos a dominar o mundo do design e desenvolvimento. Oferecemos uma ampla gama de cursos online criados para equipar os alunos com as habilidades e o conhecimento necessários para ter sucesso no cenário digital em constante evolução.",
       "metadata": {
-        "title": "Sobre Nós",
+        "title": "Sobre nós",
         "description": "Conheça a Skillbridge, nossa missão, valores e como ajudamos pessoas a aprender design e desenvolvimento.",
-        "keywords": ["sobre", "educação online", "plataforma de cursos"]
+        "keywords": ["sobre", "skillbrigde", "compania", "missão"]
       }
     }
   }

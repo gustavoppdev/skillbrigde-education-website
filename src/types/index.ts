@@ -83,3 +83,14 @@ export type FooterContact = {
   icon: StaticImageData;
   label: TranslationKey;
 };
+
+export type AboutPageSection = {
+  title: TranslationKey;
+  description: TranslationKey;
+  cards: {
+    icon: StaticImageData;
+    altIcon: TranslationKey;
+    title: TranslationKey;
+    description: TranslationKey;
+  }[];
+};
