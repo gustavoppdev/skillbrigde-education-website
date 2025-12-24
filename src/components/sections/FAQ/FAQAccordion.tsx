@@ -1,6 +1,5 @@
 // Next.js & Next-Intl
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
 
 // Components
 import {
@@ -28,24 +27,22 @@ const FAQAccordion = () => {
         <AccordionItem
           value={`item-${index}`}
           key={item.question}
-          className="p-6 rounded-[10px] border border-app-white-95"
+          className="p-6 rounded-[10px] border border-app-white-95 last:border"
         >
-          <AccordionTrigger className="font-medium text-base">
+          <AccordionTrigger className="font-medium text-base cursor-pointer">
             {t(item.question)}
           </AccordionTrigger>
           <AccordionContent className="font-normal text-sm lg:text-base text-app-grey-30 space-y-5 lg:space-y-10 pt-6 border-t">
             <p>{t(item.answer)}</p>
             {item.ctaAnswer && (
-              <Link href={"#"}>
-                <Button
-                  variant={"outline"}
-                  size={"lg"}
-                  className="w-full justify-between whitespace-normal  text-left"
-                >
-                  {t(item.ctaAnswer)}
-                  <ArrowRight className="size-9 p-2 bg-white rounded-full" />
-                </Button>
-              </Link>
+              <Button
+                variant={"outline"}
+                size={"lg"}
+                className="w-full justify-between whitespace-normal  text-left"
+              >
+                {t(item.ctaAnswer)}
+                <ArrowRight className="size-9 p-2 bg-white rounded-full" />
+              </Button>
             )}
           </AccordionContent>
         </AccordionItem>

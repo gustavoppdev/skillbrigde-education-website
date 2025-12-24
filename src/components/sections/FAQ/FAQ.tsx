@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import FAQAccordion from "./FAQAccordion";
 
@@ -16,9 +15,7 @@ export const FAQ = () => {
           {t("description")}
         </p>
 
-        <Link href={"/faq"} passHref>
-          <Button variant={"outline"}>{t("viewAllBtn")}</Button>
-        </Link>
+        <Button variant={"outline"}>{t("viewAllBtn")}</Button>
       </div>
 
       <FAQAccordion />

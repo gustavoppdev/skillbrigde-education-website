@@ -1043,8 +1043,10 @@
       }
     },
     "Pricing": {
+      "headline": "Nossos Planos",
+      "description": "Bem-vindo à página de Planos de Preços da SkillBridge, onde oferecemos duas opções abrangentes para atender às suas necessidades: Gratuito e Pro. Acreditamos em fornecer opções de preços flexíveis e acessíveis para nossos serviços. Seja você um indivíduo buscando aprimorar suas habilidades ou uma empresa procurando soluções de desenvolvimento profissional, temos um plano ideal para você. Explore nossas opções de preços abaixo e escolha a que melhor se adapta às suas necessidades.",
       "metadata": {
-        "title": "Preços",
+        "title": "Nossos Planos",
         "description": "Conheça nossos planos e escolha a melhor opção para alcançar seus objetivos de aprendizado.",
         "keywords": ["planos", "preços", "assinatura", "cursos online"]
       }

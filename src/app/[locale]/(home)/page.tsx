@@ -14,7 +14,7 @@ const Home = () => {
       <Benefits />
       <OurCourses />
       <Testimonials />
-      <Pricing />
+      <Pricing layout="section" />
       <FAQ />
     </main>
   );
