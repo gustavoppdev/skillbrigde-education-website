@@ -259,6 +259,39 @@
       "headline": "<emphasis>Together</emphasis>, let's shape the future of digital innovation",
       "description": "Join us on this exciting learning journey and unlock your potential in design and development.",
       "joinNowBtn": "Join Now"
+    },
+    "SignIn": {
+      "title": "Login",
+      "description": "Welcome back! please log in to access your account.",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "authBtn": "Login",
+      "forgotPassword": "Forgot Password?",
+      "rememberMe": "Remember Me",
+      "or": "Or",
+      "loginWithGoogle": "Login with Google",
+      "register": "Don't have an account? <emphasis>Register</emphasis>"
+    },
+    "SignUp": {
+      "title": "Sign Up",
+      "description": "Create an account to unlock exclusive features.",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Enter your Name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "authBtn": "Sign Up",
+      "agreeToTheTerms": "I agree with <emphasis1>Terms of Use</emphasis1> and <emphasis2>Privacy Policy</emphasis2>",
+      "or": "Or",
+      "loginWithGoogle": "Login with Google",
+      "login": "Already have an account? <emphasis>Login</emphasis>"
+    },
+    "AuthTestimonials": {
+      "headline": "Students Testimonials",
+      "description": "Join over 50,000 students who have transformed their careers. Our practical methodology and up-to-date content ensure you learn exactly what the market demands."
     }
   },
   "Pages": {
@@ -1058,6 +1091,31 @@
         "description": "Explore our plans and choose the best option to achieve your learning goals.",
         "keywords": ["plans", "pricing", "subscription", "online courses"]
       }
+    },
+    "SignIn": {
+      "metadata": {
+        "title": "Sign In to Your Account",
+        "description": "Log in to your account to continue your learning journey and manage your courses.",
+        "keywords": ["sign in", "login", "access account", "online learning"]
+      }
+    },
+    "SignUp": {
+      "metadata": {
+        "title": "Create Your Account",
+        "description": "Join us today to start your learning journey. Create your account in seconds and get access to our courses.",
+        "keywords": ["sign up", "create account", "join now", "get started"]
+      }
+    }
+  },
+  "Others": {
+    "AuthErrors": {
+      "email": "Please enter a valid email address.",
+      "password": "The password must be at least 6 characters long.",
+      "fullName": "Full name must be at least 3 characters long.",
+      "termsRequired": "You must agree to the terms and conditions to proceed.",
+      "userAlreadyExists": "This email is already registered. Please try logging in.",
+      "invalidCredentials": "Invalid email or password. Please check your credentials and try again.",
+      "genericError": "An unexpected error occurred. Please try again later."
     }
   }
 }

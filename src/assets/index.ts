@@ -53,6 +53,7 @@ import theaterMasksIcons from "./images/icons/theaterMasksIcons.svg";
 import medalIcon from "./images/icons/medalIcon.svg";
 import backpackIcon from "./images/icons/backpackIcon.svg";
 import crownIcon from "./images/icons/crownIcon.svg";
+import googleIcon from "./images/icons/googleIcon.svg";
 
 // Exports
 export {
@@ -104,4 +105,5 @@ export {
   crownIcon,
   medalIcon,
   shapeAboutCTA,
+  googleIcon,
 };

@@ -8,6 +8,10 @@ export const routing = defineRouting({
   defaultLocale: "pt",
 
   pathnames: {
+    "/": {
+      pt: "/",
+      en: "/",
+    },
     "/courses": {
       pt: "/cursos",
       en: "/courses",
@@ -23,6 +27,14 @@ export const routing = defineRouting({
     "/about": {
       pt: "/sobre",
       en: "/about",
+    },
+    "/auth/sign-in": {
+      pt: "/auth/entrar",
+      en: "/auth/sign-in",
+    },
+    "/auth/sign-up": {
+      pt: "/auth/cadastro",
+      en: "/auth/sign-up",
     },
   },
 });

@@ -9,11 +9,16 @@ import { Testimonial } from "@/types";
 
 type Props = {
   testimony: Testimonial;
+  hoverTranslate?: boolean;
 };
-const TestimonialCard = ({ testimony }: Props) => {
+const TestimonialCard = ({ testimony, hoverTranslate }: Props) => {
   const t = useTranslations("Sections.Testimonials");
   return (
-    <div className="rounded-[10px] border border-app-white-95 transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
+    <div
+      className={`rounded-[10px] border border-app-white-95 hover:shadow-sm transition-all duration-300 ${
+        hoverTranslate ? "hover:-translate-y-2 " : ""
+      }`}
+    >
       <p className="p-7.5 text-app-grey-30 text-sm lg:text-base bg-white">
         {t(testimony.quote)}
       </p>

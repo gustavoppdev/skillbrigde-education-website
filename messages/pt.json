@@ -259,6 +259,39 @@
       "headline": "<emphasis>Juntos</emphasis>, vamos formar o futuro da inovação digital",
       "description": "Junte-se a nós nesta jornada de aprendizado emocionante e desbloqueie seu potencial em design e desenvolvimento.",
       "joinNowBtn": "Junte-se agora"
+    },
+    "SignIn": {
+      "title": "Entrar",
+      "description": "Bem-vindo de volta! Por favor, faça o login para acessar sua conta.",
+      "email": "E-mail",
+      "emailPlaceholder": "Digite seu e-mail",
+      "password": "Senha",
+      "passwordPlaceholder": "Digite sua senha",
+      "authBtn": "Entrar",
+      "forgotPassword": "Esqueceu a senha?",
+      "rememberMe": "Lembrar de mim",
+      "or": "Ou",
+      "loginWithGoogle": "Entrar com Google",
+      "register": "Não tem uma conta? <emphasis>Cadastre-se</emphasis>"
+    },
+    "SignUp": {
+      "title": "Criar Conta",
+      "description": "Crie uma conta para desbloquear recursos exclusivos.",
+      "fullName": "Nome Completo",
+      "fullNamePlaceholder": "Digite seu nome",
+      "email": "E-mail",
+      "emailPlaceholder": "Digite seu e-mail",
+      "password": "Senha",
+      "passwordPlaceholder": "Digite sua senha",
+      "authBtn": "Cadastrar",
+      "agreeToTheTerms": "Eu concordo com os <emphasis1>Termos de Uso</emphasis1> e <emphasis2>Política de Privacidade</emphasis2>",
+      "or": "Ou",
+      "loginWithGoogle": "Entrar com Google",
+      "login": "Já tem uma conta? <emphasis>Entrar</emphasis>"
+    },
+    "AuthTestimonials": {
+      "headline": "O que nossos alunos dizem",
+      "description": "Junte-se a mais de 50.000 alunos que transformaram suas carreiras. Nossa metodologia prática e conteúdos atualizados garantem que você aprenda o que o mercado realmente exige."
     }
   },
   "Pages": {
@@ -1059,6 +1092,31 @@
         "description": "Conheça a Skillbridge, nossa missão, valores e como ajudamos pessoas a aprender design e desenvolvimento.",
         "keywords": ["sobre", "skillbrigde", "compania", "missão"]
       }
+    },
+    "SignIn": {
+      "metadata": {
+        "title": "Entrar na sua Conta",
+        "description": "Acesse sua conta para continuar sua jornada de aprendizado e gerenciar seus cursos.",
+        "keywords": ["entrar", "login", "acessar conta", "aprendizado online"]
+      }
+    },
+    "SignUp": {
+      "metadata": {
+        "title": "Criar sua Conta",
+        "description": "Cadastre-se agora para começar a aprender. Crie sua conta em poucos segundos e tenha acesso aos nossos cursos.",
+        "keywords": ["cadastro", "criar conta", "inscrever-se", "começar agora"]
+      }
+    }
+  },
+  "Others": {
+    "AuthErrors": {
+      "email": "Por favor, insira um endereço de e-mail válido.",
+      "password": "A senha deve conter no mínimo 6 caracteres.",
+      "fullName": "O nome completo deve ter pelo menos 3 caracteres.",
+      "termsRequired": "É necessário aceitar os termos e condições para prosseguir.",
+      "userAlreadyExists": "Este e-mail já está associado a uma conta. Tente fazer login.",
+      "invalidCredentials": "E-mail ou senha incorretos. Verifique suas credenciais e tente novamente.",
+      "genericError": "Ocorreu um erro inesperado no sistema. Por favor, tente novamente em instantes."
     }
   }
 }
