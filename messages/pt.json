@@ -292,40 +292,52 @@
     "AuthTestimonials": {
       "headline": "O que nossos alunos dizem",
       "description": "Junte-se a mais de 50.000 alunos que transformaram suas carreiras. Nossa metodologia prática e conteúdos atualizados garantem que você aprenda o que o mercado realmente exige."
+    },
+    "ContactForm": {
+      "firstName": "Primeiro Nome",
+      "firstNamePlaceholder": "Digite seu Primeiro Nome",
+      "lastName": "Sobrenome",
+      "lastNamePlaceholder": "Digite seu Sobrenome",
+      "email": "E-mail",
+      "emailPlaceholder": "Digite seu E-mail",
+      "subject": "Assunto",
+      "subjectPlaceholder": "Digite seu Assunto",
+      "message": "Mensagem",
+      "messagePlaceholder": "Digite sua Mensagem aqui...",
+      "phone": "Telefone",
+      "phonePlaceholder": "Digite seu Telefone",
+      "sendBtn": "Enviar Mensagem",
+      "success": "Mensagem enviada com sucesso!"
     }
   },
   "Pages": {
     "Home": {
       "metadata": {
         "title": "Cursos Online de Design e Desenvolvimento",
-        "description": "Desbloqueie seu potencial criativo com cursos online de design e desenvolvimento, do nível iniciante ao avançado.",
+        "description": "Desbloqueie seu potencial criativo com cursos de design e desenvolvimento ministrados por especialistas, do nível iniciante ao avançado.",
         "keywords": [
           "cursos de design",
-          "cursos de desenvolvimento",
+          "cursos de programação",
           "ui ux",
           "web design",
-          "programação online"
+          "aprender react"
         ]
       }
     },
     "Courses": {
       "headline": "Cursos Online de Design e Desenvolvimento",
-      "description": "Bem-vindo à nossa página de cursos online, onde você pode aprimorar suas habilidades em design e desenvolvimento. Escolha entre nossa seleção cuidadosamente curada de 10 cursos projetados para fornecer-lhe conhecimento e experiência prática. Explore os cursos abaixo e encontre a perfeita correspondência para sua jornada de aprendizado.",
-      "viewCourseBtn": "Ver curso",
+      "description": "Domine as habilidades que movem o mundo digital. Escolha entre nossa seleção exclusiva de 10 cursos profissionais, estruturados para oferecer conhecimento prático e experiência real de mercado.",
       "metadata": {
-        "title": "Cursos",
-        "description": "Explore nossos cursos de design e desenvolvimento, organizados por níveis e módulos para acelerar seu aprendizado.",
+        "title": "Cursos | SkillBridge",
+        "description": "Explore nossos cursos de design e desenvolvimento, organizados por níveis para acelerar seu aprendizado.",
         "keywords": [
-          "cursos",
           "cursos online",
-          "ui ux",
-          "web design",
-          "javascript",
-          "iniciante",
-          "intermediário",
-          "avançado"
+          "formação tech",
+          "design digital",
+          "programação"
         ]
       },
+
       "courses": {
         "01": {
           "title": "Fundamentos de Web Design",
@@ -1015,96 +1027,118 @@
     },
     "OpenCourse": {
       "fundamentos-do-web-design": {
-        "headline": "Curso de Fundamentos do Web Design",
-        "description": "Bem-vindo ao nosso curso de Fundamentos do Web Design! Este programa essencial guiará você pelos pilares fundamentais da web: HTML5 e CSS3. Você aprenderá a construir sites responsivos, visualmente impactantes e intuitivos do zero. Mergulhe em layouts, flexbox e princípios de design moderno para impulsionar sua carreira na tecnologia. Abaixo está uma visão geral do currículo.",
+        "headline": "Fundamentos do Web Design",
+        "description": "Construa a base da web moderna. Domine HTML5 e CSS3 para criar sites responsivos, visualmente impactantes e intuitivos, utilizando princípios modernos de layout e design.",
         "metadata": {
           "title": "Fundamentos do Web Design | Curso",
-          "description": "Aprenda Fundamentos de Web Design através de um curso completo, estruturado em módulos para o nível Iniciante.",
+          "description": "Aprenda os pilares do web design: HTML5, CSS3 e layouts responsivos.",
           "keywords": ["web design", "html", "css", "design responsivo"]
         }
       },
       "design-ui-ux": {
-        "headline": "Curso de Design UI/UX",
-        "description": "Bem-vindo ao nosso curso de Design UI/UX! Este programa abrangente equipará você com o conhecimento e as habilidades necessárias para criar interfaces de usuário (UI) excepcionais e aprimorar experiências de usuário (UX). Mergulhe no mundo do design thinking, wireframing, prototipagem e testes de usabilidade para criar produtos que as pessoas amam. Abaixo está uma visão geral do currículo.",
+        "headline": "Masterclass de UI/UX Design",
+        "description": "Projete produtos que as pessoas amam. Domine design thinking, wireframing e prototipagem para criar interfaces excepcionais e experiências digitais fluidas através de testes de usabilidade.",
         "metadata": {
-          "title": "Design UI/UX | Curso",
-          "description": "Domine a arte de criar interfaces de usuário (UI) intuitivas e aprimorar experiências de usuário (UX) em um nível Intermediário.",
-          "keywords": ["design ui", "design ux", "wireframing", "prototipagem"]
+          "title": "UI/UX Design | Curso",
+          "description": "Domine a arte de criar interfaces intuitivas e melhorar a experiência do usuário.",
+          "keywords": ["ui design", "ux design", "prototipagem", "figma"]
         }
       },
       "desenvolvimento-de-aplicativos-moveis": {
-        "headline": "Curso de Desenvolvimento de Aplicativos Móveis",
-        "description": "Bem-vindo ao nosso curso de Desenvolvimento de Aplicativos Móveis! Este programa intensivo foi projetado para levar você de um novato em dispositivos móveis a um desenvolvedor proficiente. Explore os ecossistemas do iOS e Android, dominando Swift e Kotlin para construir aplicativos nativos de alto desempenho. Domine persistência de dados, integração de APIs e publicação. Abaixo está uma visão geral do currículo.",
+        "headline": "Desenvolvimento de Apps Mobile",
+        "description": "Vá do zero à proficiência no desenvolvimento mobile. Explore os ecossistemas iOS e Android usando Swift e Kotlin para criar aplicativos nativos de alta performance com integração de APIs.",
         "metadata": {
-          "title": "Desenvolvimento de Aplicativos Móveis | Curso",
-          "description": "Mergulhe no mundo do desenvolvimento de aplicativos móveis. Aprenda a construir aplicativos nativos para iOS e Android em nível Intermediário.",
+          "title": "Desenvolvimento Mobile | Curso",
+          "description": "Aprenda a construir aplicativos nativos para iOS e Android no nível intermediário.",
           "keywords": [
-            "aplicativos móveis",
+            "apps mobile",
             "swift",
             "kotlin",
-            "desenvolvimento ios",
-            "desenvolvimento android"
+            "desenvolvimento nativo"
           ]
         }
       },
       "design-grafico-para-iniciantes": {
-        "headline": "Curso de Design Gráfico para Iniciantes",
-        "description": "Bem-vindo ao nosso curso de Design Gráfico para Iniciantes! Desperte sua criatividade e domine as ferramentas usadas por profissionais da indústria. Este curso cobre tudo, desde teoria das cores e tipografia até manipulação de imagem e identidade de marca. Transforme suas ideias em histórias visuais impressionantes para mídias impressas e digitais. Abaixo está uma visão geral do currículo.",
+        "headline": "Design Gráfico para Iniciantes",
+        "description": "Liberte sua criatividade com ferramentas padrão da indústria. Aprenda teoria das cores, tipografia e identidade visual para transformar suas ideias em histórias visuais impressionantes para digital e impresso.",
         "metadata": {
           "title": "Design Gráfico para Iniciantes | Curso",
-          "description": "Descubra os fundamentos do design gráfico em um nível Iniciante.",
+          "description": "Descubra os fundamentos do design gráfico e criação de identidade visual.",
           "keywords": ["design gráfico", "tipografia", "photoshop", "branding"]
         }
       },
       "desenvolvimento-web-front-end": {
-        "headline": "Curso de Desenvolvimento Web Front-End",
-        "description": "Bem-vindo ao nosso curso de Desenvolvimento Web Front-End! Entre no mundo das experiências web interativas. Este programa foca em JavaScript moderno, React e técnicas avançadas de CSS. Você aprenderá a unir design e funcionalidade, construindo aplicações rápidas, responsivas e dinâmicas para a web moderna. Abaixo está uma visão geral do currículo.",
+        "headline": "Desenvolvimento Web Front-End",
+        "description": "Crie experiências interativas usando JavaScript moderno e React. Una design e funcionalidade construindo aplicações rápidas, dinâmicas e totalmente responsivas para a web moderna.",
         "metadata": {
-          "title": "Desenvolvimento Web Front-End | Curso",
-          "description": "Torne-se proficiente em desenvolvimento web front-end com React e JavaScript em nível Intermediário.",
-          "keywords": ["frontend", "react", "javascript", "web development"]
+          "title": "Desenvolvimento Front-End | Curso",
+          "description": "Torne-se proficiente em desenvolvimento front-end com React e JavaScript.",
+          "keywords": ["frontend", "react", "javascript", "web dev"]
         }
       },
       "javascript-avancado": {
-        "headline": "Curso de JavaScript Avançado",
-        "description": "Bem-vindo ao nosso curso de JavaScript Avançado! Aqui é onde você domina o motor por trás da web. Explore conceitos complexos como closures, herança prototípica e padrões assíncronos. Este mergulho profundo refinará sua lógica de programação e o preparará para construir arquiteturas de software escaláveis e aplicações web complexas. Abaixo está uma visão geral do currículo.",
+        "headline": "JavaScript Avançado",
+        "description": "Domine o motor por trás da web. Aprofunde-se em closures, padrões assíncronos e arquitetura de software para construir aplicações escaláveis e sistemas complexos de alto nível.",
         "metadata": {
           "title": "JavaScript Avançado | Curso",
-          "description": "Leve suas habilidades de JavaScript para o próximo nível com conceitos avançados e recursos do ES6.",
+          "description": "Leve suas habilidades de JS para o próximo nível com conceitos avançados e ES6+.",
           "keywords": ["javascript", "js avançado", "async await", "closures"]
         }
       }
     },
-    "Pricing": {
-      "headline": "Nossos Planos",
-      "description": "Bem-vindo à página de Planos de Preços da SkillBridge, onde oferecemos duas opções abrangentes para atender às suas necessidades: Gratuito e Pro. Acreditamos em fornecer opções de preços flexíveis e acessíveis para nossos serviços. Seja você um indivíduo buscando aprimorar suas habilidades ou uma empresa procurando soluções de desenvolvimento profissional, temos um plano ideal para você. Explore nossas opções de preços abaixo e escolha a que melhor se adapta às suas necessidades.",
+    "About": {
+      "headline": "Sobre a Skillbridge",
+      "description": "Dedicamo-nos a capacitar indivíduos através de uma educação de classe mundial em design e desenvolvimento. Nossa plataforma oferece as ferramentas necessárias para você prosperar no cenário digital.",
       "metadata": {
-        "title": "Nossos Planos",
-        "description": "Conheça nossos planos e escolha a melhor opção para alcançar seus objetivos de aprendizado.",
-        "keywords": ["planos", "preços", "assinatura", "cursos online"]
+        "title": "Sobre Nós | Skillbridge",
+        "description": "Conheça a Skillbridge, nossa missão, valores e como ajudamos pessoas a aprender.",
+        "keywords": ["sobre nós", "skillbridge", "missão", "valores"]
       }
     },
-    "About": {
-      "headline": "Sobre Skillbridge",
-      "description": "Bem-vindo(a) à nossa plataforma, onde temos paixão por capacitar indivíduos a dominar o mundo do design e desenvolvimento. Oferecemos uma ampla gama de cursos online criados para equipar os alunos com as habilidades e o conhecimento necessários para ter sucesso no cenário digital em constante evolução.",
+    "ContactForm": {
+      "firstName": "Primeiro Nome",
+      "firstNamePlaceholder": "Digite seu Primeiro Nome",
+      "lastName": "Sobrenome",
+      "lastNamePlaceholder": "Digite seu Sobrenome",
+      "email": "E-mail",
+      "emailPlaceholder": "Digite seu E-mail",
+      "subject": "Assunto",
+      "subjectPlaceholder": "Digite seu Assunto",
+      "message": "Mensagem",
+      "messagePlaceholder": "Digite sua Mensagem aqui...",
+      "phone": "Telefone",
+      "sendBtn": "Enviar Mensagem"
+    },
+    "Pricing": {
+      "headline": "Nossos Planos",
+      "description": "Preços flexíveis e acessíveis para todos. Escolha entre nossos planos Gratuito e Pro para acessar conteúdos exclusivos e acelerar sua jornada de desenvolvimento profissional.",
       "metadata": {
-        "title": "Sobre nós",
-        "description": "Conheça a Skillbridge, nossa missão, valores e como ajudamos pessoas a aprender design e desenvolvimento.",
-        "keywords": ["sobre", "skillbrigde", "compania", "missão"]
+        "title": "Planos e Preços | SkillBridge",
+        "description": "Escolha o melhor plano para atingir seus objetivos de aprendizado e desbloquear acesso total.",
+        "keywords": ["planos", "preços", "assinatura", "cursos online"]
       }
     },
     "SignIn": {
       "metadata": {
-        "title": "Entrar na sua Conta",
+        "title": "Entrar | SkillBridge",
         "description": "Acesse sua conta para continuar sua jornada de aprendizado e gerenciar seus cursos.",
-        "keywords": ["entrar", "login", "acessar conta", "aprendizado online"]
+        "keywords": ["login", "entrar", "acessar conta"]
       }
     },
     "SignUp": {
       "metadata": {
-        "title": "Criar sua Conta",
-        "description": "Cadastre-se agora para começar a aprender. Crie sua conta em poucos segundos e tenha acesso aos nossos cursos.",
-        "keywords": ["cadastro", "criar conta", "inscrever-se", "começar agora"]
+        "title": "Criar Conta | SkillBridge",
+        "description": "Junte-se à SkillBridge hoje. Crie sua conta em segundos e obtenha acesso imediato aos nossos cursos.",
+        "keywords": ["cadastro", "criar conta", "inscrever-se"]
+      }
+    },
+    "Contact": {
+      "headline": "Fale Conosco",
+      "description": "Precisa de ajuda ou tem alguma dúvida? Nossa equipe de suporte está pronta para ajudar você a encontrar o caminho certo e garantir uma experiência excepcional em nossa plataforma.",
+      "metadata": {
+        "title": "Contato | SkillBridge",
+        "description": "Entre em contato com o suporte da SkillBridge para dúvidas sobre cursos e inscrições.",
+        "keywords": ["contato", "suporte", "ajuda", "atendimento"]
       }
     }
   },
@@ -1117,6 +1151,17 @@
       "userAlreadyExists": "Este e-mail já está associado a uma conta. Tente fazer login.",
       "invalidCredentials": "E-mail ou senha incorretos. Verifique suas credenciais e tente novamente.",
       "genericError": "Ocorreu um erro inesperado no sistema. Por favor, tente novamente em instantes."
+    },
+    "ContactErrors": {
+      "firstName": "O nome deve conter pelo menos 3 caracteres.",
+      "lastName": "O sobrenome deve conter pelo menos 3 caracteres.",
+      "invalidName": "O nome deve conter apenas letras.",
+      "email": "Por favor, insira um endereço de e-mail válido.",
+      "subject": "O assunto deve ter pelo menos 3 caracteres.",
+      "messageMin": "A mensagem deve ter pelo menos 10 caracteres.",
+      "messageMax": "A mensagem não pode exceder 1000 caracteres.",
+      "phoneMin": "O telefone deve ter pelo menos 8 dígitos.",
+      "invalidPhone": "Por favor, insira um número de telefone válido."
     }
   }
 }

@@ -36,5 +36,9 @@ export const routing = defineRouting({
       pt: "/auth/cadastro",
       en: "/auth/sign-up",
     },
+    "/contact": {
+      pt: "/contato",
+      en: "/contact",
+    },
   },
 });

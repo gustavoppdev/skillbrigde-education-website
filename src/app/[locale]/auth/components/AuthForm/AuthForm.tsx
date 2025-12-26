@@ -24,7 +24,7 @@ import {
 } from "@/components/ui/field";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
-import { AuthInput } from "./AuthInput";
+import { FieldInput } from "@/components/common/FieldInput";
 import { AuthGoogleLogin } from "./AuthGoogleLogin";
 import { AuthFooterLink } from "./AuthFooterLink";
 
@@ -153,7 +153,7 @@ export const AuthForm = ({ layout }: Props) => {
 
         {/* Campo Nome Completo (Apenas Cadastro) */}
         {layout === "SignUp" && (
-          <AuthInput
+          <FieldInput
             control={form.control}
             name="fullName"
             label={t("fullName")}
@@ -163,7 +163,7 @@ export const AuthForm = ({ layout }: Props) => {
         )}
 
         {/* Campo Email */}
-        <AuthInput
+        <FieldInput
           control={form.control}
           name="email"
           label={t("email")}
@@ -173,7 +173,7 @@ export const AuthForm = ({ layout }: Props) => {
         />
 
         {/* Campo Senha */}
-        <AuthInput
+        <FieldInput
           control={form.control}
           name="password"
           label={t("password")}

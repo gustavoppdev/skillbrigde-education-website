@@ -16,7 +16,7 @@ interface Props<T extends FieldValues> {
   tErrors: (key: string) => string;
 }
 
-export const AuthInput = <T extends FieldValues>({
+export const FieldInput = <T extends FieldValues>({
   control,
   name,
   label,

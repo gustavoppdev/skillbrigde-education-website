@@ -15,6 +15,7 @@ import { siteConfig } from "@/config/site";
 import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import { Toaster } from "@/components/ui/sonner";
 
 const beVietnamProp = Be_Vietnam_Pro({
   variable: "--font-be-vietnam-pro",
@@ -93,6 +94,7 @@ export default async function RootLayout({ children, params }: LayoutProps) {
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar />
           {children}
+          <Toaster/>
           <Footer />
         </NextIntlClientProvider>
       </body>

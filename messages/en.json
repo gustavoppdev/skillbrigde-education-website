@@ -292,13 +292,29 @@
     "AuthTestimonials": {
       "headline": "Students Testimonials",
       "description": "Join over 50,000 students who have transformed their careers. Our practical methodology and up-to-date content ensure you learn exactly what the market demands."
+    },
+    "ContactForm": {
+      "firstName": "First Name",
+      "firstNamePlaceholder": "Enter your First Name",
+      "lastName": "Last Name",
+      "lastNamePlaceholder": "Enter your Last Name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your Email",
+      "subject": "Subject",
+      "subjectPlaceholder": "Enter your Subject",
+      "message": "Message",
+      "messagePlaceholder": "Enter your Message here...",
+      "phone": "Phone",
+      "phonePlaceholder": "Enter your Phone",
+      "sendBtn": "Send Your Message",
+      "success": "Message sent successfully!"
     }
   },
   "Pages": {
     "Home": {
       "metadata": {
         "title": "Online Design and Development Courses",
-        "description": "Unlock your creative potential with online design and development courses, from beginner to advanced levels.",
+        "description": "Unlock your creative potential with expert-led design and development courses, from beginner to advanced levels.",
         "keywords": [
           "design courses",
           "development courses",
@@ -310,19 +326,16 @@
     },
     "Courses": {
       "headline": "Online Courses on Design and Development",
-      "description": "Welcome to our online course page, where you can enhance your skills in design and development. Choose from our carefully curated selection of 10 courses designed to provide you with comprehensive knowledge and practical experience. Explore the courses below and find the perfect fit for your learning journey.",
+      "description": "Master the skills that drive the digital world. Choose from our curated selection of professional courses designed to provide comprehensive knowledge and practical industry experience.",
       "metadata": {
-        "title": "Courses",
-        "description": "Explore our design and development courses, organized by levels and modules to accelerate your learning.",
+        "title": "Courses | SkillBridge",
+        "description": "Explore our design and development courses, organized by levels to accelerate your learning.",
         "keywords": [
           "courses",
           "online courses",
           "ui ux",
           "web design",
-          "javascript",
-          "beginner",
-          "intermediate",
-          "advanced"
+          "javascript"
         ]
       },
       "courses": {
@@ -1014,96 +1027,99 @@
     },
     "OpenCourse": {
       "web-design-fundamentals": {
-        "headline": "Web Design Fundamentals Course",
-        "description": "Welcome to our Web Design Fundamentals course! This essential program will guide you through the core pillars of the web: HTML5 and CSS3. You will learn to build responsive, visually striking, and user-friendly websites from scratch. Dive into layouts, flexbox, and modern design principles to kickstart your career in tech. Below is an overview of the curriculum.",
+        "headline": "Web Design Fundamentals",
+        "description": "Build the foundation of the modern web. Master HTML5 and CSS3 to create responsive, visually striking, and user-friendly websites using modern design principles and layouts.",
         "metadata": {
           "title": "Web Design Fundamentals | Course",
-          "description": "Learn Web Design Fundamentals through a complete course, structured in modules at the Beginner level.",
+          "description": "Learn the core pillars of web design: HTML5, CSS3, and responsive layouts.",
           "keywords": ["web design", "html", "css", "responsive design"]
         }
       },
       "ui-ux-design": {
-        "headline": "UI/UX Design Course",
-        "description": "Welcome to our UI/UX Design course! This comprehensive program will equip you with the knowledge and skills to create exceptional user interfaces (UI) and enhance user experiences (UX). Dive into the world of design thinking, wireframing, prototyping, and usability testing to create products people love. Below is an overview of the curriculum.",
+        "headline": "UI/UX Design Masterclass",
+        "description": "Design products people love. Master design thinking, wireframing, and prototyping to create exceptional user interfaces and seamless digital experiences through usability testing.",
         "metadata": {
           "title": "UI/UX Design | Course",
-          "description": "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX) at an Intermediate level.",
+          "description": "Master the art of creating intuitive interfaces and enhancing user experiences.",
           "keywords": ["ui design", "ux design", "wireframing", "prototyping"]
         }
       },
       "mobile-app-development": {
-        "headline": "Mobile App Development Course",
-        "description": "Welcome to our Mobile App Development course! This intensive program is designed to take you from a mobile novice to a proficient developer. Explore the ecosystems of iOS and Android, mastering Swift and Kotlin to build high-performance native applications. Master data persistence, API integration, and deployment. Below is an overview of the curriculum.",
+        "headline": "Mobile App Development",
+        "description": "Go from novice to proficient mobile developer. Master the iOS and Android ecosystems using Swift and Kotlin to build high-performance native applications with API integration.",
         "metadata": {
           "title": "Mobile App Development | Course",
-          "description": "Dive into the world of mobile app development. Learn to build native iOS and Android applications at an Intermediate level.",
-          "keywords": [
-            "mobile apps",
-            "swift",
-            "kotlin",
-            "ios development",
-            "android development"
-          ]
+          "description": "Learn to build native iOS and Android applications at an intermediate level.",
+          "keywords": ["mobile apps", "swift", "kotlin", "ios development"]
         }
       },
       "graphic-design-for-beginners": {
-        "headline": "Graphic Design for Beginners Course",
-        "description": "Welcome to our Graphic Design for Beginners course! Unleash your creativity and master the tools used by industry professionals. This course covers everything from color theory and typography to image manipulation and branding identity. Transform your ideas into stunning visual stories for both print and digital media. Below is an overview of the curriculum.",
+        "headline": "Graphic Design for Beginners",
+        "description": "Unleash your creativity with industry-standard tools. Learn color theory, typography, and branding identity to transform your ideas into stunning visual stories for digital and print.",
         "metadata": {
           "title": "Graphic Design for Beginners | Course",
-          "description": "Discover the fundamentals of graphic design at a Beginner level.",
+          "description": "Discover the fundamentals of graphic design and branding identity.",
           "keywords": ["graphic design", "typography", "photoshop", "branding"]
         }
       },
       "front-end-web-development": {
-        "headline": "Front-End Web Development Course",
-        "description": "Welcome to our Front-End Web Development course! Step into the world of interactive web experiences. This program focuses on modern JavaScript, React, and advanced CSS techniques. You will learn to bridge the gap between design and functionality, building fast, responsive, and dynamic applications for the modern web. Below is an overview of the curriculum.",
+        "headline": "Front-End Web Development",
+        "description": "Create interactive web experiences using modern JavaScript and React. Bridge the gap between design and functionality by building fast, dynamic, and responsive applications.",
         "metadata": {
           "title": "Front-End Web Development | Course",
-          "description": "Become proficient in front-end web development with React and JavaScript at an Intermediate level.",
+          "description": "Become proficient in front-end web development with React and JavaScript.",
           "keywords": ["frontend", "react", "javascript", "web development"]
         }
       },
       "advanced-javascript": {
-        "headline": "Advanced JavaScript Course",
-        "description": "Welcome to our Advanced JavaScript course! This is where you master the engine behind the web. Explore complex concepts like closures, prototypal inheritance, and asynchronous patterns. This deep dive will refine your coding logic and prepare you to build scalable, high-level software architectures and complex web applications. Below is an overview of the curriculum.",
+        "headline": "Advanced JavaScript",
+        "description": "Master the engine behind the web. Deep dive into closures, asynchronous patterns, and software architecture to build scalable, high-level applications and complex systems.",
         "metadata": {
           "title": "Advanced JavaScript | Course",
-          "description": "Take your JavaScript skills to the next level with advanced concepts and ES6 features.",
+          "description": "Take your JavaScript skills to the next level with advanced concepts and ES6+.",
           "keywords": ["javascript", "advanced js", "async await", "closures"]
         }
       }
     },
     "About": {
       "headline": "About Skillbridge",
-      "description": "Welcome to our platform, where we are passionate about empowering individuals to master the world of design and development. We offer a wide range of online courses designed to equip learners with the skills and knowledge needed to succeed in the ever-evolving digital landscape.",
+      "description": "We are dedicated to empowering individuals through world-class design and development education. Our platform provides the tools and knowledge needed to succeed in the evolving digital landscape.",
       "metadata": {
-        "title": "About Us",
-        "description": "Get to know Skillbridge, our mission, values, and how we help people learn design and development.",
-        "keywords": ["about us", "skillbrigde", "company", "mission"]
+        "title": "About Us | Skillbridge",
+        "description": "Get to know Skillbridge, our mission, values, and how we help people learn.",
+        "keywords": ["about us", "skillbridge", "mission", "values"]
       }
     },
     "Pricing": {
-      "headline": "Our Pricing",
-      "description": "Welcome to SkillBridge's Pricing Plan page, where we offer two comprehensive options to cater to your needs: Free and Pro. We believe in providing flexible and affordable pricing options for our services. Whether you're an individual looking to enhance your skills or a business seeking professional development solutions, we have a plan that suits you. Explore our pricing options below and choose the one that best fits your requirements.",
+      "headline": "Our Pricing Plans",
+      "description": "Flexible and affordable pricing for everyone. Choose between our Free and Pro plans to access premium content and accelerate your professional development journey.",
       "metadata": {
-        "title": "Our Pricing",
-        "description": "Explore our plans and choose the best option to achieve your learning goals.",
+        "title": "Pricing Plans | SkillBridge",
+        "description": "Choose the best plan to achieve your learning goals and unlock full access.",
         "keywords": ["plans", "pricing", "subscription", "online courses"]
       }
     },
     "SignIn": {
       "metadata": {
-        "title": "Sign In to Your Account",
+        "title": "Sign In | SkillBridge",
         "description": "Log in to your account to continue your learning journey and manage your courses.",
-        "keywords": ["sign in", "login", "access account", "online learning"]
+        "keywords": ["sign in", "login", "access account"]
       }
     },
     "SignUp": {
       "metadata": {
-        "title": "Create Your Account",
-        "description": "Join us today to start your learning journey. Create your account in seconds and get access to our courses.",
-        "keywords": ["sign up", "create account", "join now", "get started"]
+        "title": "Create Your Account | SkillBridge",
+        "description": "Join SkillBridge today. Create your account in seconds and get instant access to our courses.",
+        "keywords": ["sign up", "create account", "join now"]
+      }
+    },
+    "Contact": {
+      "headline": "Contact Us",
+      "description": "Need assistance or have questions? Our support team is ready to help you find the right path and ensure you have an exceptional experience on our platform.",
+      "metadata": {
+        "title": "Contact Us | SkillBridge",
+        "description": "Get in touch with SkillBridge support for inquiries about courses and enrollments.",
+        "keywords": ["contact us", "support", "help center"]
       }
     }
   },
@@ -1116,6 +1132,17 @@
       "userAlreadyExists": "This email is already registered. Please try logging in.",
       "invalidCredentials": "Invalid email or password. Please check your credentials and try again.",
       "genericError": "An unexpected error occurred. Please try again later."
+    },
+    "ContactErrors": {
+      "firstName": "First name must be at least 3 characters long.",
+      "lastName": "Last name must be at least 3 characters long.",
+      "invalidName": "Name must contain only letters.",
+      "email": "Please enter a valid email address.",
+      "subject": "Subject must be at least 3 characters long.",
+      "messageMin": "Message must be at least 10 characters long.",
+      "messageMax": "Message cannot exceed 1000 characters.",
+      "phoneMin": "Phone number must be at least 8 digits long.",
+      "invalidPhone": "Please enter a valid phone number."
     }
   }
 }
