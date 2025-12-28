@@ -15,7 +15,7 @@ const TestimonialCard = ({ testimony, hoverTranslate }: Props) => {
   const t = useTranslations("Sections.Testimonials");
   return (
     <div
-      className={`rounded-[10px] border border-app-white-95 hover:shadow-sm transition-all duration-300 ${
+      className={`rounded-[10px] border  hover:shadow-sm transition-all duration-300 ${
         hoverTranslate ? "hover:-translate-y-2 " : ""
       }`}
     >
@@ -23,7 +23,7 @@ const TestimonialCard = ({ testimony, hoverTranslate }: Props) => {
         {t(testimony.quote)}
       </p>
 
-      <div className="flex  items-center justify-between gap-4 py-5 px-7.5 bg-app-white-99 border-t border-app-white-95">
+      <div className="flex  items-center justify-between gap-4 py-5 px-7.5 bg-app-white-99 border-t ">
         <div className="flex flex-wrap items-center gap-2.5">
           <Image
             src={testimony.avatar}

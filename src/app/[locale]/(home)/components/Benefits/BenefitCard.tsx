@@ -32,7 +32,7 @@ const BenefitCard = ({ benefit }: Props) => {
       </div>
 
       <Button variant={"outline"} className="bg-app-white-99">
-        <ArrowRight className="size-6.5 text-primary -rotate-45 border-app-white-95" />
+        <ArrowRight className="size-6.5 text-primary -rotate-45 " />
       </Button>
     </div>
   );

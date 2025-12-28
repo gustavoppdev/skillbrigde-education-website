@@ -19,7 +19,7 @@ const CourseCard = ({ course }: Props) => {
         pathname: "/courses/[slug]",
         params: { slug: course.slugs[locale] },
       }}
-      className="group p-6 lg:p-10 bg-white rounded-[10px] flex flex-col gap-y-6 border border-app-white-95 transition-all duration-300 hover:-translate-y-2 hover:shadow-lg"
+      className="group p-6 lg:p-10 bg-white rounded-[10px] flex flex-col gap-y-6 border  transition-all duration-300 hover:-translate-y-2 hover:shadow-lg"
     >
       <div className="relative aspect-9/5 overflow-hidden rounded-md">
         <Image
@@ -41,7 +41,7 @@ const CourseCard = ({ course }: Props) => {
             {[t(course.duration), t(course.difficulty)].map((item) => (
               <span
                 key={item}
-                className="text-sm text-app-grey-30 border border-app-white-95 px-3.5 py-2 rounded-sm"
+                className="text-sm text-app-grey-30 border  px-3.5 py-2 rounded-sm"
               >
                 {item}
               </span>

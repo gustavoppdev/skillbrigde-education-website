@@ -27,7 +27,8 @@ const SectionTitle = ({
       <div className="flex flex-col gap-5 sm:flex-row sm:items-end sm:gap-10 md:gap-15 lg:gap-20 xl:gap-25 2xl:gap-35">
         <p className="text-sm md:text-base xl:text-lg">{t("description")}</p>
         {viewMore && (
-          <Link href={viewMoreUrl ?? "#"} passHref>
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          <Link href={viewMoreUrl as any} passHref>
             <Button variant={"outline"}>{t("viewAllBtn")}</Button>
           </Link>
         )}

@@ -22,7 +22,7 @@ const PricingCard = ({ plan, selectedPaymentFrequency }: Props) => {
     selectedPaymentFrequency === "monthly" ? "monthly" : "yearly";
 
   return (
-    <div className="rounded-[12px] py-7.5 px-5 lg:py-10 lg:px-6 bg-app-white-99 border border-app-white-95 flex flex-col items-center text-center gap-7.5 lg:gap-12.5 transition-all duration-300 ease-in-out hover:shadow-lg hover:scale-[1.01]">
+    <div className="rounded-[12px] py-7.5 px-5 lg:py-10 lg:px-6 bg-app-white-99 border  flex flex-col items-center text-center gap-7.5 lg:gap-12.5 transition-all duration-300 ease-in-out hover:shadow-lg hover:scale-[1.01]">
       {/* Plan Title */}
       <h3 className="py-2 lg:py-2.5 px-5.5 lg:text-lg bg-app-primary-90 rounded-sm w-full font-medium">
         {t(plan.title)}
@@ -38,7 +38,7 @@ const PricingCard = ({ plan, selectedPaymentFrequency }: Props) => {
 
       {/* Features */}
 
-      <div className=" bg-white rounded-lg space-y-5 border border-app-white-95">
+      <div className=" bg-white rounded-lg space-y-5 border ">
         <h5 className="font-medium text-lg lg:text-xl p-5 lg:p-7.5">
           {t("availableFeatures")}
         </h5>
@@ -47,12 +47,12 @@ const PricingCard = ({ plan, selectedPaymentFrequency }: Props) => {
           {plan.features.map((feature) => (
             <li
               key={feature.title}
-              className="p-3 rounded-lg border border-app-white-95 flex items-center gap-4 transition-colors duration-200 hover:border-primary"
+              className="p-3 rounded-lg border  flex items-center gap-4 transition-colors duration-200 hover:border-primary"
             >
               {feature.available ? (
                 <Check className="size-8 min-w-8 p-2 bg-app-primary-90 text-foreground rounded" />
               ) : (
-                <X className="size-8 min-w-8 p-2 text-foreground border border-app-white-95 rounded" />
+                <X className="size-8 min-w-8 p-2 text-foreground border  rounded" />
               )}
               <p>{t(feature.title)}</p>
             </li>

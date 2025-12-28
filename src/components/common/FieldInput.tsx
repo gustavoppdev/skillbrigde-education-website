@@ -42,7 +42,7 @@ export const FieldInput = <T extends FieldValues>({
               aria-invalid={fieldState.invalid}
               placeholder={placeholder}
               type={inputType}
-              className={`p-5 text-sm bg-app-white-99 border-app-white-95 h-[61px] lg:h-[64px] w-full ${
+              className={`p-5 text-sm bg-app-white-99  h-[61px] lg:h-[64px] w-full ${
                 isPassword ? "pr-12" : ""
               }`}
             />

@@ -13,7 +13,7 @@ type Props = {
 };
 
 const cardStyles =
-  "flex flex-col items-center bg-app-white-99 rounded-md p-7.5 gap-y-3.5 text-center border border-app-white-95 text-balance hover:shadow-sm transition-all duration-300 cursor-pointer hover:-translate-y-1";
+  "flex flex-col items-center bg-app-white-99 rounded-md p-7.5 gap-y-3.5 text-center border  text-balance hover:shadow-sm transition-all duration-300 cursor-pointer hover:-translate-y-1";
 
 const AboutStats = ({ containerStyles }: Props) => {
   const t = useTranslations("Layout.Footer");

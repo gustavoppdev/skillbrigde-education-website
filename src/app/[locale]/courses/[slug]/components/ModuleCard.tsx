@@ -24,7 +24,7 @@ const ModuleCard = ({ module }: Props) => {
         {module.lessons.map((lesson) => (
           <li
             key={lesson.lessonNumber}
-            className="border border-app-white-95 rounded-[6px] p-5 flex justify-between items-center flex-wrap lg:flex-nowrap gap-1.5 group hover:border-app-primary-80 hover:shadow-lg shadow-app-primary-95 transition-all duration-300"
+            className="border  rounded-[6px] p-5 flex justify-between items-center flex-wrap lg:flex-nowrap gap-1.5 group hover:border-app-primary-80 hover:shadow-lg shadow-app-primary-95 transition-all duration-300"
           >
             <div className="space-y-1 max-w-2xs 2xl:max-w-xs text-balance">
               <h4 className="font-medium">{t(lesson.title)}</h4>

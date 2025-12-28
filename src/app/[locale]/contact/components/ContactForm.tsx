@@ -153,7 +153,7 @@ const ContactForm = ({ containerStyles }: Props) => {
                 {...field}
                 placeholder={t("messagePlaceholder")}
                 aria-invalid={fieldState.invalid}
-                className="p-5 text-sm bg-app-white-99 border-app-white-95 h-[138px]"
+                className="p-5 text-sm bg-app-white-99  h-[138px]"
               />
               {fieldState.invalid && (
                 <FieldError

@@ -39,8 +39,8 @@ const AuthTestimonials = () => {
           ))}
         </CarouselContent>
         <div className="flex items-center justify-center sm:justify-end gap-2 mt-5">
-          <CarouselPrevious className="static translate-y-0 bg-white rounded-md border-app-white-95 size-10" />
-          <CarouselNext className="static translate-y-0 bg-white rounded-md border-app-white-95 size-10" />
+          <CarouselPrevious className="static translate-y-0 bg-white rounded-md  size-10" />
+          <CarouselNext className="static translate-y-0 bg-white rounded-md  size-10" />
         </div>
       </Carousel>
     </div>

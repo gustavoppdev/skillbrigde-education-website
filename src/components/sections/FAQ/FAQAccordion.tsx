@@ -27,7 +27,7 @@ const FAQAccordion = () => {
         <AccordionItem
           value={`item-${index}`}
           key={item.question}
-          className="p-6 rounded-[10px] border border-app-white-95 last:border"
+          className="p-6 rounded-[10px] border  last:border"
         >
           <AccordionTrigger className="font-medium text-base cursor-pointer">
             {t(item.question)}
