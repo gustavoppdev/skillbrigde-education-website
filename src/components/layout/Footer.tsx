@@ -38,23 +38,21 @@ const Footer = () => {
           <ul className="flex flex-col gap-3">
             {FooterContactList.map((item) => (
               <li key={item.label}>
-                <Link href={"#"} passHref>
-                  <Button
-                    variant={"link"}
-                    size={"sm"}
-                    className="text-foreground justify-between gap-2 pl-0 font-normal"
-                  >
-                    <Image
-                      src={item.icon}
-                      alt={item.label}
-                      className="size-5"
-                      width={20}
-                      height={20}
-                    />
+                <Button
+                  variant={"link"}
+                  size={"sm"}
+                  className="text-foreground justify-between gap-2 pl-0 font-normal"
+                >
+                  <Image
+                    src={item.icon}
+                    alt={item.label}
+                    className="size-5"
+                    width={20}
+                    height={20}
+                  />
 
-                    {t(item.label)}
-                  </Button>
-                </Link>
+                  {t(item.label)}
+                </Button>
               </li>
             ))}
           </ul>
@@ -65,7 +63,8 @@ const Footer = () => {
             {footerNavigationLinks.map((group) => (
               <div key={group.title}>
                 {/* Título do Grupo de Links */}
-                <Link href={group.titleHref} passHref>
+                {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+                <Link href={group.titleHref as any} passHref>
                   <Button
                     variant={"link"}
                     size={"sm"}
@@ -79,7 +78,8 @@ const Footer = () => {
                 <ul className="flex flex-col gap-1">
                   {group.links.map((link) => (
                     <li key={link.label}>
-                      <Link href={link.href} passHref>
+                      {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+                      <Link href={link.href as any} passHref>
                         <Button
                           variant={"link"}
                           size={"sm"}
@@ -108,17 +108,15 @@ const Footer = () => {
               <ul className="flex gap-2">
                 {footerSocialProfiles.map((profile) => (
                   <li key={profile.alt}>
-                    <Link href={"#"}>
-                      <Button variant={"outline"} size={"icon-lg"}>
-                        <Image
-                          src={profile.icon}
-                          alt={profile.alt}
-                          className="size-5"
-                          width={20}
-                          height={20}
-                        />
-                      </Button>
-                    </Link>
+                    <Button variant={"outline"} size={"icon-lg"}>
+                      <Image
+                        src={profile.icon}
+                        alt={profile.alt}
+                        className="size-5"
+                        width={20}
+                        height={20}
+                      />
+                    </Button>
                   </li>
                 ))}
               </ul>

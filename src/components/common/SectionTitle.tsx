@@ -28,7 +28,7 @@ const SectionTitle = ({
         <p className="text-sm md:text-base xl:text-lg">{t("description")}</p>
         {viewMore && (
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          <Link href={viewMoreUrl as any} passHref>
+          <Link href={viewMoreUrl ?? ("#" as any)} passHref>
             <Button variant={"outline"}>{t("viewAllBtn")}</Button>
           </Link>
         )}

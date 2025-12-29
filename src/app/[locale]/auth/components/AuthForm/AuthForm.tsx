@@ -13,7 +13,8 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { Controller, useForm } from "react-hook-form";
 
 // Services & Utils
-import { AuthService } from "@/lib/auth";
+// Removed direct AuthService usage
+import { useAuth } from "@/context/AuthContext";
 
 // Components
 import {
@@ -58,7 +59,10 @@ export const AuthForm = ({ layout }: Props) => {
   );
   const tErrors = useTranslations("Others.AuthErrors");
   const router = useRouter();
-  const [isLoading, setIsLoading] = useState(false);
+  const { login, register, isAuthenticated } = useAuth();
+  // Local loading state to handle form submission UI specifically if needed or sync with authLoading
+  // We can use authLoading from context or keep local if we want to distinguish form submitting vs initial auth check
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const form = useForm<AuthFormSchema>({
     resolver: zodResolver(authFormSchema),
@@ -83,17 +87,17 @@ export const AuthForm = ({ layout }: Props) => {
     }
 
     try {
-      setIsLoading(true);
+      setIsSubmitting(true);
       if (layout === "SignUp") {
         // Fluxo de Cadastro
-        AuthService.register({
+        await register({
           email: data.email,
           password: data.password,
           fullName: data.fullName,
         });
       } else {
         // Fluxo de Login
-        AuthService.login({
+        await login({
           email: data.email,
           password: data.password,
         });
@@ -103,7 +107,7 @@ export const AuthForm = ({ layout }: Props) => {
       router.push("/");
       router.refresh();
     } catch (error) {
-      // Tratamento de erros vindo do AuthService
+      // Tratamento de erros vindo do AuthService (propagado pelo Context)
       if (error instanceof Error) {
         if (error.message === "UserAlreadyExists") {
           form.setError("email", { message: "userAlreadyExists" });
@@ -114,18 +118,15 @@ export const AuthForm = ({ layout }: Props) => {
         }
       }
     } finally {
-      setTimeout(() => {
-        setIsLoading(false);
-      }, 1500);
+      setIsSubmitting(false);
     }
   };
 
   useEffect(() => {
-    const user = AuthService.getCurrentUser();
-    if (user) {
+    if (isAuthenticated) {
       router.push("/");
     }
-  }, [router]);
+  }, [isAuthenticated, router]);
 
   return (
     <div className="p-7.5 lg:p-10 bg-white rounded-lg flex flex-col gap-y-7.5 lg:gap-y-10">
@@ -269,9 +270,9 @@ export const AuthForm = ({ layout }: Props) => {
           type="submit"
           className="w-full"
           size={"lg"}
-          disabled={form.formState.isSubmitting}
+          disabled={form.formState.isSubmitting || isSubmitting}
         >
-          {isLoading ? (
+          {isSubmitting ? (
             <Loader2 className="size-4 animate-spin" />
           ) : (
             t("authBtn")

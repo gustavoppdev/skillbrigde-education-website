@@ -24,6 +24,8 @@
       "contact": "Contact",
       "signUpBtn": "Sign Up",
       "loginBtn": "Login",
+      "welcome": "Hello,",
+      "logout": "Logout",
       "Alt": {
         "openMenuBtn": "Open Menu",
         "menuTitle": "Navigation Menu",

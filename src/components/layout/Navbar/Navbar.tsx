@@ -12,8 +12,12 @@ import { Button } from "@/components/ui/button";
 import { logo } from "@/assets";
 import { navigationLinks } from "@/constants";
 
+// Hooks
+import { AuthActions } from "./AuthActions";
+
 export const Navbar = () => {
   const t = useTranslations("Layout.Navbar");
+
   return (
     <header>
       <Topbar />
@@ -31,17 +35,17 @@ export const Navbar = () => {
           <ul className="hidden lg:flex items-center gap-2 xl:gap-5">
             {navigationLinks.map((link) => (
               <li key={link.label}>
-                <Link href={link.href} passHref>
-                  <Button variant={"ghost"}>{t(link.label)}</Button>
-                </Link>
+                <Button variant={"ghost"} asChild>
+                  {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+                  <Link href={link.href as any}>{t(link.label)}</Link>
+                </Button>
               </li>
             ))}
           </ul>
         </div>
 
         <div className="flex items-center gap-1 sm:gap-5">
-          <Button variant={"ghost"}>{t("signUpBtn")}</Button>
-          <Button>{t("loginBtn")}</Button>
+          <AuthActions />
           <NavbarMobile />
         </div>
       </nav>

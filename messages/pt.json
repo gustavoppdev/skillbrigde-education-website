@@ -24,6 +24,8 @@
       "contact": "Contato",
       "signUpBtn": "Inscrever-se",
       "loginBtn": "Entrar",
+      "welcome": "Olá,",
+    "logout": "Sair",
       "Alt": {
         "openMenuBtn": "Abrir Menu",
         "menuTitle": "Menu de Navegação",

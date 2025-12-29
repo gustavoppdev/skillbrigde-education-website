@@ -1010,19 +1010,19 @@ export const footerNavigationLinks: FooterNavigationLink[] = [
     links: [
       {
         label: "navigationLinks.home.benefits",
-        href: "#benefits",
+        href: "/#benefits",
       },
       {
         label: "navigationLinks.home.courses",
-        href: "#courses",
+        href: "/#courses",
       },
       {
         label: "navigationLinks.home.testimonials",
-        href: "#testimonials",
+        href: "/#testimonials",
       },
       {
         label: "navigationLinks.home.faq",
-        href: "#faq",
+        href: "/#faq",
       },
     ],
   },
