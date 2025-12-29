@@ -25,7 +25,7 @@
       "signUpBtn": "Inscrever-se",
       "loginBtn": "Entrar",
       "welcome": "Olá,",
-    "logout": "Sair",
+      "logout": "Sair",
       "Alt": {
         "openMenuBtn": "Abrir Menu",
         "menuTitle": "Menu de Navegação",
@@ -77,6 +77,7 @@
       "description": "Descubra as vantagens de aprender conosco. Nossos cursos foram pensados para o seu sucesso, oferecendo flexibilidade, conteúdo de ponta e instrução de qualidade para impulsionar sua carreira em design e desenvolvimento.",
       "viewAllBtn": "Ver Todos",
       "benefits": {
+        "accessBtn": "Acesse",
         "01": {
           "title": "Horário de Estudo Flexível",
           "description": "Ajuste seus estudos e tarefas aos seus compromissos e obrigações existentes."
@@ -114,7 +115,7 @@
       "headline": "Depoimentos de Nossos Alunos",
       "description": "Veja o que as pessoas que transformaram suas carreiras e vidas com nossos cursos têm a dizer. Suas histórias de sucesso inspiram a nossa comunidade.",
       "viewAllBtn": "Ver Todos",
-      "readFullStoryBtn": "Leia a História Completa",
+      "readFullStoryBtn": "Ler história completa",
       "testimonials": {
         "01": {
           "testimony": "O curso de web design me proporcionou uma base sólida. Os instrutores eram experientes e prestativos, e o ambiente de aprendizado interativo foi muito envolvente. Eu o recomendo fortemente!",

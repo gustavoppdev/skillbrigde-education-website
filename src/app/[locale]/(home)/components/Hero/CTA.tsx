@@ -14,13 +14,13 @@ const CTA = () => {
   const t = useTranslations("Sections.Hero");
 
   return (
-    <div className="flex flex-col items-center text-center">
+    <div className="flex flex-col items-center text-center mt-12.5 lg:mt-20">
       {/* Destaque */}
       <div className="relative mb-4 2xl:mb-6 rounded-[8px] bg-white p-4 flex items-center gap-2.5">
         <span className="bg-app-primary-95 p-3 rounded-[6px]">
           <Zap className="size-6 text-black fill-black" />
         </span>
-        <h1 className="font-semibold md:text-4xl 2xl:text-5xl">
+        <h1 className="font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl text-balance">
           {t.rich("headline", {
             emphasis: (chunks) => (
               <span className="text-primary">{chunks}</span>
@@ -30,13 +30,7 @@ const CTA = () => {
 
         {/* Linha Abstrata */}
         <div className="w-[39px] h-[43px] absolute -top-3 -left-3 md:-top-8 md:-left-8">
-          <Image
-            src={abstractLineHero}
-            priority
-            fill
-            sizes="39px"
-            alt="Abstract Line"
-          />
+          <Image src={abstractLineHero} priority fill sizes="39px" alt="" />
         </div>
       </div>
 
@@ -50,16 +44,17 @@ const CTA = () => {
 
       {/* Botões */}
       <div className="mt-12.5 2xl:mt-15 flex gap-3">
-        <Link href={"/courses"} passHref>
-          <Button size={"lg"} className="font-semibold 2xl:text-lg">
-            {t("exploreCoursesBtn")}
-          </Button>
-        </Link>
-        <Link href={"/pricing"} passHref>
-          <Button size={"lg"} variant={"secondary"} className="2xl:text-lg">
-            {t("viewPricingBtn")}
-          </Button>
-        </Link>
+        <Button size={"lg"} className="font-semibold lg:text-base" asChild>
+          <Link href={"/courses"}>{t("exploreCoursesBtn")}</Link>
+        </Button>
+        <Button
+          size={"lg"}
+          variant={"outline"}
+          className="lg:text-base"
+          asChild
+        >
+          <Link href={"/pricing"}>{t("viewPricingBtn")}</Link>
+        </Button>
       </div>
     </div>
   );

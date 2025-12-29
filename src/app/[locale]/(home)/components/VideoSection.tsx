@@ -16,12 +16,16 @@ const VideoSection = () => {
           alt={t("video")}
           fill
           placeholder="blur"
+          priority
           blurDataURL={videoSectionImage.src}
-          sizes="(max-width: 1536px) 100vw, 1212px"
+          sizes="(max-width: 1536px) 100vw, 1376px"
           className="object-contain"
         />
         <div className="absolute inset-0 flex items-center justify-center">
-          <button className="w-[62px] h-[62px] rounded-full border-4 border-white/30 bg-white/20 flex items-center justify-center backdrop-blur-[2px] group-hover:bg-white/30 transition-colors">
+          <button
+            aria-label="Play video"
+            className="w-[62px] h-[62px] rounded-full border-4 border-white/30 bg-white/20 flex items-center justify-center backdrop-blur-[2px] group-hover:bg-white/30 transition-colors"
+          >
             <Play className="size-6 text-white fill-white" />
           </button>
         </div>

@@ -15,29 +15,31 @@ const TestimonialCard = ({ testimony, hoverTranslate }: Props) => {
   const t = useTranslations("Sections.Testimonials");
   return (
     <div
-      className={`rounded-[10px] border  hover:shadow-sm transition-all duration-300 ${
+      className={`rounded-lg overflow-hidden border hover:shadow-sm transition-all duration-300 flex flex-col h-full ${
         hoverTranslate ? "hover:-translate-y-2 " : ""
       }`}
     >
-      <p className="p-7.5 text-app-grey-30 text-sm lg:text-base bg-white">
+      <p className="p-7.5 text-app-grey-30 text-sm lg:text-base bg-white flex-1">
         {t(testimony.quote)}
       </p>
 
-      <div className="flex  items-center justify-between gap-4 py-5 px-7.5 bg-app-white-99 border-t ">
+      <div className="flex items-center justify-between gap-4 py-5 px-7.5 bg-app-white-99 border-t flex-wrap  mt-auto">
         <div className="flex flex-wrap items-center gap-2.5">
           <Image
             src={testimony.avatar}
             alt={t(testimony.author)}
             width={50}
             height={50}
-            placeholder="blur"
-            blurDataURL={testimony.avatar.src}
             className="object-contain rounded-sm"
           />
-          <p className="font-semibold text-sm">{t(testimony.author)}</p>
+          <p className="font-semibold text-sm text-balance">
+            {t(testimony.author)}
+          </p>
         </div>
 
-        <Button variant={"outline"}>{t("readFullStoryBtn")}</Button>
+        <Button variant={"outline"} className="flex-1 sm:flex-none">
+          {t("readFullStoryBtn")}
+        </Button>
       </div>
     </div>
   );

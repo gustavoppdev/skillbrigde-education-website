@@ -6,7 +6,7 @@ import { heroLogos } from "@/constants";
 
 const Logos = () => {
   return (
-    <ul className="p-2.5 md:p-3 lg:p-6 2xl:p-7.5 mt-7.5 md:mt-25 rounded-[8px] bg-white flex justify-between items-center">
+    <ul className="p-2.5 md:p-3 lg:p-6 2xl:p-7.5 my-7.5 lg:mt-25 lg:mb-20 rounded-[8px] bg-white flex justify-between items-center">
       {heroLogos.map((logo, index) => (
         <li
           key={logo.alt}

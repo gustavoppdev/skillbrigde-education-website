@@ -1,8 +1,11 @@
-import { Button } from "@/components/ui/button";
+// Next.js & Next-Intl
 import { Link } from "@/i18n/navigation";
-import { Course } from "@/types";
-import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
+import { useLocale, useTranslations } from "next-intl";
+
+// Components & Types
+import { Button } from "@/components/ui/button";
+import { Course } from "@/types";
 
 type Props = {
   course: Course;
@@ -19,7 +22,7 @@ const CourseCard = ({ course }: Props) => {
         pathname: "/courses/[slug]",
         params: { slug: course.slugs[locale] },
       }}
-      className="group p-6 lg:p-10 bg-white rounded-[10px] flex flex-col gap-y-6 border  transition-all duration-300 hover:-translate-y-2 hover:shadow-lg"
+      className="group p-6 lg:p-10 bg-white rounded-[10px] flex flex-col gap-y-6 border transition-all duration-300 hover:-translate-y-2 hover:shadow-lg"
     >
       <div className="relative aspect-9/5 overflow-hidden rounded-md">
         <Image
@@ -28,7 +31,7 @@ const CourseCard = ({ course }: Props) => {
           fill
           placeholder="blur"
           blurDataURL={course.images[0].src}
-          sizes="(max-width: 768px) 100vw, 50vw"
+          sizes="(max-width: 768px) 100vw, (max-width: 1536px) 40vw, 600px"
           className="object-cover transition-transform duration-300 group-hover:scale-105"
         />
       </div>
@@ -36,19 +39,19 @@ const CourseCard = ({ course }: Props) => {
       {/* Textos */}
       <div className="flex flex-col gap-6">
         {/* Duração, Dificuldade e Professor */}
-        <div className="flex flex-col justify-between items-start sm:items-center sm:flex-row gap-2 ">
+        <div className="flex justify-between items-center flex-wrap gap-4">
           <div className="flex items-center gap-2">
             {[t(course.duration), t(course.difficulty)].map((item) => (
               <span
                 key={item}
-                className="text-sm text-app-grey-30 border  px-3.5 py-2 rounded-sm"
+                className="text-sm text-app-grey-30 border px-3.5 py-2 rounded-sm"
               >
                 {item}
               </span>
             ))}
           </div>
 
-          <p className="font-medium">
+          <p className="font-medium text-sm">
             {tt("by")} {t(course.teacher)}
           </p>
         </div>
@@ -62,7 +65,10 @@ const CourseCard = ({ course }: Props) => {
         </div>
       </div>
 
-      <Button className="w-full bg-app-white-97 hover:bg-app-white-95 border border-app-white-97 text-foreground transition-transform active:scale-95">
+      <Button
+        variant={"secondary"}
+        className="w-full transition-transform active:scale-95"
+      >
         {tt("getNowBtn")}
       </Button>
     </Link>

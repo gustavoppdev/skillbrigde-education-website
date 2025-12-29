@@ -15,7 +15,7 @@ const buttonVariants = cva(
         outline:
           "border bg-white shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50",
         // Alterado
-        secondary: "bg-white text-black hover:bg-white/80",
+        secondary: "bg-app-white-97 border text-black hover:bg-app-white-95/90",
         // Alterado
         ghost:
           "hover:bg-app-white-95 hover:text-accent-foreground dark:hover:bg-accent/50",

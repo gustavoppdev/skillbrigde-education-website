@@ -13,9 +13,13 @@ export const Testimonials = () => {
         viewMore={true}
       />
 
-      <div className="mt-10 lg:mt-15 2xl:mt-20 grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div className="mt-10 lg:mt-15 2xl:mt-20 grid grid-cols-1 md:grid-cols-2 gap-5 ">
         {TestimonialsArray.map((testimony) => (
-          <TestimonialCard key={testimony.author} testimony={testimony} />
+          <TestimonialCard
+            key={testimony.author}
+            testimony={testimony}
+            hoverTranslate={true}
+          />
         ))}
       </div>
     </section>
