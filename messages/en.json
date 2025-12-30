@@ -77,7 +77,7 @@
       "description": "Discover the advantages of learning with us. Our courses are designed for your success, offering flexibility, cutting-edge content, and quality instruction to advance your career in design and development.",
       "viewAllBtn": "View All",
       "benefits": {
-         "accessBtn": "Acess",
+        "accessBtn": "Acess",
         "01": {
           "title": "Flexible Learning Schedule",
           "description": "Fit your coursework around your existing commitments and obligations."
@@ -1124,6 +1124,11 @@
         "description": "Get in touch with SkillBridge support for inquiries about courses and enrollments.",
         "keywords": ["contact us", "support", "help center"]
       }
+    },
+    "NotFound": {
+      "title": "Page Not Found",
+      "description": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+      "button": "Go Back Home"
     }
   },
   "Others": {
