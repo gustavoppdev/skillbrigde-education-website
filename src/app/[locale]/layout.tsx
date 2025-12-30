@@ -17,6 +17,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import { Toaster } from "@/components/ui/sonner";
 import { AuthProvider } from "@/context/AuthContext";
+import { ThemeProvider } from "@/components/theme-provider";
 
 const beVietnamProp = Be_Vietnam_Pro({
   variable: "--font-be-vietnam-pro",
@@ -90,16 +91,23 @@ export default async function RootLayout({ children, params }: LayoutProps) {
   const messages = await getMessages({ locale });
 
   return (
-    <html lang={locale}>
+    <html lang={locale} suppressHydrationWarning>
       <body className={`${beVietnamProp.className} antialiased`}>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          <AuthProvider>
-            <Navbar />
-            {children}
-            <Toaster />
-            <Footer />
-          </AuthProvider>
-        </NextIntlClientProvider>
+        <ThemeProvider
+          attribute={"class"}
+          defaultTheme="light"
+          forcedTheme="light"
+          enableSystem={false}
+        >
+          <NextIntlClientProvider locale={locale} messages={messages}>
+            <AuthProvider>
+              <Navbar />
+              {children}
+              <Toaster />
+              <Footer />
+            </AuthProvider>
+          </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

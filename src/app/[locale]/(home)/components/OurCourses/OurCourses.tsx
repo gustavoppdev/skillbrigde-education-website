@@ -7,7 +7,10 @@ import { Courses } from "@/constants";
 
 export const OurCourses = () => {
   return (
-    <section className="section-container mt-15 lg:mt-25 2xl:mt-37.5">
+    <section
+      id="courses"
+      className="section-container mt-15 lg:mt-25 2xl:mt-37.5 scroll-m-4"
+    >
       <SectionTitle
         translationNamespace="Sections.OurCourses"
         viewMore={true}
