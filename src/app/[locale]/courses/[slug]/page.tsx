@@ -22,9 +22,6 @@ export default async function OpenCoursePage({ params }: Props) {
     notFound();
   }
 
-  // Verificação de Segurança: O slug na URL é o slug correto para este locale?
-  // Se o usuário acessar /pt/courses/web-design-fundamentals (slug EN no locale PT)
-  // nós redirecionamos para o slug correto em PT.
   const correctSlugForLocale = course.slugs[locale as "en" | "pt"];
 
   if (slug !== correctSlugForLocale) {

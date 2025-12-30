@@ -41,7 +41,7 @@ export const CoursePreviewCard = ({ course }: Props) => {
             {[t(course.duration), t(course.difficulty)].map((item) => (
               <span
                 key={item}
-                className="text-sm text-app-grey-30 border  px-3.5 py-2 rounded-sm hover:bg-app-white-97"
+                className="text-sm text-app-grey-30 border px-3.5 py-2 rounded-sm hover:bg-app-white-97"
               >
                 {item}
               </span>

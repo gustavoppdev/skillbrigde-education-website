@@ -25,7 +25,9 @@ const CourseCardHeader = ({ course }: Props) => {
         </p>
       </div>
       {/* Botão */}
-      <Button variant={"outline"}>{tt("viewCourseBtn")}</Button>
+      <Button variant={"outline"} className="bg-app-white-99">
+        {tt("viewCourseBtn")}
+      </Button>
     </div>
   );
 };

@@ -23,7 +23,7 @@ const CourseCardImages = ({ course }: Props) => {
             src={image.src}
             alt={t(course.title)}
             fill
-            sizes="(max-width: 1024px) 30vw, 400px"
+            sizes="(max-width: 640px) 33vw, (max-width: 768px) 196px, (max-width: 1024px) 216px, (max-width: 1280px) 295px, (max-width: 1536px) 353px, 450px"
             className="object-cover transition-transform duration-500 group-hover:scale-110"
           />
         </div>
