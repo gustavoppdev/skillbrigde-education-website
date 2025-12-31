@@ -8,6 +8,8 @@ import { routing } from "@/i18n/routing";
 
 // Helpers
 import { createPageMetadata } from "@/lib/createPageMetadata";
+import { setRequestLocale } from "next-intl/server";
+import { getCourseBySlug } from "@/lib/utils";
 
 type Props = {
   children: React.ReactNode;
@@ -25,13 +27,24 @@ export async function generateMetadata({
     notFound();
   }
 
+  const course = getCourseBySlug(slug);
+  if (!course) notFound();
+
+  const translationKey = course.slugs.en;
+
+  setRequestLocale(locale);
+
   return createPageMetadata({
     locale,
-    namespace: `Pages.OpenCourse.${slug}`,
+    namespace: `Pages.OpenCourse.${translationKey}`,
     path: "/courses/[slug]",
   });
 }
 
-export default function OpenCourseLayout({ children }: Props) {
+export default async function OpenCourseLayout({ children, params }: Props) {
+  const { locale } = await params;
+
+  setRequestLocale(locale);
+
   return <>{children}</>;
 }

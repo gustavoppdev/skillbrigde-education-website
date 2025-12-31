@@ -14,6 +14,7 @@ import { navigationLinks } from "@/constants";
 
 // Hooks
 import { AuthActions } from "./AuthActions";
+import LanguageSwitcher from "@/components/common/LanguageSwitcher";
 
 export const Navbar = () => {
   const t = useTranslations("Layout.Navbar");
@@ -41,6 +42,9 @@ export const Navbar = () => {
                 </Button>
               </li>
             ))}
+            <li>
+              <LanguageSwitcher desktop />
+            </li>
           </ul>
         </div>
 

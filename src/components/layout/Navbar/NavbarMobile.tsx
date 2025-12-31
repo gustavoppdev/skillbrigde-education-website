@@ -27,6 +27,7 @@ import { useAuth } from "@/context/AuthContext";
 
 // Icons
 import { Loader2, LogOut } from "lucide-react";
+import LanguageSwitcher from "@/components/common/LanguageSwitcher";
 
 const NavbarMobile = () => {
   const t = useTranslations("Layout.Navbar");
@@ -66,6 +67,9 @@ const NavbarMobile = () => {
                 </SheetClose>
               </li>
             ))}
+            <li>
+              <LanguageSwitcher  />
+            </li>
           </ul>
 
           <SheetFooter className="space-y-4">

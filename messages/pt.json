@@ -1029,7 +1029,7 @@
       }
     },
     "OpenCourse": {
-      "fundamentos-do-web-design": {
+      "web-design-fundamentals": {
         "headline": "Fundamentos do Web Design",
         "description": "Construa a base da web moderna. Domine HTML5 e CSS3 para criar sites responsivos, visualmente impactantes e intuitivos, utilizando princípios modernos de layout e design.",
         "metadata": {
@@ -1038,7 +1038,7 @@
           "keywords": ["web design", "html", "css", "design responsivo"]
         }
       },
-      "design-ui-ux": {
+      "ui-ux-design": {
         "headline": "Masterclass de UI/UX Design",
         "description": "Projete produtos que as pessoas amam. Domine design thinking, wireframing e prototipagem para criar interfaces excepcionais e experiências digitais fluidas através de testes de usabilidade.",
         "metadata": {
@@ -1047,7 +1047,7 @@
           "keywords": ["ui design", "ux design", "prototipagem", "figma"]
         }
       },
-      "desenvolvimento-de-aplicativos-moveis": {
+      "mobile-app-development": {
         "headline": "Desenvolvimento de Apps Mobile",
         "description": "Vá do zero à proficiência no desenvolvimento mobile. Explore os ecossistemas iOS e Android usando Swift e Kotlin para criar aplicativos nativos de alta performance com integração de APIs.",
         "metadata": {
@@ -1061,7 +1061,7 @@
           ]
         }
       },
-      "design-grafico-para-iniciantes": {
+      "graphic-design-for-beginners": {
         "headline": "Design Gráfico para Iniciantes",
         "description": "Liberte sua criatividade com ferramentas padrão da indústria. Aprenda teoria das cores, tipografia e identidade visual para transformar suas ideias em histórias visuais impressionantes para digital e impresso.",
         "metadata": {
@@ -1070,7 +1070,7 @@
           "keywords": ["design gráfico", "tipografia", "photoshop", "branding"]
         }
       },
-      "desenvolvimento-web-front-end": {
+      "web-development-front-end": {
         "headline": "Desenvolvimento Web Front-End",
         "description": "Crie experiências interativas usando JavaScript moderno e React. Una design e funcionalidade construindo aplicações rápidas, dinâmicas e totalmente responsivas para a web moderna.",
         "metadata": {
@@ -1079,7 +1079,7 @@
           "keywords": ["frontend", "react", "javascript", "web dev"]
         }
       },
-      "javascript-avancado": {
+      "javascript-advanced": {
         "headline": "JavaScript Avançado",
         "description": "Domine o motor por trás da web. Aprofunde-se em closures, padrões assíncronos e arquitetura de software para construir aplicações escaláveis e sistemas complexos de alto nível.",
         "metadata": {
@@ -1170,6 +1170,11 @@
       "messageMax": "A mensagem não pode exceder 1000 caracteres.",
       "phoneMin": "O telefone deve ter pelo menos 8 dígitos.",
       "invalidPhone": "Por favor, insira um número de telefone válido."
+    },
+    "LanguageSwitcher": {
+      "changeLanguage": "Mudar Idioma",
+      "portuguese": "Português",
+      "english": "Inglês"
     }
   }
 }

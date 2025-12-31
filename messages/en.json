@@ -1151,6 +1151,11 @@
       "messageMax": "Message cannot exceed 1000 characters.",
       "phoneMin": "Phone number must be at least 8 digits long.",
       "invalidPhone": "Please enter a valid phone number."
+    },
+    "LanguageSwitcher": {
+      "changeLanguage": "Change Language",
+      "portuguese": "Portuguese",
+      "english": "English"
     }
   }
 }

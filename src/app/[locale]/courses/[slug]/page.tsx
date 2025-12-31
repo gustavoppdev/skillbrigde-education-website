@@ -30,11 +30,7 @@ export default async function OpenCoursePage({ params }: Props) {
 
   return (
     <main className="section-container">
-      <PageTitle
-        translationNamespace={`Pages.OpenCourse.${
-          course.slugs[locale as "en" | "pt"]
-        }`}
-      />
+      <PageTitle translationNamespace={`Pages.OpenCourse.${course.slugs.en}`} />
 
       <section className="mb-12.5 lg:mb-20">
         <CourseCardImages course={course} />

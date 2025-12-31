@@ -157,7 +157,7 @@ export const Courses: Course[] = [
     teacher: "courses.01.teacher",
     duration: "courses.01.duration",
     difficulty: "courses.01.difficulty",
-    images: [webDesignImage1, webDesignImage2, webDesignImage3], // Teste
+    images: [webDesignImage1, webDesignImage2, webDesignImage3],
     modules: [
       {
         moduleNumber: "01",
@@ -399,7 +399,7 @@ export const Courses: Course[] = [
     teacher: "courses.03.teacher",
     duration: "courses.03.duration",
     difficulty: "courses.03.difficulty",
-    images: [mobileAppImage1, mobileAppImage2, mobileAppImage3], // Teste
+    images: [mobileAppImage1, mobileAppImage2, mobileAppImage3],
     modules: [
       {
         moduleNumber: "01",
