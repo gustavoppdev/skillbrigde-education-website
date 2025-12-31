@@ -6,6 +6,8 @@
 
 _Uma plataforma educacional completa construída com as melhores práticas de desenvolvimento front-end_
 
+#### [Link da demo](https://skillbrigde.vercel.app/)
+
 ---
 
 [![Next.js](https://img.shields.io/badge/Next.js-16.1-black?style=flat-square&logo=next.js)](https://nextjs.org/)
@@ -23,7 +25,7 @@ Este projeto foi desenvolvido a partir de um design profissional criado no Figma
 
 **[Praha](https://www.figma.com/@praha)** — [Link do Design](https://www.figma.com/community/file/1302328770970984511/online-course-e-learning-educational-website-ui-template-design-in-light-theme-free-editable)
 
----
+
 
 ## ✨ Sobre o Projeto
 
@@ -35,11 +37,20 @@ Este projeto foi desenvolvido a partir de um design profissional criado no Figma
 - **Type Safety**: TypeScript + validação Zod
 - **UI/UX**: Design system com Tailwind CSS 4, shadcn/ui e Radix UI
 
-### 🛠️ Stack
+## 🛠️ Stack
 
 Next.js 16 · React 19 · TypeScript · Tailwind CSS 4 · shadcn/ui · React Hook Form · Zod · next-intl
 
----
+
+## ✨ Destaques
+
+- Internacionalização completa (i18n) com rotas dinâmicas e traduzidas a partir do idioma
+- SEO otimizado com metadata dinâmica
+- Autenticação demo (Context API)
+- Validação robusta de formulários (Zod)
+- Design system acessível (WCAG)
+- Type safety completo
+
 
 ## 🏗️ Arquitetura
 
@@ -63,7 +74,6 @@ src/
 ├── constants/             # Dados estáticos
 └── types/                 # TypeScript definitions
 ```
-
 
 ## 🚀 Getting Started
 
@@ -93,17 +103,6 @@ npm run dev
 ```
 
 Abra [http://localhost:3000](http://localhost:3000) no navegador.
-
-## ✨ Destaques
-
-- Internacionalização completa (i18n) com rotas dinâmicas
-- SEO otimizado com metadata dinâmica
-- Autenticação demo (Context API)
-- Validação robusta de formulários (Zod)
-- Design system acessível (WCAG)
-- Type safety completo
-
----
 
 ## 📄 Licença
 
